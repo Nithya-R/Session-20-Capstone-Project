@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary role of the Governor in the state government?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Appointing the Chief Minister",
+      "Implementing laws"
+    ],
+    "correct_index": 2,
+    "explanation": "The Governor appoints the Chief Minister and other ministers, making them the constitutional head of the state."
+  },
+  {
+    "id": "q2",
+    "question": "How is the Chief Minister of a state typically selected?",
+    "options": [
+      "By the Governor based on personal preference",
+      "By the party or coalition with a majority in the State Legislative Assembly",
+      "By the State Legislative Assembly",
+      "By the State Council of Ministers"
+    ],
+    "correct_index": 1,
+    "explanation": "The Governor appoints the leader of the party or coalition that has a majority in the State Legislative Assembly."
+  },
+  {
+    "id": "q3",
+    "question": "What is the principle followed by the State Council of Ministers?",
+    "options": [
+      "Collective Responsibility",
+      "Separation of Powers",
+      "Federalism",
+      "Direct Democracy"
+    ],
+    "correct_index": 0,
+    "explanation": "The State Council of Ministers follows the principle of collective responsibility, where they are answerable to the State Legislative Assembly."
+  },
+  {
+    "id": "q4",
+    "question": "What can happen if the State Legislative Assembly passes a no-confidence motion against the Chief Minister?",
+    "options": [
+      "The Chief Minister resigns alone",
+      "The entire State Council of Ministers, including the Chief Minister, must resign",
+      "The Governor takes over the state administration",
+      "The State Legislative Assembly dissolves itself"
+    ],
+    "correct_index": 1,
+    "explanation": "If the State Legislative Assembly passes a no-confidence motion, the entire council, including the Chief Minister, must resign."
+  },
+  {
+    "id": "q5",
+    "question": "What action can the Governor take if there is a breakdown of constitutional machinery in the state?",
+    "options": [
+      "Declare a state of emergency",
+      "Recommend President's Rule (Article 356)",
+      "Hold a referendum",
+      "Dismiss the State Legislative Assembly"
+    ],
+    "correct_index": 1,
+    "explanation": "If there is a breakdown of constitutional machinery, the Governor can recommend President's Rule (Article 356), where the Centre takes over the state's administration."
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is NOT a component of the State Executive?",
+    "options": [
+      "The Governor",
+      "The Chief Minister",
+      "The State Council of Ministers",
+      "The State Legislature"
+    ],
+    "correct_index": 3,
+    "explanation": "The State Legislature is not a component of the State Executive, but rather a legislative body."
+  },
+  {
+    "id": "q7",
+    "question": "What is the term of office for the Governor?",
+    "options": [
+      "5 years",
+      "7 years",
+      "10 years",
+      "15 years"
+    ],
+    "correct_index": 0,
+    "explanation": "The Governor is appointed by the President of India for a term of 5 years."
+  },
+  {
+    "id": "q8",
+    "question": "Which of the following is NOT a power of the Governor?",
+    "options": [
+      "Appointing the Chief Minister",
+      "Appointing other ministers",
+      "Implementing laws",
+      "Appointing the Advocate General of the State"
+    ],
+    "correct_index": 2,
+    "explanation": "The Governor does not implement laws; they are implemented by the state executive under the Governor's name."
+  },
+  {
+    "id": "q9",
+    "question": "What is the role of the Advocate General of the State?",
+    "options": [
+      "Leading the State Council of Ministers",
+      "Representing the state in legal matters",
+      "Appointing the Chief Minister",
+      "Interpreting state laws"
+    ],
+    "correct_index": 1,
+    "explanation": "The Advocate General of the State represents the state in legal matters."
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following best describes the relationship between the Centre and State Executives?",
+    "options": [
+      "The Centre has no influence over state executives",
+      "The Centre can intervene in state administration during a crisis",
+      "The Centre and State Executives operate independently",
+      "The Centre and State Executives are completely merged"
+    ],
+    "correct_index": 1,
+    "explanation": "The Centre can intervene in state administration during a crisis, as indicated by the Governor's ability to recommend President's Rule (Article 356)."
+  },
+  {
+    "id": "q11",
+    "question": "What is the role of the Chief Minister in the State Council of Ministers?",
+    "options": [
+      "Nominal head of the state",
+      "Leader of the party or coalition with a majority in the State Legislative Assembly",
+      "Vital link between the Union Government and the State Government",
+      "Primary face of the state government and leads the formulation of state policies"
+    ],
+    "correct_index": 3,
+    "explanation": "The Chief Minister is the primary face of the state government and leads the formulation of state policies."
+  },
+  {
+    "id": "q12",
+    "question": "Which of the following is a responsibility of the State Council of Ministers?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Appointing the Governor"
+    ],
+    "correct_index": 2,
+    "explanation": "The State Council of Ministers is responsible for implementing laws passed by the State Legislative Assembly."
+  },
+  {
+    "id": "q13",
+    "question": "What is the role of the Governor as a link between the Union Government and the State Government?",
+    "options": [
+      "Nominal head of the state",
+      "Vital link between the Union Government and the State Government",
+      "Leader of the party or coalition with a majority in the State Legislative Assembly",
+      "Primary face of the state government"
+    ],
+    "correct_index": 1,
+    "explanation": "The Governor acts as a vital link between the Union Government and the State Government."
+  },
+  {
+    "id": "q14",
+    "question": "Which of the following is a power of the Governor?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Appointing the Chief Minister"
+    ],
+    "correct_index": 3,
+    "explanation": "The Governor appoints the Chief Minister and other ministers."
+  },
+  {
+    "id": "q15",
+    "question": "What is the principle of collective responsibility in the context of the State Council of Ministers?",
+    "options": [
+      "Each minister is responsible for their own actions",
+      "The entire council, including the Chief Minister, must resign if the State Legislative Assembly passes a no-confidence motion",
+      "The Governor is responsible for the actions of the council",
+      "The State Legislative Assembly is responsible for the actions of the council"
+    ],
+    "correct_index": 1,
+    "explanation": "The entire council, including the Chief Minister, must resign if the State Legislative Assembly passes a no-confidence motion."
+  },
+  {
+    "id": "q16",
+    "question": "Which of the following is NOT a component of the State Executive?",
+    "options": [
+      "The Governor",
+      "The Chief Minister",
+      "The State Council of Ministers",
+      "The State Legislature"
+    ],
+    "correct_index": 3,
+    "explanation": "The State Legislature is not a component of the State Executive, but rather a legislative body."
+  },
+  {
+    "id": "q17",
+    "question": "What is the term of office for the Governor?",
+    "options": [
+      "5 years",
+      "7 years",
+      "10 years",
+      "15 years"
+    ],
+    "correct_index": 0,
+    "explanation": "The Governor is appointed by the President of India for a term of 5 years."
+  },
+  {
+    "id": "q18",
+    "question": "Which of the following is NOT a power of the Governor?",
+    "options": [
+      "Appointing the Chief Minister",
+      "Appointing other ministers",
+      "Implementing laws",
+      "Appointing the Advocate General of the State"
+    ],
+    "correct_index": 2,
+    "explanation": "The Governor does not implement laws; they are implemented by the state executive under the Governor's name."
+  },
+  {
+    "id": "q19",
+    "question": "What is the role of the Advocate General of the State?",
+    "options": [
+      "Leading the State Council of Ministers",
+      "Representing the state in legal matters",
+      "Appointing the Chief Minister",
+      "Interpreting state laws"
+    ],
+    "correct_index": 1,
+    "explanation": "The Advocate General of the State represents the state in legal matters."
+  },
+  {
+    "id": "q20",
+    "question": "Which of the following best describes the relationship between the Centre and State Executives?",
+    "options": [
+      "The Centre has no influence over state executives",
+      "The Centre can intervene in state administration during a crisis",
+      "The Centre and State Executives operate independently",
+      "The Centre and State Executives are completely merged"
+    ],
+    "correct_index": 1,
+    "explanation": "The Centre can intervene in state administration during a crisis, as indicated by the Governor's ability to recommend President's Rule (Article 356)."
+  },
+  {
+    "id": "q21",
+    "question": "What is the role of the Chief Minister in the State Council of Ministers?",
+    "options": [
+      "Nominal head of the state",
+      "Leader of the party or coalition with a majority in the State Legislative Assembly",
+      "Vital link between the Union Government and the State Government",
+      "Primary face of the state government and leads the formulation of state policies"
+    ],
+    "correct_index": 3,
+    "explanation": "The Chief Minister is the primary face of the state government and leads the formulation of state policies."
+  },
+  {
+    "id": "q22",
+    "question": "Which of the following is a responsibility of the State Council of Ministers?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Appointing the Governor"
+    ],
+    "correct_index": 2,
+    "explanation": "The State Council of Ministers is responsible for implementing laws passed by the State Legislative Assembly."
+  },
+  {
+    "id": "q23",
+    "question": "What is the role of the Governor as a link between the Union Government and the State Government?",
+    "options": [
+      "Nominal head of the state",
+      "Vital link between the Union Government and the State Government",
+      "Leader of the party or coalition with a majority in the State Legislative Assembly",
+      "Primary face of the state government"
+    ],
+    "correct_index": 1,
+    "explanation": "The Governor acts as a vital link between the Union Government and the State Government."
+  },
+  {
+    "id": "q24",
+    "question": "Which of the following is a power of the Governor?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Appointing the Chief Minister"
+    ],
+    "correct_index": 3,
+    "explanation": "The Governor appoints the Chief Minister and other ministers."
+  },
+  {
+    "id": "q25",
+    "question": "What is the principle of collective responsibility in the context of the State Council of Ministers?",
+    "options": [
+      "Each minister is responsible for their own actions",
+      "The entire council, including the Chief Minister, must resign if the State Legislative Assembly passes a no-confidence motion",
+      "The Governor is responsible for the actions of the council",
+      "The State Legislative Assembly is responsible for the actions of the council"
+    ],
+    "correct_index": 1,
+    "explanation": "The entire council, including the Chief Minister, must resign if the State Legislative Assembly passes a no-confidence motion."
+  }
+]

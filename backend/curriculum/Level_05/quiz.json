@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary English name for India's supreme law-making body?",
+    "options": [
+      "Sansad",
+      "Union Parliament",
+      "Lok Sabha",
+      "Rajya Sabha"
+    ],
+    "correct_index": 1,
+    "explanation": "The text explicitly states that the Union Parliament is India's highest law-making institution and also refers to it as the Sansad."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following are the three key parts of the Union Parliament?",
+    "options": [
+      "The Prime Minister, the Lok Sabha, and the Rajya Sabha",
+      "The President of India, the Lok Sabha, and the Rajya Sabha",
+      "The Parliament, the Supreme Court, and the President",
+      "The Speaker, the Chairman, and the President"
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson lists the President of India, the Lok Sabha, and the Rajya Sabha as the three key parts of the Union Parliament."
+  },
+  {
+    "id": "q3",
+    "question": "The Lok Sabha is known as the House of the People. What is its primary characteristic regarding representation?",
+    "options": [
+      "It represents the states through indirect election.",
+      "It directly represents the voice of Indian citizens.",
+      "Its members are nominated by the President.",
+      "It is a permanent body with no dissolution."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson states that the Lok Sabha is where the voice of the Indian citizens is directly heard and its members are elected by the people."
+  },
+  {
+    "id": "q4",
+    "question": "How are members of the Lok Sabha elected?",
+    "options": [
+      "Indirectly by State Legislative Assemblies",
+      "Through nomination by the President",
+      "By Universal Adult Franchise",
+      "Through a lottery system"
+    ],
+    "correct_index": 2,
+    "explanation": "The text specifies that Lok Sabha members are chosen through Universal Adult Franchise."
+  },
+  {
+    "id": "q5",
+    "question": "What is the typical term for a member of the Lok Sabha?",
+    "options": [
+      "6 years",
+      "4 years",
+      "5 years",
+      "Life tenure"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that members of the Lok Sabha serve for a term of 5 years."
+  },
+  {
+    "id": "q6",
+    "question": "Who presides over the Lok Sabha?",
+    "options": [
+      "The Vice-President of India",
+      "The Prime Minister",
+      "The Speaker",
+      "The President of India"
+    ],
+    "correct_index": 2,
+    "explanation": "The Speaker is elected from among the members and presides over the Lok Sabha."
+  },
+  {
+    "id": "q7",
+    "question": "The Rajya Sabha acts as a voice for which entities within India?",
+    "options": [
+      "The President and the Prime Minister",
+      "The states and union territories",
+      "The Supreme Court and High Courts",
+      "The nominated members only"
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson describes the Rajya Sabha as acting as a voice for the states and union territories within the Indian federation."
+  },
+  {
+    "id": "q8",
+    "question": "How are most members of the Rajya Sabha chosen?",
+    "options": [
+      "Directly elected by the people",
+      "Nominated by the President",
+      "Indirectly elected by elected members of State Legislative Assemblies",
+      "Appointed by the Prime Minister"
+    ],
+    "correct_index": 2,
+    "explanation": "Most members of the Rajya Sabha (233 out of 245) are indirectly elected by the elected members of the State Legislative Assemblies."
+  },
+  {
+    "id": "q9",
+    "question": "What is a special power the President of India has regarding the Rajya Sabha?",
+    "options": [
+      "To dissolve the Rajya Sabha",
+      "To nominate members with special knowledge or experience",
+      "To veto any bill passed by the Rajya Sabha",
+      "To appoint the Chairman of the Rajya Sabha"
+    ],
+    "correct_index": 1,
+    "explanation": "The President of India has the power to nominate 12 members to the Rajya Sabha who have special knowledge or practical experience in specific fields."
+  },
+  {
+    "id": "q10",
+    "question": "The Rajya Sabha is described as a permanent body. What does this mean?",
+    "options": [
+      "It can never be dissolved.",
+      "Its members serve for life.",
+      "It meets only once every ten years.",
+      "It is not subject to dissolution like the Lok Sabha."
+    ],
+    "correct_index": 3,
+    "explanation": "The lesson states that the Rajya Sabha is a permanent body and is not subject to dissolution."
+  },
+  {
+    "id": "q11",
+    "question": "What is the term length for a member of the Rajya Sabha?",
+    "options": [
+      "5 years",
+      "6 years",
+      "4 years",
+      "Varies based on retirement cycle"
+    ],
+    "correct_index": 1,
+    "explanation": "Members of the Rajya Sabha serve a 6-year term."
+  },
+  {
+    "id": "q12",
+    "question": "Who serves as the ex-officio Chairman of the Rajya Sabha?",
+    "options": [
+      "The Speaker of the Lok Sabha",
+      "The President of India",
+      "The Prime Minister",
+      "The Vice-President of India"
+    ],
+    "correct_index": 3,
+    "explanation": "The Vice-President of India serves as the ex-officio Chairman of the Rajya Sabha."
+  },
+  {
+    "id": "q13",
+    "question": "What is the primary function of Parliament?",
+    "options": [
+      "Interpreting laws",
+      "Implementing laws",
+      "Law-making",
+      "Judicial review"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson explicitly states that law-making is Parliament's primary function."
+  },
+  {
+    "id": "q14",
+    "question": "What is a proposed law called before it is passed by Parliament and receives Presidential assent?",
+    "options": [
+      "An Act",
+      "A Statute",
+      "A Bill",
+      "A Resolution"
+    ],
+    "correct_index": 2,
+    "explanation": "The text explains that Parliament debates and approves proposed laws called Bills, which become Acts upon Presidential assent."
+  },
+  {
+    "id": "q15",
+    "question": "Which house of Parliament has the sole power to introduce Money Bills?",
+    "options": [
+      "The Rajya Sabha",
+      "The President",
+      "The Lok Sabha",
+      "Both houses equally"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that Money Bills can only be introduced in the Lok Sabha."
+  },
+  {
+    "id": "q16",
+    "question": "How does Parliament control the government's finances?",
+    "options": [
+      "By directly managing government accounts",
+      "By approving the Union Budget and controlling Money Bills",
+      "By setting the interest rates for government loans",
+      "By auditing all government expenditure independently"
+    ],
+    "correct_index": 1,
+    "explanation": "Parliament controls government finances by approving the Union Budget and handling Money Bills."
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following is a mechanism Parliament uses to control the executive?",
+    "options": [
+      "Judicial review of executive orders",
+      "Question Hour and Zero Hour",
+      "Direct election of ministers",
+      "Presidential veto power"
+    ],
+    "correct_index": 1,
+    "explanation": "Question Hour and Zero Hour are listed as mechanisms Parliament uses to keep the government in check and control the executive."
+  },
+  {
+    "id": "q18",
+    "question": "What is a \"No-Confidence Motion\" in the context of the Lok Sabha?",
+    "options": [
+      "A motion to remove a minister from their post",
+      "A motion where the Lok Sabha can force the government to resign if it loses confidence",
+      "A motion to amend the Constitution",
+      "A motion to introduce a new Bill"
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson explains that if the government loses the confidence of the Lok Sabha, it can be forced to resign through a 'No-Confidence Motion'."
+  },
+  {
+    "id": "q19",
+    "question": "Where can a Money Bill be introduced in Parliament?",
+    "options": [
+      "Either Lok Sabha or Rajya Sabha",
+      "Only the Rajya Sabha",
+      "Only the Lok Sabha",
+      "The President's office"
+    ],
+    "correct_index": 2,
+    "explanation": "Money Bills can only be introduced in the Lok Sabha."
+  },
+  {
+    "id": "q20",
+    "question": "What happens after a Bill is passed by both houses of Parliament?",
+    "options": [
+      "It immediately becomes a law.",
+      "It is sent to the Prime Minister for approval.",
+      "It is sent to the President of India for assent.",
+      "It is sent back to the originating house for further debate."
+    ],
+    "correct_index": 2,
+    "explanation": "Once both houses approve a Bill, it is sent to the President of India for assent to become a law."
+  },
+  {
+    "id": "q21",
+    "question": "What is the minimum age to be eligible to vote in India under Universal Adult Franchise?",
+    "options": [
+      "16 years",
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson mentions that every Indian citizen aged 18 or above has the right to vote."
+  },
+  {
+    "id": "q22",
+    "question": "Which of the following is NOT a function of Parliament as described in the lesson?",
+    "options": [
+      "Law-Making",
+      "Financial Control",
+      "Controlling the Executive",
+      "Appointing judges to the Supreme Court"
+    ],
+    "correct_index": 3,
+    "explanation": "The lesson details Law-Making, Financial Control, and Controlling the Executive as key functions. Appointing judges is primarily an executive and judicial function, not a direct parliamentary one in this context."
+  },
+  {
+    "id": "q23",
+    "question": "The retirement of one-third of Rajya Sabha members every two years ensures what?",
+    "options": [
+      "The dissolution of the Rajya Sabha",
+      "Continuity in the Rajya Sabha",
+      "Immediate elections for all seats",
+      "A new Chairman is elected every two years"
+    ],
+    "correct_index": 1,
+    "explanation": "The text states that this ensures continuity in the Rajya Sabha."
+  },
+  {
+    "id": "q24",
+    "question": "The President of India is part of which branch of the Union Parliament?",
+    "options": [
+      "The Lok Sabha",
+      "The Rajya Sabha",
+      "The Executive",
+      "The legislative triad"
+    ],
+    "correct_index": 3,
+    "explanation": "The President of India is listed as one of the three key parts of the Union Parliament, alongside the Lok Sabha and Rajya Sabha."
+  },
+  {
+    "id": "q25",
+    "question": "What is the significance of 'Zero Hour' in Parliament?",
+    "options": [
+      "It's when the government presents its annual budget.",
+      "It's a period for raising urgent matters that are not on the regular agenda.",
+      "It's when ministers answer questions from members.",
+      "It's the final stage of a Bill's approval."
+    ],
+    "correct_index": 1,
+    "explanation": "Zero Hour is described as a period for raising urgent matters."
+  }
+]

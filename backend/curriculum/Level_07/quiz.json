@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary role of the Indian Judiciary?",
+    "options": [
+      "To create new laws for the country.",
+      "To act as the guardian of justice and interpret laws.",
+      "To directly manage the country's economy.",
+      "To oversee the daily operations of the police force."
+    ],
+    "correct_index": 1,
+    "explanation": "The Judiciary's main functions include interpreting laws, resolving disputes, and ensuring fairness, acting as the guardian of justice."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is NOT a primary responsibility of the Judiciary?",
+    "options": [
+      "Resolving disputes between citizens.",
+      "Protecting Fundamental Rights.",
+      "Implementing laws passed by Parliament.",
+      "Conducting Judicial Review of laws."
+    ],
+    "correct_index": 2,
+    "explanation": "Implementing laws is the responsibility of the Executive branch, not the Judiciary."
+  },
+  {
+    "id": "q3",
+    "question": "What is 'Judicial Review' in the context of the Indian Judiciary?",
+    "options": [
+      "The power of judges to review their own decisions.",
+      "The process of appointing new judges.",
+      "The authority to declare a law invalid if it violates the Constitution.",
+      "The review of criminal cases by the Supreme Court."
+    ],
+    "correct_index": 2,
+    "explanation": "Judicial Review is the power of the Judiciary to examine laws and strike them down if they contravene the Constitution."
+  },
+  {
+    "id": "q4",
+    "question": "Why is the independence of the Judiciary considered crucial in India?",
+    "options": [
+      "It allows the Executive to guide judicial decisions.",
+      "It ensures judges are appointed based on political loyalty.",
+      "It prevents interference from other branches of government and ensures fair judgments.",
+      "It limits the number of cases the courts can hear."
+    ],
+    "correct_index": 2,
+    "explanation": "Judicial independence is vital to ensure that judges can make decisions based on law and justice without undue pressure or interference from the Executive or Legislature."
+  },
+  {
+    "id": "q5",
+    "question": "What does 'Security of Tenure' for judges mean?",
+    "options": [
+      "Judges have to serve a fixed term of 10 years.",
+      "Judges can be easily removed by the government.",
+      "Judges cannot be easily removed from their positions by politicians.",
+      "Judges are guaranteed a pension after retirement."
+    ],
+    "correct_index": 2,
+    "explanation": "Security of tenure means that judges are protected from arbitrary removal, which helps them remain impartial."
+  },
+  {
+    "id": "q6",
+    "question": "The principle that 'everyone, no matter how powerful, must follow the law' is known as:",
+    "options": [
+      "Rule of Law",
+      "Judicial Supremacy",
+      "Constitutionalism",
+      "Due Process"
+    ],
+    "correct_index": 0,
+    "explanation": "The 'Rule of Law' signifies that all individuals and institutions are accountable to laws that are publicly promulgated, equally enforced, and independently adjudicated."
+  },
+  {
+    "id": "q7",
+    "question": "India's judicial system is described as 'unified'. What does this imply?",
+    "options": [
+      "All judges are appointed by the President.",
+      "Decisions of higher courts are binding on lower courts.",
+      "There is only one type of court for all cases.",
+      "All court proceedings are conducted in a single language."
+    ],
+    "correct_index": 1,
+    "explanation": "A unified judicial system means that there is a hierarchy of courts and that the rulings of superior courts are authoritative for all subordinate courts."
+  },
+  {
+    "id": "q8",
+    "question": "Where is the Supreme Court of India located?",
+    "options": [
+      "Mumbai",
+      "Kolkata",
+      "New Delhi",
+      "Bengaluru"
+    ],
+    "correct_index": 2,
+    "explanation": "The Supreme Court of India is headquartered in New Delhi."
+  },
+  {
+    "id": "q9",
+    "question": "Who heads the Supreme Court of India?",
+    "options": [
+      "The President of India",
+      "The Attorney General of India",
+      "The Chief Justice of India (CJI)",
+      "The Speaker of the Lok Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The Chief Justice of India (CJI) is the head of the Supreme Court."
+  },
+  {
+    "id": "q10",
+    "question": "What is the status of a High Court within its respective state?",
+    "options": [
+      "It is the lowest court.",
+      "It is the highest judicial body at the state level.",
+      "It only hears cases from the Supreme Court.",
+      "It has no power of judicial review."
+    ],
+    "correct_index": 1,
+    "explanation": "The High Court is the principal civil court of original jurisdiction in each state and union territory and is the highest judicial authority in the state."
+  },
+  {
+    "id": "q11",
+    "question": "Approximately how many High Courts are there currently in India?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct_index": 3,
+    "explanation": "As of the current information, India has 25 High Courts."
+  },
+  {
+    "id": "q12",
+    "question": "District and Subordinate Courts are primarily responsible for:",
+    "options": [
+      "Hearing appeals from the Supreme Court.",
+      "Handling local civil and criminal cases.",
+      "Making constitutional amendments.",
+      "Conducting foreign policy."
+    ],
+    "correct_index": 1,
+    "explanation": "District and Subordinate Courts are the courts of first instance for most local civil and criminal matters."
+  },
+  {
+    "id": "q13",
+    "question": "Which branch of law deals with actions considered offenses against the state or society?",
+    "options": [
+      "Civil Law",
+      "Constitutional Law",
+      "Criminal Law",
+      "Administrative Law"
+    ],
+    "correct_index": 2,
+    "explanation": "Criminal Law pertains to acts that are harmful to the state or society as a whole."
+  },
+  {
+    "id": "q14",
+    "question": "What is a common starting point for a criminal case in India?",
+    "options": [
+      "Filing a petition in court.",
+      "A writ of habeas corpus.",
+      "A First Information Report (FIR).",
+      "An affidavit."
+    ],
+    "correct_index": 2,
+    "explanation": "A First Information Report (FIR) is typically the first step in initiating a criminal investigation."
+  },
+  {
+    "id": "q15",
+    "question": "Disputes between individuals concerning their rights, such as land or rent issues, fall under:",
+    "options": [
+      "Criminal Law",
+      "Public Law",
+      "Civil Law",
+      "International Law"
+    ],
+    "correct_index": 2,
+    "explanation": "Civil Law governs disputes between individuals or organizations concerning their rights and obligations."
+  },
+  {
+    "id": "q16",
+    "question": "In civil cases, the affected party usually files a ____________ in the appropriate court.",
+    "options": [
+      "First Information Report (FIR)",
+      "Writ",
+      "Petition",
+      "Plea bargain"
+    ],
+    "correct_index": 2,
+    "explanation": "In civil matters, the initiating document is typically a petition filed by the party seeking legal recourse."
+  },
+  {
+    "id": "q17",
+    "question": "What is Public Interest Litigation (PIL)?",
+    "options": [
+      "A lawsuit filed by the government for public welfare.",
+      "A case filed by an individual for personal gain.",
+      "A legal tool allowing anyone to file a case on behalf of others who cannot access court.",
+      "A specific type of criminal trial."
+    ],
+    "correct_index": 2,
+    "explanation": "PIL allows individuals or organizations to bring matters of public concern to the attention of the courts, especially for marginalized groups."
+  },
+  {
+    "id": "q18",
+    "question": "PIL has significantly contributed to:",
+    "options": [
+      "Increasing the backlog of cases.",
+      "Reducing the number of judges.",
+      "Expanding access to justice for ordinary people.",
+      "Limiting the power of the Supreme Court."
+    ],
+    "correct_index": 2,
+    "explanation": "PIL has been instrumental in broadening access to justice by enabling cases to be filed on behalf of those who might otherwise be unable to approach the courts."
+  },
+  {
+    "id": "q19",
+    "question": "The Executive branch of government is primarily responsible for:",
+    "options": [
+      "Making laws.",
+      "Interpreting laws.",
+      "Implementing and enforcing laws.",
+      "Reviewing laws for constitutionality."
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch's core function is to execute and enforce the laws created by the legislature."
+  },
+  {
+    "id": "q20",
+    "question": "Which of the following best describes the role of the Legislature in India?",
+    "options": [
+      "To interpret the constitution.",
+      "To implement laws.",
+      "To make laws.",
+      "To resolve disputes between states."
+    ],
+    "correct_index": 2,
+    "explanation": "The Legislature, such as Parliament, is responsible for drafting and enacting laws."
+  },
+  {
+    "id": "q21",
+    "question": "If a law passed by Parliament is found to violate the fundamental rights of citizens, which branch of government has the power to declare it invalid?",
+    "options": [
+      "The Executive",
+      "The Legislature",
+      "The Judiciary",
+      "The Election Commission"
+    ],
+    "correct_index": 2,
+    "explanation": "The Judiciary, through its power of Judicial Review, can declare laws unconstitutional."
+  },
+  {
+    "id": "q22",
+    "question": "Judges are chosen based on their skills and knowledge, not political connections. This is related to:",
+    "options": [
+      "Judicial review",
+      "Merit-based appointments",
+      "Public Interest Litigation",
+      "Unified judicial system"
+    ],
+    "correct_index": 1,
+    "explanation": "Merit-based appointments ensure that judges are selected for their competence and expertise, rather than political favoritism."
+  },
+  {
+    "id": "q23",
+    "question": "The decisions of the Supreme Court are:",
+    "options": [
+      "Advisory only.",
+      "Binding on all courts in India.",
+      "Only binding on the High Courts.",
+      "Subject to review by the President."
+    ],
+    "correct_index": 1,
+    "explanation": "The Supreme Court is the apex court, and its judgments are binding on all other courts in the country."
+  },
+  {
+    "id": "q24",
+    "question": "Which of the following is an example of a dispute that would typically be handled by Civil Law?",
+    "options": [
+      "Theft",
+      "Murder",
+      "A property ownership dispute",
+      "Assault"
+    ],
+    "correct_index": 2,
+    "explanation": "Disputes over property ownership, land, or contracts are common examples of civil cases."
+  },
+  {
+    "id": "q25",
+    "question": "Which of the following is a key benefit of India's unified judicial system?",
+    "options": [
+      "It creates separate legal systems for each state.",
+      "It ensures consistency and uniformity in the application of law.",
+      "It allows for more political interference in court decisions.",
+      "It reduces the importance of the Supreme Court."
+    ],
+    "correct_index": 1,
+    "explanation": "A unified system leads to consistent legal interpretations and application across the country, as lower courts are bound by higher court precedents."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary role of the Executive branch?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Reviewing laws"
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch is responsible for implementing and enforcing the laws passed by the legislature."
+  },
+  {
+    "id": "q2",
+    "question": "Which type of Urban Local Body (ULB) is typically found in large cities like Mumbai and Delhi?",
+    "options": [
+      "Municipal Corporations",
+      "Municipal Councils",
+      "Nagar Panchayats",
+      "None of the above"
+    ],
+    "correct_index": 0,
+    "explanation": "Municipal Corporations are the ULBs for large cities."
+  },
+  {
+    "id": "q3",
+    "question": "What is the primary responsibility of Urban Local Bodies (ULBs)?",
+    "options": [
+      "Providing housing",
+      "Providing water supply",
+      "Urban planning and public welfare",
+      "Ensuring waste management"
+    ],
+    "correct_index": 2,
+    "explanation": "Urban Local Bodies are responsible for urban planning and public welfare."
+  },
+  {
+    "id": "q4",
+    "question": "Which mission aims to develop 100 cities by providing core infrastructure and applying 'Smart Solutions'?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 0,
+    "explanation": "The Smart Cities Mission aims to develop 100 cities by providing core infrastructure and applying 'Smart Solutions'."
+  },
+  {
+    "id": "q5",
+    "question": "What is the main goal of the AMRUT mission?",
+    "options": [
+      "Developing 100 cities",
+      "Ensuring every household has a water tap and sewerage connection",
+      "Making cities 'Open Defecation Free'",
+      "Creating green spaces and parks"
+    ],
+    "correct_index": 1,
+    "explanation": "AMRUT focuses on ensuring that every household has a water tap and a sewerage connection."
+  },
+  {
+    "id": "q6",
+    "question": "Which mission aims to make all cities 'Open Defecation Free' (ODF)?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 2,
+    "explanation": "The Swachh Bharat Mission (Urban) aims to make all cities 'Open Defecation Free'."
+  },
+  {
+    "id": "q7",
+    "question": "What is the primary difference between a Mayor and a Municipal Commissioner?",
+    "options": [
+      "A Mayor is an elected official, while a Municipal Commissioner is appointed",
+      "A Mayor is responsible for public welfare, while a Municipal Commissioner is responsible for urban planning",
+      "A Mayor leads the Municipal Corporation, while a Municipal Commissioner is a senior administrative officer",
+      "A Mayor is in charge of waste management, while a Municipal Commissioner is in charge of water supply"
+    ],
+    "correct_index": 2,
+    "explanation": "A Mayor leads the Municipal Corporation, while a Municipal Commissioner is a senior administrative officer."
+  },
+  {
+    "id": "q8",
+    "question": "Which amendment gave constitutional status to Urban Local Bodies?",
+    "options": [
+      "73rd Amendment",
+      "74th Amendment",
+      "75th Amendment",
+      "76th Amendment"
+    ],
+    "correct_index": 1,
+    "explanation": "The 74th Amendment Act (1992) gave constitutional status to Urban Local Bodies."
+  },
+  {
+    "id": "q9",
+    "question": "What is the main component of urban infrastructure related to water supply?",
+    "options": [
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Water Supply",
+      "Mobility"
+    ],
+    "correct_index": 2,
+    "explanation": "Urban infrastructure includes assured supply of clean drinking water to households."
+  },
+  {
+    "id": "q10",
+    "question": "Which mission emphasizes creating green spaces and parks?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 1,
+    "explanation": "AMRUT emphasizes creating green spaces and parks."
+  },
+  {
+    "id": "q11",
+    "question": "What is the main goal of the Smart Cities Mission?",
+    "options": [
+      "Developing 100 cities",
+      "Ensuring every household has a water tap and sewerage connection",
+      "Making cities 'Open Defecation Free'",
+      "Creating green spaces and parks"
+    ],
+    "correct_index": 0,
+    "explanation": "The Smart Cities Mission aims to develop 100 cities by providing core infrastructure and applying 'Smart Solutions'."
+  },
+  {
+    "id": "q12",
+    "question": "Which mission aims to tackle water scarcity in growing cities?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "Rainwater Harvesting"
+    ],
+    "correct_index": 3,
+    "explanation": "Rainwater Harvesting is a component of modern urban planning to tackle water scarcity."
+  },
+  {
+    "id": "q13",
+    "question": "What is the main component of urban infrastructure related to sanitation and sewage?",
+    "options": [
+      "Water Supply",
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Mobility"
+    ],
+    "correct_index": 1,
+    "explanation": "Urban infrastructure includes proper drainage systems and treatment plants for sanitation and sewage."
+  },
+  {
+    "id": "q14",
+    "question": "Which mission aims to make all cities 'Open Defecation Free' (ODF)?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 2,
+    "explanation": "The Swachh Bharat Mission (Urban) aims to make all cities 'Open Defecation Free'."
+  },
+  {
+    "id": "q15",
+    "question": "What is the main component of urban infrastructure related to waste management?",
+    "options": [
+      "Water Supply",
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Mobility"
+    ],
+    "correct_index": 2,
+    "explanation": "Urban infrastructure includes door-to-door garbage collection and scientific disposal."
+  },
+  {
+    "id": "q16",
+    "question": "Which mission focuses on ensuring that every household has a water tap and a sewerage connection?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 1,
+    "explanation": "AMRUT focuses on ensuring that every household has a water tap and a sewerage connection."
+  },
+  {
+    "id": "q17",
+    "question": "What is the main component of urban infrastructure related to mobility?",
+    "options": [
+      "Water Supply",
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Mobility"
+    ],
+    "correct_index": 3,
+    "explanation": "Urban infrastructure includes roads, public transport (Buses, Metro), and footpaths."
+  },
+  {
+    "id": "q18",
+    "question": "Which mission aims to develop 100 cities by providing core infrastructure and applying 'Smart Solutions'?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 0,
+    "explanation": "The Smart Cities Mission aims to develop 100 cities by providing core infrastructure and applying 'Smart Solutions'."
+  },
+  {
+    "id": "q19",
+    "question": "What is the main goal of the Swachh Bharat Mission (Urban)?",
+    "options": [
+      "Developing 100 cities",
+      "Ensuring every household has a water tap and sewerage connection",
+      "Making cities 'Open Defecation Free'",
+      "Creating green spaces and parks"
+    ],
+    "correct_index": 2,
+    "explanation": "The Swachh Bharat Mission (Urban) aims to make all cities 'Open Defecation Free'."
+  },
+  {
+    "id": "q20",
+    "question": "Which mission emphasizes creating green spaces and parks?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 1,
+    "explanation": "AMRUT emphasizes creating green spaces and parks."
+  },
+  {
+    "id": "q21",
+    "question": "What is the main component of urban infrastructure related to water supply?",
+    "options": [
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Water Supply",
+      "Mobility"
+    ],
+    "correct_index": 2,
+    "explanation": "Urban infrastructure includes assured supply of clean drinking water to households."
+  },
+  {
+    "id": "q22",
+    "question": "Which mission aims to make all cities 'Open Defecation Free' (ODF)?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 2,
+    "explanation": "The Swachh Bharat Mission (Urban) aims to make all cities 'Open Defecation Free'."
+  },
+  {
+    "id": "q23",
+    "question": "What is the main component of urban infrastructure related to sanitation and sewage?",
+    "options": [
+      "Water Supply",
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Mobility"
+    ],
+    "correct_index": 1,
+    "explanation": "Urban infrastructure includes proper drainage systems and treatment plants for sanitation and sewage."
+  },
+  {
+    "id": "q24",
+    "question": "Which mission focuses on ensuring that every household has a water tap and a sewerage connection?",
+    "options": [
+      "Smart Cities Mission",
+      "AMRUT",
+      "Swachh Bharat Mission (Urban)",
+      "None of the above"
+    ],
+    "correct_index": 1,
+    "explanation": "AMRUT focuses on ensuring that every household has a water tap and a sewerage connection."
+  },
+  {
+    "id": "q25",
+    "question": "What is the main component of urban infrastructure related to mobility?",
+    "options": [
+      "Water Supply",
+      "Sanitation & Sewage",
+      "Waste Management",
+      "Mobility"
+    ],
+    "correct_index": 3,
+    "explanation": "Urban infrastructure includes roads, public transport (Buses, Metro), and footpaths."
+  }
+]

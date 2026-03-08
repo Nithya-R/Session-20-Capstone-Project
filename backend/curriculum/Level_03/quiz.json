@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary definition of a constitution for a country?",
+    "options": [
+      "A collection of historical laws passed over centuries.",
+      "The supreme law that outlines governing rules, government function, and citizen rights.",
+      "A set of guidelines for international relations.",
+      "A document detailing the country's cultural heritage."
+    ],
+    "correct_index": 1,
+    "explanation": "A constitution is the supreme law of a country, outlining fundamental rules, how the government functions, and citizen rights."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is NOT a key purpose of a constitution?",
+    "options": [
+      "To establish the framework for government branches.",
+      "To guarantee fundamental rights to citizens.",
+      "To ensure the popularity of the ruling party.",
+      "To promote fairness and accountability in governance."
+    ],
+    "correct_index": 2,
+    "explanation": "A constitution aims for fairness and accountability, not necessarily the popularity of a specific ruling party."
+  },
+  {
+    "id": "q3",
+    "question": "What was the name of the body responsible for drafting India's Constitution?",
+    "options": [
+      "The Parliament of India",
+      "The Supreme Court of India",
+      "The Constituent Assembly",
+      "The National Congress"
+    ],
+    "correct_index": 2,
+    "explanation": "A Constituent Assembly, composed of elected representatives, was responsible for drafting the Indian Constitution."
+  },
+  {
+    "id": "q4",
+    "question": "Who is widely regarded as the \"Father of the Indian Constitution\"?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel",
+      "Dr. B.R. Ambedkar",
+      "Mahatma Gandhi"
+    ],
+    "correct_index": 2,
+    "explanation": "Dr. B.R. Ambedkar played a crucial role as the chairman of the Drafting Committee and is revered as the Father of the Indian Constitution."
+  },
+  {
+    "id": "q5",
+    "question": "On what date was the Indian Constitution adopted?",
+    "options": [
+      "January 26, 1950",
+      "August 15, 1947",
+      "November 26, 1949",
+      "October 2, 1950"
+    ],
+    "correct_index": 2,
+    "explanation": "The Indian Constitution was adopted on November 26, 1949."
+  },
+  {
+    "id": "q6",
+    "question": "When did the Indian Constitution come into effect?",
+    "options": [
+      "November 26, 1949",
+      "August 15, 1947",
+      "January 26, 1950",
+      "March 15, 1950"
+    ],
+    "correct_index": 2,
+    "explanation": "The Indian Constitution came into effect on January 26, 1950."
+  },
+  {
+    "id": "q7",
+    "question": "What significant event is celebrated on January 26th in India?",
+    "options": [
+      "Independence Day",
+      "Republic Day",
+      "Constitution Day",
+      "National Unity Day"
+    ],
+    "correct_index": 1,
+    "explanation": "January 26th is celebrated as Republic Day, marking the day the Indian Constitution came into effect."
+  },
+  {
+    "id": "q8",
+    "question": "What is the Preamble of the Indian Constitution?",
+    "options": [
+      "The detailed list of all laws in India.",
+      "The concluding remarks of the Constitution.",
+      "The introductory part stating the core values and philosophy.",
+      "An amendment added after the Constitution was enacted."
+    ],
+    "correct_index": 2,
+    "explanation": "The Preamble is the introductory section that briefly states the core values, philosophy, and goals of the Constitution."
+  },
+  {
+    "id": "q9",
+    "question": "Why is the Preamble often called the \"Identity Card\" of the Constitution?",
+    "options": [
+      "It contains the national emblem.",
+      "It lists all the amendments made to the Constitution.",
+      "It encapsulates the essence and spirit of the entire document.",
+      "It provides the historical context of its creation."
+    ],
+    "correct_index": 2,
+    "explanation": "The Preamble is called the \"Identity Card\" because it summarizes the essential philosophy and values of the Constitution."
+  },
+  {
+    "id": "q10",
+    "question": "The phrase \"We, the People of India...\" in the Preamble emphasizes:",
+    "options": [
+      "The supremacy of the Parliament.",
+      "The authority of the President.",
+      "That the Constitution derives its power from the citizens.",
+      "The historical significance of the Indian independence movement."
+    ],
+    "correct_index": 2,
+    "explanation": "This phrase signifies that the ultimate power and authority of the Constitution originate from the people of India."
+  },
+  {
+    "id": "q11",
+    "question": "Which term describes India as being independent and free from foreign control?",
+    "options": [
+      "Socialist",
+      "Secular",
+      "Sovereign",
+      "Democratic"
+    ],
+    "correct_index": 2,
+    "explanation": "Sovereign means that India is an independent nation with the authority to make its own decisions, both internally and externally."
+  },
+  {
+    "id": "q12",
+    "question": "What does the term \"Socialist\" in the Indian context primarily aim to achieve?",
+    "options": [
+      "Centralized economic planning",
+      "Promoting private enterprise exclusively",
+      "Achieving social and economic equality and welfare for all",
+      "Guaranteeing absolute individual economic freedom"
+    ],
+    "correct_index": 2,
+    "explanation": "The socialist aspect aims to reduce disparities and ensure welfare by promoting social and economic equality for all sections of society."
+  },
+  {
+    "id": "q13",
+    "question": "What does it mean for India to be a \"Secular\" state?",
+    "options": [
+      "The state promotes one specific religion.",
+      "The state has no official religion and respects all religions equally.",
+      "Religion is banned in public life.",
+      "Only certain religions are permitted."
+    ],
+    "correct_index": 1,
+    "explanation": "A secular state means India respects all religions equally and citizens have the freedom to practice any religion, without favouring any one."
+  },
+  {
+    "id": "q14",
+    "question": "The term \"Democratic\" in the Preamble implies:",
+    "options": [
+      "Rule by a single dictator.",
+      "Government elected by the people and accountable to them.",
+      "A hereditary monarchy.",
+      "Rule by a religious council."
+    ],
+    "correct_index": 1,
+    "explanation": "Democratic means that the government is elected by the people and is accountable to them, with power resting with the citizens."
+  },
+  {
+    "id": "q15",
+    "question": "What characteristic defines India as a \"Republic\"?",
+    "options": [
+      "The head of state is a hereditary monarch.",
+      "The head of state is elected and not hereditary.",
+      "The country is ruled by religious leaders.",
+      "The government is appointed by a foreign power."
+    ],
+    "correct_index": 1,
+    "explanation": "A republic means the head of state (the President) is elected and not a hereditary monarch, making the highest office accessible to all citizens."
+  },
+  {
+    "id": "q16",
+    "question": "The objective of \"Justice\" in the Preamble refers to:",
+    "options": [
+      "Only political fairness.",
+      "Fairness in social, economic, and political matters.",
+      "The right to trial by jury.",
+      "Equal distribution of wealth."
+    ],
+    "correct_index": 1,
+    "explanation": "Justice in the Preamble encompasses fairness in social, economic, and political spheres for all citizens."
+  },
+  {
+    "id": "q17",
+    "question": "What freedoms are guaranteed under the objective of \"Liberty\" in the Preamble?",
+    "options": [
+      "Freedom of movement only.",
+      "Freedom to own property exclusively.",
+      "Freedom of thought, expression, belief, faith, and worship.",
+      "Freedom to participate in elections only."
+    ],
+    "correct_index": 2,
+    "explanation": "Liberty in the Preamble guarantees fundamental freedoms such as thought, expression, belief, faith, and worship."
+  },
+  {
+    "id": "q18",
+    "question": "The objective of \"Equality\" in the Preamble means:",
+    "options": [
+      "Everyone has the same income.",
+      "Providing equal status and opportunities to all citizens.",
+      "All citizens have identical rights.",
+      "Citizens are equal before the law, but not in opportunity."
+    ],
+    "correct_index": 1,
+    "explanation": "Equality aims to provide equal status and opportunities to all citizens, regardless of their background or circumstances."
+  },
+  {
+    "id": "q19",
+    "question": "What does \"Fraternity\" aim to promote among Indian citizens?",
+    "options": [
+      "Competition and rivalry.",
+      "A sense of brotherhood, unity, and mutual respect.",
+      "Strict adherence to individualistic pursuits.",
+      "Regional isolation."
+    ],
+    "correct_index": 1,
+    "explanation": "Fraternity promotes a sense of brotherhood, unity, and mutual respect among citizens, upholding individual dignity."
+  },
+  {
+    "id": "q20",
+    "question": "Which of these is NOT one of the key ideals declared in the Preamble of the Indian Constitution?",
+    "options": [
+      "Sovereign",
+      "Democratic",
+      "Monarchical",
+      "Secular"
+    ],
+    "correct_index": 2,
+    "explanation": "India is declared a Sovereign, Socialist, Secular, Democratic Republic. 'Monarchical' is not a declared ideal."
+  },
+  {
+    "id": "q21",
+    "question": "Which of these is NOT one of the main objectives outlined in the Preamble?",
+    "options": [
+      "Justice",
+      "Liberty",
+      "Wealth",
+      "Fraternity"
+    ],
+    "correct_index": 2,
+    "explanation": "The main objectives are Justice, Liberty, Equality, and Fraternity. 'Wealth' is not explicitly listed as an objective."
+  },
+  {
+    "id": "q22",
+    "question": "The Constituent Assembly that drafted India's Constitution was composed of:",
+    "options": [
+      "Nominated experts only.",
+      "Elected representatives of the people.",
+      "Members of the ruling party exclusively.",
+      "Foreign dignitaries."
+    ],
+    "correct_index": 1,
+    "explanation": "The Constituent Assembly was a body of elected representatives responsible for drafting the Constitution."
+  },
+  {
+    "id": "q23",
+    "question": "What does it mean for the government to be \"accountable to them\" in a democracy?",
+    "options": [
+      "The government only listens to the military.",
+      "The government is answerable to the citizens it governs.",
+      "The government's actions are decided by an external body.",
+      "The government is accountable to wealthy individuals only."
+    ],
+    "correct_index": 1,
+    "explanation": "Accountability to the people means the government must answer for its actions and decisions to the citizens."
+  },
+  {
+    "id": "q24",
+    "question": "The Preamble of the Indian Constitution was inspired by the philosophy and aspirations of:",
+    "options": [
+      "Ancient Indian scriptures only.",
+      "The British legal system only.",
+      "The newly independent nation of India.",
+      "A single political leader's vision."
+    ],
+    "correct_index": 2,
+    "explanation": "The drafting process aimed to create a constitution that reflected the hopes and aspirations of a newly independent India."
+  },
+  {
+    "id": "q25",
+    "question": "If a country's constitution is considered its \"supreme law\", what does this imply about other laws?",
+    "options": [
+      "Other laws can contradict the constitution.",
+      "Other laws must align with and not violate the constitution.",
+      "The constitution is only a recommendation.",
+      "The constitution is less important than ordinary laws."
+    ],
+    "correct_index": 1,
+    "explanation": "As the supreme law, all other laws passed in the country must conform to the constitution and cannot contradict its provisions."
+  }
+]

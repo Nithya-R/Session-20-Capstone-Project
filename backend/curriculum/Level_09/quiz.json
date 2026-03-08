@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary reason for holding elections in a large and diverse country like India?",
+    "options": [
+      "To allow every citizen to directly participate in every decision.",
+      "To choose representatives who will make laws and manage the government.",
+      "To determine the official language of the country.",
+      "To elect a ceremonial head of state."
+    ],
+    "correct_index": 1,
+    "explanation": "In a large country, it's impractical for all citizens to be involved in every decision, so elections are held to choose representatives to govern on their behalf."
+  },
+  {
+    "id": "q2",
+    "question": "What is the concept of 'accountability' in the context of elections?",
+    "options": [
+      "Representatives are permanently in power.",
+      "Citizens can choose new leaders if they are unhappy with the current ones.",
+      "The government is solely responsible for all public services.",
+      "Elections are held only once every twenty years."
+    ],
+    "correct_index": 1,
+    "explanation": "Accountability means that elected officials are answerable to the voters, who can remove them from office in subsequent elections if they are not satisfied with their performance."
+  },
+  {
+    "id": "q3",
+    "question": "Which principle of democratic elections ensures that every citizen aged 18 or above has the right to vote?",
+    "options": [
+      "Real Choice",
+      "Free and Fair",
+      "Universal Adult Franchise",
+      "Regular Intervals"
+    ],
+    "correct_index": 2,
+    "explanation": "Universal Adult Franchise is the principle that grants every adult citizen the right to vote, regardless of their social standing or economic status."
+  },
+  {
+    "id": "q4",
+    "question": "What does it mean for a vote to have 'equal value' in a democratic election?",
+    "options": [
+      "Each vote counts as one unit, regardless of who casts it.",
+      "Votes from certain professions are worth more.",
+      "The number of votes a candidate receives determines their prestige.",
+      "Only educated citizens' votes are counted."
+    ],
+    "correct_index": 0,
+    "explanation": "The principle of 'each vote carries equal value' means that every vote cast by an eligible voter has the same weight and importance in determining the election outcome."
+  },
+  {
+    "id": "q5",
+    "question": "What is necessary to provide voters with 'Real Choice' during an election?",
+    "options": [
+      "A single, dominant political party.",
+      "The absence of any political parties.",
+      "The presence of multiple parties and candidates competing.",
+      "Government control over candidate selection."
+    ],
+    "correct_index": 2,
+    "explanation": "Real Choice for voters is ensured when there are multiple political parties and candidates offering different ideologies and platforms for them to choose from."
+  },
+  {
+    "id": "q6",
+    "question": "In India, how often are elections typically held to ensure continued representation?",
+    "options": [
+      "Every year",
+      "Every five years",
+      "Every ten years",
+      "Only when the government is dissolved"
+    ],
+    "correct_index": 1,
+    "explanation": "Elections in India are held at regular intervals, typically every five years, to ensure that representatives remain accountable to the electorate."
+  },
+  {
+    "id": "q7",
+    "question": "What does it mean for an election to be 'Free and Fair'?",
+    "options": [
+      "Candidates must win by a predetermined margin.",
+      "Voters can be influenced by advertising.",
+      "The process is conducted without intimidation or undue influence.",
+      "Only government-approved candidates can participate."
+    ],
+    "correct_index": 2,
+    "explanation": "A free and fair election means that voters can cast their ballots without fear, pressure, or coercion, and the election process is unbiased and transparent."
+  },
+  {
+    "id": "q8",
+    "question": "What is the Election Commission of India (ECI)?",
+    "options": [
+      "A political party that organizes elections.",
+      "A government department that manages public services.",
+      "A vital, independent body responsible for conducting elections.",
+      "A court that resolves election disputes."
+    ],
+    "correct_index": 2,
+    "explanation": "The Election Commission of India (ECI) is an independent constitutional authority tasked with overseeing the conduct of elections in India."
+  },
+  {
+    "id": "q9",
+    "question": "Which of the following is a key role of the Election Commission of India (ECI)?",
+    "options": [
+      "Formulating government policies.",
+      "Preparing the Voters' List and announcing election schedules.",
+      "Appointing candidates for political parties.",
+      "Collecting taxes from citizens."
+    ],
+    "correct_index": 1,
+    "explanation": "The ECI is responsible for creating and maintaining the voters' list and announcing the schedule for when elections will take place."
+  },
+  {
+    "id": "q10",
+    "question": "What is the purpose of the Model Code of Conduct implemented by the ECI?",
+    "options": [
+      "To restrict voter turnout.",
+      "To ensure a level playing field for all parties and candidates during elections.",
+      "To dictate government spending after elections.",
+      "To promote a specific political party."
+    ],
+    "correct_index": 1,
+    "explanation": "The Model Code of Conduct sets rules for political parties and candidates during elections to ensure fairness and prevent malpractices."
+  },
+  {
+    "id": "q11",
+    "question": "Why does the ECI monitor election spending?",
+    "options": [
+      "To encourage candidates to spend more money.",
+      "To prevent corruption and ensure a fair election process.",
+      "To determine which party will form the government.",
+      "To distribute funds to voters."
+    ],
+    "correct_index": 1,
+    "explanation": "Monitoring election spending helps prevent corruption and ensures that elections are not unduly influenced by the financial power of candidates or parties."
+  },
+  {
+    "id": "q12",
+    "question": "What is a political party?",
+    "options": [
+      "A government agency that provides social services.",
+      "A group of individuals who come together to contest elections and gain power.",
+      "A non-profit organization focused on advocacy.",
+      "A regulatory body that oversees businesses."
+    ],
+    "correct_index": 1,
+    "explanation": "A political party is an organized group of people with shared political aims and opinions, seeking to influence public policy by getting their candidates elected to public office."
+  },
+  {
+    "id": "q13",
+    "question": "Which of the following is a crucial role of political parties?",
+    "options": [
+      "Solely providing entertainment.",
+      "Formulating policies and contesting elections.",
+      "Acting as an entertainment agency for politicians.",
+      "Only focusing on international relations."
+    ],
+    "correct_index": 1,
+    "explanation": "Political parties are instrumental in formulating policies and programs and contesting elections to gain a mandate to govern."
+  },
+  {
+    "id": "q14",
+    "question": "How do political parties contribute to the formation of a government?",
+    "options": [
+      "By discouraging voter participation.",
+      "The party or coalition that secures a majority of seats forms the government.",
+      "By acting as advisors to the ruling party.",
+      "By organizing protests against the elected government."
+    ],
+    "correct_index": 1,
+    "explanation": "The party or coalition that wins a majority of seats in the legislature is invited to form the government."
+  },
+  {
+    "id": "q15",
+    "question": "What is the role of the 'opposition' in a parliamentary democracy?",
+    "options": [
+      "To blindly support the government's every decision.",
+      "To scrutinize the government's actions and criticize unfavorable policies.",
+      "To dissolve parliament when in disagreement.",
+      "To only focus on economic policies."
+    ],
+    "correct_index": 1,
+    "explanation": "The opposition parties act as a check on the government, holding it accountable by scrutinizing its actions and policies."
+  },
+  {
+    "id": "q16",
+    "question": "What distinguishes a 'National Party' from a 'Regional or State Party' in India?",
+    "options": [
+      "The language spoken by its members.",
+      "The number of states it operates in and its electoral performance.",
+      "The color of its party symbol.",
+      "The age of its founding leader."
+    ],
+    "correct_index": 1,
+    "explanation": "National parties have a significant presence and influence across many states, while regional parties focus their activities and support within specific states."
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following is an example of a National Party in India?",
+    "options": [
+      "Dravida Munnetra Kazhagam (DMK)",
+      "Trinamool Congress (TMC)",
+      "Bharatiya Janata Party (BJP)",
+      "Aam Aadmi Party (AAP)"
+    ],
+    "correct_index": 2,
+    "explanation": "The Bharatiya Janata Party (BJP) is recognized as a National Party due to its widespread presence and electoral success across India."
+  },
+  {
+    "id": "q18",
+    "question": "The Dravida Munnetra Kazhagam (DMK) is an example of which type of political party?",
+    "options": [
+      "National Party",
+      "Regional or State Party",
+      "Independent Candidate",
+      "Non-Governmental Organization (NGO)"
+    ],
+    "correct_index": 1,
+    "explanation": "The Dravida Munnetra Kazhagam (DMK) is primarily active and influential within the state of Tamil Nadu, classifying it as a Regional or State Party."
+  },
+  {
+    "id": "q19",
+    "question": "What is a 'Coalition Government'?",
+    "options": [
+      "A government formed by a single party with a majority.",
+      "A government formed when no single party wins enough seats and multiple parties join together.",
+      "A government where power is transferred without elections.",
+      "A government that operates only in one state."
+    ],
+    "correct_index": 1,
+    "explanation": "A coalition government is formed when two or more political parties agree to share power and form a government, usually because no single party has a majority."
+  },
+  {
+    "id": "q20",
+    "question": "The concept of 'Universal Adult Franchise' emphasizes that:",
+    "options": [
+      "Only wealthy citizens can vote.",
+      "Every adult citizen aged 18 or older has the right to vote.",
+      "Voting is optional for citizens.",
+      "The government decides who is eligible to vote."
+    ],
+    "correct_index": 1,
+    "explanation": "Universal Adult Franchise guarantees the right to vote to all adult citizens, irrespective of their background, as long as they meet the age requirement."
+  },
+  {
+    "id": "q21",
+    "question": "Which of the following best describes the independence of the Election Commission of India (ECI)?",
+    "options": [
+      "It is controlled by the ruling political party.",
+      "It is free from government interference in its functioning.",
+      "It is funded by private corporations.",
+      "Its decisions can be overruled by the Prime Minister."
+    ],
+    "correct_index": 1,
+    "explanation": "The ECI is designed to be an independent body, operating without undue influence or control from the government, to ensure fair elections."
+  },
+  {
+    "id": "q22",
+    "question": "Why is having multiple political parties important for a 'Real Choice' in elections?",
+    "options": [
+      "It simplifies the voting process for citizens.",
+      "It allows voters to choose from different ideologies and manifestos.",
+      "It ensures that only experienced politicians are elected.",
+      "It reduces the need for election campaigns."
+    ],
+    "correct_index": 1,
+    "explanation": "Multiple parties offer diverse perspectives and policy proposals, giving voters a genuine choice in selecting their representatives."
+  },
+  {
+    "id": "q23",
+    "question": "What is the primary function of political parties in formulating policy?",
+    "options": [
+      "To create entertainment for the public.",
+      "To present different programs and ideologies for the country's future.",
+      "To solely manage the country's finances.",
+      "To organize social gatherings for citizens."
+    ],
+    "correct_index": 1,
+    "explanation": "Political parties develop and promote their own sets of policies and ideologies, which they present to the electorate during elections."
+  },
+  {
+    "id": "q24",
+    "question": "When does the ECI implement the 'Model Code of Conduct'?",
+    "options": [
+      "After the elections are concluded.",
+      "During the election period.",
+      "Only when there are disputes between parties.",
+      "On national holidays."
+    ],
+    "correct_index": 1,
+    "explanation": "The Model Code of Conduct is a set of guidelines that political parties and candidates must adhere to during the election period to ensure a fair electoral process."
+  },
+  {
+    "id": "q25",
+    "question": "The Election Commission's role in monitoring election spending is crucial for:",
+    "options": [
+      "Ensuring that parties have enough funds for campaigns.",
+      "Preventing candidates from buying votes.",
+      "Determining the winner of the election.",
+      "Regulating the media during elections."
+    ],
+    "correct_index": 1,
+    "explanation": "Monitoring election spending helps to curb corruption and ensure that the outcome of an election is based on the will of the people, not on excessive financial influence."
+  }
+]

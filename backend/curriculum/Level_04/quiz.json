@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary purpose of Fundamental Rights in the Indian Constitution?",
+    "options": [
+      "To outline the duties of government officials",
+      "To protect basic human rights and ensure individual development and dignity",
+      "To establish the procedures for law-making",
+      "To define the boundaries of states within India"
+    ],
+    "correct_index": 1,
+    "explanation": "Fundamental Rights are basic human rights guaranteed to citizens to help them develop and ensure their dignity."
+  },
+  {
+    "id": "q2",
+    "question": "In which part of the Indian Constitution are Fundamental Rights primarily located?",
+    "options": [
+      "Articles 1-11",
+      "Articles 12-35",
+      "Articles 36-51",
+      "Articles 52-74"
+    ],
+    "correct_index": 1,
+    "explanation": "Fundamental Rights are detailed in Articles 12-35 of the Indian Constitution."
+  },
+  {
+    "id": "q3",
+    "question": "What does it mean for a right to be 'justiciable'?",
+    "options": [
+      "It can be easily amended by the legislature",
+      "It is a moral obligation rather than a legal one",
+      "Citizens can seek legal recourse in court if it is violated",
+      "It only applies to government employees"
+    ],
+    "correct_index": 2,
+    "explanation": "Justiciable rights mean that citizens can go to court if these rights are violated to seek justice."
+  },
+  {
+    "id": "q4",
+    "question": "The Right to Equality ensures that everyone is equal before the law and prohibits discrimination based on which of the following factors?",
+    "options": [
+      "Education level",
+      "Profession",
+      "Religion, race, caste, sex, or place of birth",
+      "Geographical location within India"
+    ],
+    "correct_index": 2,
+    "explanation": "The Right to Equality prohibits discrimination on grounds of religion, race, caste, sex, and place of birth."
+  },
+  {
+    "id": "q5",
+    "question": "Which practice was specifically abolished by the Right to Equality?",
+    "options": [
+      "Caste-based reservations",
+      "Untouchability",
+      "Religious conversion",
+      "Freedom of speech"
+    ],
+    "correct_index": 1,
+    "explanation": "The Right to Equality explicitly abolished the practice of untouchability."
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is NOT included under the Right to Freedom?",
+    "options": [
+      "Freedom of speech and expression",
+      "Freedom to form associations",
+      "Freedom to own private property",
+      "Freedom to move freely across India"
+    ],
+    "correct_index": 2,
+    "explanation": "While the right to property was a fundamental right, it was removed by a constitutional amendment. The options listed are all part of the Right to Freedom except owning private property."
+  },
+  {
+    "id": "q7",
+    "question": "The Right against Exploitation specifically prohibits which of the following?",
+    "options": [
+      "Voluntary labor for a charitable cause",
+      "Children below 14 years working in family businesses",
+      "Human trafficking and forced labor (begar)",
+      "Freedom to choose one's profession"
+    ],
+    "correct_index": 2,
+    "explanation": "The Right against Exploitation prohibits human trafficking, forced labor (begar), and employment of children below 14 in hazardous jobs."
+  },
+  {
+    "id": "q8",
+    "question": "What is the significance of the Right to Freedom of Religion in a secular country like India?",
+    "options": [
+      "It mandates a state religion for all citizens",
+      "It allows citizens to practice, profess, and propagate their religion freely",
+      "It restricts religious practices to places of worship only",
+      "It ensures that all religions are treated equally by the state"
+    ],
+    "correct_index": 1,
+    "explanation": "The Right to Freedom of Religion guarantees the freedom to practice, profess, and propagate one's religion, reflecting India's secular nature."
+  },
+  {
+    "id": "q9",
+    "question": "Which group of citizens do the Cultural and Educational Rights primarily aim to protect?",
+    "options": [
+      "Religious majority groups",
+      "Wealthy business owners",
+      "Minority groups",
+      "Government employees"
+    ],
+    "correct_index": 2,
+    "explanation": "Cultural and Educational Rights are crucial for protecting the language, script, culture, and educational institutions of minority groups."
+  },
+  {
+    "id": "q10",
+    "question": "What is the 'Heart and Soul' of the Indian Constitution, according to the lesson?",
+    "options": [
+      "Right to Equality",
+      "Right to Freedom of Religion",
+      "Right to Constitutional Remedies",
+      "Right to Freedom"
+    ],
+    "correct_index": 2,
+    "explanation": "The Right to Constitutional Remedies is famously called the 'Heart and Soul' of the Constitution because it provides a safeguard for all other fundamental rights."
+  },
+  {
+    "id": "q11",
+    "question": "If a citizen's fundamental rights are violated, to which courts can they approach for protection?",
+    "options": [
+      "Only the District Courts",
+      "The Supreme Court and High Courts",
+      "Only the High Courts",
+      "Any court, regardless of its level"
+    ],
+    "correct_index": 1,
+    "explanation": "Citizens can approach the Supreme Court and High Courts to enforce their fundamental rights if they are violated."
+  },
+  {
+    "id": "q12",
+    "question": "What are Fundamental Duties?",
+    "options": [
+      "Rights guaranteed by the Constitution to all citizens",
+      "Legal obligations and responsibilities of citizens towards the nation",
+      "Powers granted to the judiciary",
+      "Freedoms enjoyed by individuals without any limitations"
+    ],
+    "correct_index": 1,
+    "explanation": "Fundamental Duties are the obligations and responsibilities that citizens have towards their country."
+  },
+  {
+    "id": "q13",
+    "question": "When were Fundamental Duties added to the Indian Constitution?",
+    "options": [
+      "At the time of the Constitution's adoption",
+      "Through the 42nd Amendment in 1976",
+      "In 2002 with the addition of the duty for education",
+      "In 1947 during the partition of India"
+    ],
+    "correct_index": 1,
+    "explanation": "Fundamental Duties were added to the Constitution in 1976 through the 42nd Amendment."
+  },
+  {
+    "id": "q14",
+    "question": "Which of the following is NOT a Fundamental Duty of Indian citizens?",
+    "options": [
+      "Abiding by the Constitution",
+      "Protecting the sovereignty and integrity of India",
+      "Paying all taxes on time",
+      "Respecting the National Flag and National Anthem"
+    ],
+    "correct_index": 2,
+    "explanation": "While paying taxes is a legal obligation, it is not listed as one of the Fundamental Duties in the Constitution."
+  },
+  {
+    "id": "q15",
+    "question": "What does the duty to 'promote harmony and the spirit of common brotherhood' entail?",
+    "options": [
+      "Only engaging in religious activities",
+      "Fostering understanding and goodwill among all citizens",
+      "Prioritizing personal gain over national interest",
+      "Discouraging interactions between different communities"
+    ],
+    "correct_index": 1,
+    "explanation": "This duty encourages citizens to promote understanding and goodwill among all people, irrespective of their differences."
+  },
+  {
+    "id": "q16",
+    "question": "What is the citizens' duty regarding the natural environment?",
+    "options": [
+      "To use natural resources without any limits",
+      "To protect and improve forests, lakes, rivers, and wildlife",
+      "To avoid any interaction with the environment",
+      "To prioritize industrial development over environmental protection"
+    ],
+    "correct_index": 1,
+    "explanation": "Citizens have a duty to protect and improve the natural environment, including forests, rivers, and wildlife."
+  },
+  {
+    "id": "q17",
+    "question": "The duty to 'develop scientific temper and the spirit of inquiry' encourages citizens to:",
+    "options": [
+      "Blindly follow traditions",
+      "Engage in critical thinking and rational investigation",
+      "Reject all forms of education",
+      "Only believe in supernatural phenomena"
+    ],
+    "correct_index": 1,
+    "explanation": "Developing scientific temper means encouraging rational thinking, curiosity, and inquiry."
+  },
+  {
+    "id": "q18",
+    "question": "What specific age group does the Fundamental Duty related to providing opportunities for education cover?",
+    "options": [
+      "0-6 years",
+      "6-14 years",
+      "14-18 years",
+      "18-21 years"
+    ],
+    "correct_index": 1,
+    "explanation": "The Fundamental Duty mandates providing opportunities for education to children aged 6-14 years."
+  },
+  {
+    "id": "q19",
+    "question": "Why are rights and duties considered 'two sides of the same coin' in a democracy?",
+    "options": [
+      "Rights are theoretical, while duties are practical",
+      "One cannot exist or be effective without the other for a functioning society",
+      "Duties are imposed by the government, while rights are given by citizens",
+      "Rights are universal, but duties are specific to each nation"
+    ],
+    "correct_index": 1,
+    "explanation": "Rights and duties are interconnected; for a democracy to thrive, citizens must be aware of their rights and responsible in performing their duties."
+  },
+  {
+    "id": "q20",
+    "question": "What is a fundamental aspect of a citizen's duty regarding the rights of others?",
+    "options": [
+      "To ignore them if they conflict with personal interests",
+      "To respect them and ensure they are not infringed upon",
+      "To actively try to limit others' rights",
+      "To only respect the rights of those who respect yours"
+    ],
+    "correct_index": 1,
+    "explanation": "A primary duty for every citizen is to respect the rights of others, which forms the basis of a just society."
+  },
+  {
+    "id": "q21",
+    "question": "What does 'freedom of speech and expression' protect?",
+    "options": [
+      "The right to incite violence",
+      "The ability to voice opinions and ideas freely",
+      "The right to spread misinformation",
+      "The freedom to remain silent at all times"
+    ],
+    "correct_index": 1,
+    "explanation": "Freedom of speech and expression allows individuals to voice their opinions and share their ideas."
+  },
+  {
+    "id": "q22",
+    "question": "The prohibition of 'forced labor (begar)' under the Right against Exploitation means:",
+    "options": [
+      "People can be made to work without payment if it's for the nation",
+      "Individuals cannot be compelled to work without fair compensation or against their will",
+      "Only hazardous jobs are prohibited",
+      "Forced labor is allowed for national emergencies"
+    ],
+    "correct_index": 1,
+    "explanation": "Forced labor (begar) means making someone work without pay or against their will, which is prohibited."
+  },
+  {
+    "id": "q23",
+    "question": "The right to 'establish their own educational institutions' under Cultural and Educational Rights is especially important for:",
+    "options": [
+      "Students seeking admission to government schools",
+      "Parents who cannot afford private education",
+      "Minority groups to preserve their heritage",
+      "Universities to receive government funding"
+    ],
+    "correct_index": 2,
+    "explanation": "This right allows minority groups to establish schools that reflect their cultural and linguistic identity."
+  },
+  {
+    "id": "q24",
+    "question": "What does the duty to 'safeguard public property' involve?",
+    "options": [
+      "Using public property for personal benefit",
+      "Preventing damage to government buildings and infrastructure",
+      "Only reporting vandalism if it affects you directly",
+      "Constructing new public properties"
+    ],
+    "correct_index": 1,
+    "explanation": "Safeguarding public property means preventing its damage or destruction."
+  },
+  {
+    "id": "q25",
+    "question": "Which Fundamental Right is considered the bedrock for the enforcement of all other Fundamental Rights?",
+    "options": [
+      "Right to Equality",
+      "Right to Freedom",
+      "Right to Constitutional Remedies",
+      "Cultural and Educational Rights"
+    ],
+    "correct_index": 2,
+    "explanation": "The Right to Constitutional Remedies empowers citizens to approach the courts to enforce their fundamental rights, making it foundational for all other rights."
+  }
+]

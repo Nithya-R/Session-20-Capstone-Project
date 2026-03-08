@@ -6,8 +6,9 @@
     - [ ] Setup project assets (icons, fonts)
 
 - [ ] **Week 1: Foundations & The "Librarian"**
-    - [ ] **UI**: Admin Dashboard (File Upload, Source Management) <!-- id: 10 -->
-    - [ ] **AI**: Ingestion Agent (PDF extraction, Auto-Tagging L1-15) <!-- id: 11 -->
+    - [x] Integrate AgentFramework for Core AI capabilities
+    - [ ] **UI**: Admin Dashboard (File Upload, Source Management)
+    - [ ] **AI**: Ingestion Agent (PDF extraction, Auto-Tagging L1-15 via AgentFramework)
     - [ ] **Data**: Setup Knowledge Store (Vector DB mock) <!-- id: 12 -->
 
 - [ ] **Week 2: The "Examiner"**

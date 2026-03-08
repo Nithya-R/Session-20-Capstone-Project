@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the fundamental principle of democracy that ensures fair treatment and equal opportunities for all individuals?",
+    "options": [
+      "Liberty",
+      "Equality",
+      "Justice",
+      "Sovereignty"
+    ],
+    "correct_index": 1,
+    "explanation": "Equality is a fundamental principle of democracy, ensuring fair treatment and equal opportunities for all individuals, regardless of their background."
+  },
+  {
+    "id": "q2",
+    "question": "Equality in a democratic society means that everyone is the same. Is this statement true or false?",
+    "options": [
+      "True",
+      "False",
+      "It depends on the context",
+      "Only in certain areas"
+    ],
+    "correct_index": 1,
+    "explanation": "Equality does not mean everyone is the same, but that everyone possesses the same legal rights and protections."
+  },
+  {
+    "id": "q3",
+    "question": "Which of the following is NOT a key aspect of equality in a democracy?",
+    "options": [
+      "Equal treatment under the law",
+      "Equal access to public spaces and services",
+      "Equal wealth and income",
+      "Equal political rights, such as the right to vote"
+    ],
+    "correct_index": 2,
+    "explanation": "Equality in a democracy focuses on equal rights and opportunities, not necessarily equal wealth or income."
+  },
+  {
+    "id": "q4",
+    "question": "The principle of 'equality before the law' guarantees that:",
+    "options": [
+      "The law is only for the poor",
+      "The law applies differently based on social status",
+      "Every citizen is subject to the same legal framework",
+      "Legal protections are applied selectively"
+    ],
+    "correct_index": 2,
+    "explanation": "The principle of equality before the law guarantees that every citizen is subject to the same legal framework and that legal protections are applied uniformly to all."
+  },
+  {
+    "id": "q5",
+    "question": "What is the term for essential services provided by governments to enhance the well-being of citizens?",
+    "options": [
+      "Economic infrastructure",
+      "Political reforms",
+      "Public welfare services",
+      "Social justice initiatives"
+    ],
+    "correct_index": 2,
+    "explanation": "Governments are responsible for providing essential services that enhance the well-being of their citizens, known as public welfare services."
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is a crucial area of public welfare services provided by governments?",
+    "options": [
+      "Private enterprise support",
+      "International diplomacy",
+      "Healthcare",
+      "Luxury goods production"
+    ],
+    "correct_index": 2,
+    "explanation": "Healthcare is one of the important areas of public welfare services provided by governments to improve the overall quality of life."
+  },
+  {
+    "id": "q7",
+    "question": "What does 'public health' refer to?",
+    "options": [
+      "The health of elected officials",
+      "Organized efforts to prevent diseases and promote population health",
+      "Private healthcare insurance plans",
+      "Individual health choices"
+    ],
+    "correct_index": 1,
+    "explanation": "Public health refers to organized efforts aimed at preventing diseases and promoting the health of the entire population."
+  },
+  {
+    "id": "q8",
+    "question": "Which of these is a government responsibility in maintaining public health systems?",
+    "options": [
+      "Regulating private hospitals only",
+      "Implementing vaccination and disease prevention programs",
+      "Fundraising for medical research",
+      "Providing subsidies for health supplements"
+    ],
+    "correct_index": 1,
+    "explanation": "Implementing vaccination and disease prevention programs is a key government responsibility in maintaining public health systems."
+  },
+  {
+    "id": "q9",
+    "question": "In federal systems, what level of government manages regional affairs within individual states?",
+    "options": [
+      "National government",
+      "Local government",
+      "State government",
+      "International bodies"
+    ],
+    "correct_index": 2,
+    "explanation": "In federal systems, state governments manage regional affairs within individual states."
+  },
+  {
+    "id": "q10",
+    "question": "Which branch of a state government is responsible for making laws for the state?",
+    "options": [
+      "Executive",
+      "Judiciary",
+      "Legislature",
+      "Bureaucracy"
+    ],
+    "correct_index": 2,
+    "explanation": "The legislature is the branch of a state government responsible for making laws for the state."
+  },
+  {
+    "id": "q11",
+    "question": "The Executive branch of a state government is typically led by whom?",
+    "options": [
+      "Chief Justice",
+      "Speaker of the House",
+      "Governor",
+      "Chief Minister"
+    ],
+    "correct_index": 3,
+    "explanation": "The Executive branch is usually led by a Chief Minister and supported by ministers and various government departments."
+  },
+  {
+    "id": "q12",
+    "question": "What is the primary function of the Judiciary branch in a state government?",
+    "options": [
+      "Implementing policies",
+      "Drafting new laws",
+      "Interpreting laws and resolving legal disputes",
+      "Collecting taxes"
+    ],
+    "correct_index": 2,
+    "explanation": "The Judiciary interprets laws and resolves legal disputes, ensuring laws are applied fairly and rights are protected."
+  },
+  {
+    "id": "q13",
+    "question": "What is a proposed law called before it is officially enacted?",
+    "options": [
+      "An amendment",
+      "A decree",
+      "A bill",
+      "A statute"
+    ],
+    "correct_index": 2,
+    "explanation": "A proposed law is known as a bill during the law-making process."
+  },
+  {
+    "id": "q14",
+    "question": "Which of the following is typically NOT a stage in the law-making process?",
+    "options": [
+      "Identifying a public issue",
+      "Drafting a bill",
+      "Public endorsement of the bill by all citizens",
+      "Members of the legislature voting on the bill"
+    ],
+    "correct_index": 2,
+    "explanation": "While public opinion influences law-making, universal public endorsement of a bill by all citizens is not a formal stage in the legislative process."
+  },
+  {
+    "id": "q15",
+    "question": "What does the 'media' encompass in the context of democracy?",
+    "options": [
+      "Only newspapers and television",
+      "Institutions that gather and disseminate information to the public",
+      "Government propaganda channels",
+      "Private communication networks"
+    ],
+    "correct_index": 1,
+    "explanation": "The media encompasses institutions that gather and disseminate information to the public, including newspapers, television, radio, and digital platforms."
+  },
+  {
+    "id": "q16",
+    "question": "Which is a key role of the media in a democracy?",
+    "options": [
+      "Creating laws",
+      "Promoting government secrecy",
+      "Informing citizens about current events and government actions",
+      "Dictating public opinion"
+    ],
+    "correct_index": 2,
+    "explanation": "A key role of the media in a democracy is informing citizens about current events and government actions."
+  },
+  {
+    "id": "q17",
+    "question": "How does the media promote transparency in governance?",
+    "options": [
+      "By censoring information",
+      "By investigating and reporting on issues of public interest",
+      "By only publishing positive news",
+      "By creating complex jargon"
+    ],
+    "correct_index": 1,
+    "explanation": "The media promotes transparency in governance by investigating and reporting on issues of public interest."
+  },
+  {
+    "id": "q18",
+    "question": "Many media organizations rely on advertising revenue for funding. What is the primary goal of advertising?",
+    "options": [
+      "To reduce consumer choice",
+      "To promote products, services, or ideas to consumers",
+      "To discourage economic activity",
+      "To increase taxes on goods"
+    ],
+    "correct_index": 1,
+    "explanation": "Advertising aims to promote products, services, or ideas to consumers."
+  },
+  {
+    "id": "q19",
+    "question": "Advertising can influence consumer purchasing decisions. What else can it influence?",
+    "options": [
+      "Government policies directly",
+      "Public perceptions and attitudes",
+      "The laws of physics",
+      "International borders"
+    ],
+    "correct_index": 1,
+    "explanation": "Advertising can influence consumer purchasing decisions, as well as public perceptions and attitudes."
+  },
+  {
+    "id": "q20",
+    "question": "What are 'markets' in the context of economic exchange?",
+    "options": [
+      "Government-controlled rationing centers",
+      "Systems where buyers and sellers interact to exchange goods and services",
+      "Private clubs for wealthy individuals",
+      "Public parks and recreational areas"
+    ],
+    "correct_index": 1,
+    "explanation": "Markets are systems where buyers and sellers interact to exchange goods and services."
+  },
+  {
+    "id": "q21",
+    "question": "Which of the following is an example of a market?",
+    "options": [
+      "A legislative debate",
+      "A judicial hearing",
+      "A local weekly market",
+      "A public health clinic"
+    ],
+    "correct_index": 2,
+    "explanation": "A local weekly market is an example of a market where buyers and sellers interact."
+  },
+  {
+    "id": "q22",
+    "question": "What is a 'supply chain' in relation to goods?",
+    "options": [
+      "A list of government regulations",
+      "The route goods take from production to the consumer",
+      "A marketing campaign for a product",
+      "A consumer rights law"
+    ],
+    "correct_index": 1,
+    "explanation": "A supply chain refers to the stages goods go through from production to the consumer."
+  },
+  {
+    "id": "q23",
+    "question": "In a typical supply chain, which stage usually comes after the wholesaler?",
+    "options": [
+      "Producer",
+      "Retailer",
+      "Consumer",
+      "Manufacturer"
+    ],
+    "correct_index": 1,
+    "explanation": "In a common supply chain, the retailer stage usually comes after the wholesaler, before the consumer."
+  },
+  {
+    "id": "q24",
+    "question": "What is the purpose of consumer protections implemented by governments?",
+    "options": [
+      "To limit competition",
+      "To protect consumers from unsafe or misleading products",
+      "To increase the cost of goods",
+      "To favor large corporations"
+    ],
+    "correct_index": 1,
+    "explanation": "Governments implement regulations to protect consumers from unsafe or misleading products and ensure fair practices."
+  },
+  {
+    "id": "q25",
+    "question": "Why is civic awareness vital for effective participation in democratic life?",
+    "options": [
+      "It limits citizens' involvement to voting",
+      "It enables citizens to evaluate policies, participate meaningfully, and make informed choices",
+      "It ensures everyone agrees on government decisions",
+      "It reduces the need for media information"
+    ],
+    "correct_index": 1,
+    "explanation": "Civic awareness benefits citizens by enabling them to evaluate public policies, participate meaningfully in elections and civic discussions, and make well-informed economic choices."
+  }
+]

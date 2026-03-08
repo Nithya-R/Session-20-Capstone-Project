@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the definition of 'Society' as presented in the lesson?",
+    "options": [
+      "A group of people living in isolation.",
+      "A group of people living together and following shared rules and institutions.",
+      "A single individual making all decisions.",
+      "A collection of animals in a natural habitat."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson defines society as 'A group of people living together and following shared rules and institutions.'"
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is mentioned as a cause of diversity in India?",
+    "options": [
+      "Uniformity in religious beliefs",
+      "Same geographical landscapes",
+      "Different places (mountains, coasts)",
+      "Lack of historical movement"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that different places, like mountains and coasts, contribute to diversity."
+  },
+  {
+    "id": "q3",
+    "question": "What does 'Diversity' mean in the context of a society?",
+    "options": [
+      "Everyone being exactly the same.",
+      "The differences among people in a society.",
+      "A lack of any rules or institutions.",
+      "A society with only one language."
+    ],
+    "correct_index": 1,
+    "explanation": "Diversity is defined as 'The differences among people in a society.'"
+  },
+  {
+    "id": "q4",
+    "question": "What is 'Prejudice' according to the lesson?",
+    "options": [
+      "Forming a positive opinion based on deep knowledge.",
+      "Treating someone unfairly due to their background.",
+      "A fixed, oversimplified idea about a group of people.",
+      "Forming a negative opinion about someone without knowing them well."
+    ],
+    "correct_index": 3,
+    "explanation": "Prejudice is defined as 'Forming a negative opinion about someone or a group without knowing them well.'"
+  },
+  {
+    "id": "q5",
+    "question": "What is a 'Stereotype'?",
+    "options": [
+      "A detailed understanding of an individual's unique qualities.",
+      "A fixed, oversimplified idea about a group of people.",
+      "A fair assessment of a person's character.",
+      "A law that applies to everyone equally."
+    ],
+    "correct_index": 1,
+    "explanation": "Stereotypes are described as 'A fixed, oversimplified idea about a group of people that doesn't consider individual differences.'"
+  },
+  {
+    "id": "q6",
+    "question": "Discrimination is defined as:",
+    "options": [
+      "Treating everyone equally and fairly.",
+      "Treating someone unfairly because of who they are or their background.",
+      "Making decisions based on logical reasoning.",
+      "Participating in community meetings."
+    ],
+    "correct_index": 1,
+    "explanation": "Discrimination is the act of 'Treating someone unfairly because of who they are or their background.'"
+  },
+  {
+    "id": "q7",
+    "question": "What is the primary role of a 'Government'?",
+    "options": [
+      "To encourage individual isolation.",
+      "To manage a country or area by creating rules and making decisions.",
+      "To abolish all rules and institutions.",
+      "To promote prejudice and discrimination."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson defines government as 'The system and institutions that manage a country or area. They create rules, make decisions, and ensure things run smoothly.'"
+  },
+  {
+    "id": "q8",
+    "question": "Which of the following is NOT a key job of the government mentioned in the lesson?",
+    "options": [
+      "Keeping peace and order",
+      "Making laws",
+      "Ensuring no one ever disagrees",
+      "Protecting citizens and the country"
+    ],
+    "correct_index": 2,
+    "explanation": "While a government aims to maintain order, the lesson does not state that its job is to ensure no one ever disagrees. Its other listed jobs include keeping peace, making laws, and protecting citizens."
+  },
+  {
+    "id": "q9",
+    "question": "In a 'Democracy', how are leaders chosen?",
+    "options": [
+      "By birthright, like a king or queen.",
+      "By force or intimidation.",
+      "Citizens vote to choose leaders.",
+      "Leaders appoint themselves."
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that in a democracy, 'Citizens vote to choose leaders who make decisions for them.'"
+  },
+  {
+    "id": "q10",
+    "question": "What type of government is characterized by a king or queen ruling, with power often passed down in families?",
+    "options": [
+      "Democracy",
+      "Dictatorship",
+      "Monarchy",
+      "Oligarchy"
+    ],
+    "correct_index": 2,
+    "explanation": "A Monarchy is defined as a government where 'A king or queen rules. Power is often passed down in families.'"
+  },
+  {
+    "id": "q11",
+    "question": "Which country is explicitly mentioned as a Democracy in the lesson?",
+    "options": [
+      "United States",
+      "United Kingdom",
+      "India",
+      "China"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson explicitly states, 'India is a Democracy.'"
+  },
+  {
+    "id": "q12",
+    "question": "What is a key feature of a democratic system where everyone, including the government, must follow the laws?",
+    "options": [
+      "Citizen Participation",
+      "Accountability",
+      "Protection of Rights",
+      "Rule of Law"
+    ],
+    "correct_index": 3,
+    "explanation": "The 'Rule of Law' is defined as 'Everyone, including the government, must follow the laws.'"
+  },
+  {
+    "id": "q13",
+    "question": "Which democratic feature means the government must answer to the people?",
+    "options": [
+      "Regular Elections",
+      "Rule of Law",
+      "Accountability",
+      "Protection of Rights"
+    ],
+    "correct_index": 2,
+    "explanation": "'Accountability' is described as the government having to 'answer to the people.'"
+  },
+  {
+    "id": "q14",
+    "question": "What is 'Local Government' responsible for?",
+    "options": [
+      "Managing international relations.",
+      "Deciding national currency.",
+      "Managing issues in specific communities or areas.",
+      "Conducting space exploration."
+    ],
+    "correct_index": 2,
+    "explanation": "Local government's role is to 'Manages issues in specific communities or areas.'"
+  },
+  {
+    "id": "q15",
+    "question": "In villages, what is the local government system called?",
+    "options": [
+      "Municipal Corporation",
+      "Nagar Panchayat",
+      "Panchayati Raj system",
+      "Zilla Parishad"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that 'In villages, the local government is called the Panchayati Raj system.'"
+  },
+  {
+    "id": "q16",
+    "question": "Which of these is NOT one of the three levels of the Panchayati Raj system?",
+    "options": [
+      "Gram Panchayat",
+      "Panchayat Samiti",
+      "District Council",
+      "Zilla Parishad"
+    ],
+    "correct_index": 2,
+    "explanation": "The three levels are Gram Panchayat, Panchayat Samiti, and Zilla Parishad. 'District Council' is not listed as one of these levels."
+  },
+  {
+    "id": "q17",
+    "question": "What is a 'Municipal Corporation' typically responsible for?",
+    "options": [
+      "Village roads and water supply.",
+      "Managing the affairs of big cities.",
+      "Block-level development planning.",
+      "District-level revenue collection."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson specifies that 'Municipal Corporations' are 'For big cities.'"
+  },
+  {
+    "id": "q18",
+    "question": "Which type of urban local government is for areas transitioning from villages to towns?",
+    "options": [
+      "Municipal Council",
+      "Municipal Corporation",
+      "Nagar Panchayat",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "'Nagar Panchayats' are for 'areas that are changing from villages to towns.'"
+  },
+  {
+    "id": "q19",
+    "question": "What does 'Administration' refer to in the context of government?",
+    "options": [
+      "The elected representatives only.",
+      "Government officials who manage daily operations and implement policies.",
+      "The process of voting in elections.",
+      "Public protests and demonstrations."
+    ],
+    "correct_index": 1,
+    "explanation": "Administration is defined as 'government officials who manage daily operations, keep records, and help implement policies.'"
+  },
+  {
+    "id": "q20",
+    "question": "Which administrative official keeps track of who owns which land?",
+    "options": [
+      "Revenue Officer",
+      "Police Official",
+      "Land Record Official",
+      "Mayor"
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that 'Land Record Officials: Keep track of who owns which land.'"
+  },
+  {
+    "id": "q21",
+    "question": "What is a primary duty of the police?",
+    "options": [
+      "Making new laws.",
+      "Interpreting legal documents.",
+      "Enforcing laws and ensuring public safety.",
+      "Collecting taxes."
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states the police are crucial for 'public safety' and 'enforcing laws.'"
+  },
+  {
+    "id": "q22",
+    "question": "According to the lesson, what must police officers do while performing their duties?",
+    "options": [
+      "Ignore minor offenses.",
+      "Follow the law and respect everyone's rights.",
+      "Only respond to emergencies.",
+      "Make personal judgments about guilt."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson emphasizes that 'Police officers must follow the law and respect everyone's rights while doing their job.'"
+  },
+  {
+    "id": "q23",
+    "question": "What is 'Civic Participation'?",
+    "options": [
+      "A government's exclusive right to make decisions.",
+      "How citizens get involved in their community and country.",
+      "The act of paying taxes.",
+      "A system where citizens have no voice."
+    ],
+    "correct_index": 1,
+    "explanation": "Civic Participation is defined as 'How citizens get involved in their community and country.'"
+  },
+  {
+    "id": "q24",
+    "question": "Which of the following is a way citizens can participate civically?",
+    "options": [
+      "Ignoring local issues.",
+      "Sharing your views on important issues.",
+      "Avoiding community meetings.",
+      "Not following any laws."
+    ],
+    "correct_index": 1,
+    "explanation": "The lesson lists 'Sharing your views on important issues' as a way to participate civically."
+  },
+  {
+    "id": "q25",
+    "question": "Why is civic participation important for a government?",
+    "options": [
+      "It makes the government less responsive.",
+      "It gives the government more power to ignore citizens.",
+      "The government is more likely to listen and respond to citizen needs.",
+      "It reduces the need for laws."
+    ],
+    "correct_index": 2,
+    "explanation": "The lesson states that 'When citizens participate, the government is more likely to listen and respond to their needs.'"
+  }
+]

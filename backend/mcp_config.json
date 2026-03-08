@@ -1,0 +1,11 @@
+{
+    "rag_civic": {
+        "command": "uv",
+        "args": [
+            "run",
+            "mcp_servers/server_rag_civic.py"
+        ],
+        "type": "local-script",
+        "enabled": true
+    }
+}

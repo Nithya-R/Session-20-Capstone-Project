@@ -1,0 +1,68 @@
+# Level 5 Civics – The Union Parliament
+
+*(Understanding the supreme law-making body of India: The Sansad)*
+
+## 1. Introduction to Parliament
+
+The Union Parliament (Sansad) is the supreme law-making institution in India. It represents the people of India and embodies the principle of democracy. In a parliamentary system, the government is accountable to the parliament for its actions.
+
+The Parliament consists of:
+1. The **President of India**
+2. The **Lok Sabha** (House of the People)
+3. The **Rajya Sabha** (Council of States)
+
+---
+
+## 2. The Lok Sabha (Lower House)
+
+The Lok Sabha is the house where members are directly elected by the citizens of India.
+
+* **Composition**: Maximum strength is 543 elected members representing various constituencies.
+* **Election**: Based on Universal Adult Franchise (every citizen above 18 can vote).
+* **Term**: 5 years, but can be dissolved earlier.
+* **Presiding Officer**: The **Speaker**, elected from among the members.
+
+---
+
+## 3. The Rajya Sabha (Upper House)
+
+The Rajya Sabha represents the interests of the States and Union Territories of India.
+
+* **Composition**: 245 members. 233 are elected indirectly by members of State Legislative Assemblies.
+* **Nomination**: 12 members are nominated by the President for their expertise in Art, Literature, Science, or Social Service.
+* **Term**: It is a permanent house and cannot be dissolved. Each member serves for 6 years, with one-third of members retiring every two years.
+* **Presiding Officer**: The **Vice-President of India** is the ex-officio Chairman.
+
+---
+
+## 4. Functions of Parliament
+
+### Law-Making
+Parliament discusses and passes Bills (proposed laws). A Bill becomes an Act after it is passed by both Houses and receives the President's assent.
+
+### Financial Control
+Parliament controls the government's finances. The Budget must be presented and approved by the Parliament. Money Bills can only be introduced in the Lok Sabha.
+
+### Controlling the Executive
+Parliament keeps a check on the government through Question Hour, Zero Hour, and Debates. The Council of Ministers must resign if the Lok Sabha passes a "No-Confidence Motion."
+
+---
+
+## 5. The Law-Making Process
+
+Steps for a Bill to become a Law:
+1. **Introduction**: A bill is introduced in either house (except Money Bills).
+2. **Readings**: The bill undergoes three readings involving discussion and detailed clause-by-clause analysis.
+3. **Approval by Second House**: After passing the first house, it goes to the second house for' similar processing.
+4. **Presidential Assent**: The bill is sent to the President. Once signed, it becomes a Law (Act).
+
+---
+
+## 6. Key Ideas from Level 5 Civics
+
+After completing this level, learners should understand:
+* the structure of the Indian Parliament (Lok Sabha, Rajya Sabha, President)
+* the difference between direct and indirect representation
+* the specific roles and powers of the Speaker and the Chairman
+* how Parliament ensures the accountability of the government
+* the basic lifecycle of a law in India

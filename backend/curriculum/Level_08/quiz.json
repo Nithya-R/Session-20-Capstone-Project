@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary definition of Federalism in a system of government?",
+    "options": [
+      "A system where all power resides in a single central authority.",
+      "A system where power is divided between a central authority and constituent units.",
+      "A system where regional governments have absolute autonomy.",
+      "A system where citizens directly make all laws."
+    ],
+    "correct_index": 1,
+    "explanation": "Federalism is characterized by the division of power between a central government and regional or state governments."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is a key feature of federalism?",
+    "options": [
+      "A single, overarching tier of government.",
+      "Powers are exclusively held by the central government.",
+      "Each level of government has its own defined powers and responsibilities.",
+      "The constitution can be easily amended by any one level of government."
+    ],
+    "correct_index": 2,
+    "explanation": "A fundamental aspect of federalism is that each tier of government operates within its own constitutional jurisdiction, with defined powers."
+  },
+  {
+    "id": "q3",
+    "question": "In the Indian Constitution, which schedule categorizes subjects for law-making power division?",
+    "options": [
+      "The Fifth Schedule",
+      "The Seventh Schedule",
+      "The Ninth Schedule",
+      "The Tenth Schedule"
+    ],
+    "correct_index": 1,
+    "explanation": "The Seventh Schedule of the Indian Constitution specifically outlines the division of legislative powers between the Union and the States through various lists."
+  },
+  {
+    "id": "q4",
+    "question": "Subjects of national importance, on which only the Central Government can legislate, are typically found in which list?",
+    "options": [
+      "State List",
+      "Concurrent List",
+      "Union List",
+      "Residuary List"
+    ],
+    "correct_index": 2,
+    "explanation": "The Union List contains subjects of national importance where the Central Government has exclusive law-making authority."
+  },
+  {
+    "id": "q5",
+    "question": "Which of these is an example of a subject typically found in the Union List?",
+    "options": [
+      "Agriculture",
+      "Police",
+      "Banking",
+      "Local Government"
+    ],
+    "correct_index": 2,
+    "explanation": "Banking is considered a subject of national importance and falls under the exclusive legislative competence of the Central Government in the Union List."
+  },
+  {
+    "id": "q6",
+    "question": "Subjects of local and regional importance, where State Governments generally legislate, are included in which list?",
+    "options": [
+      "Union List",
+      "State List",
+      "Concurrent List",
+      "Residuary Powers"
+    ],
+    "correct_index": 1,
+    "explanation": "The State List comprises subjects that are primarily of regional concern and fall under the legislative jurisdiction of State Governments."
+  },
+  {
+    "id": "q7",
+    "question": "Which of the following is an example of a subject typically found in the State List?",
+    "options": [
+      "Currency",
+      "Foreign Affairs",
+      "Irrigation",
+      "Railways"
+    ],
+    "correct_index": 2,
+    "explanation": "Irrigation is a subject that directly impacts local needs and regional development, hence it is generally placed in the State List."
+  },
+  {
+    "id": "q8",
+    "question": "The Concurrent List includes subjects of interest to both the Union and the States. Who can legislate on these subjects?",
+    "options": [
+      "Only the Central Government",
+      "Only the State Governments",
+      "Both the Central Government and State Governments",
+      "Only the Judiciary"
+    ],
+    "correct_index": 2,
+    "explanation": "The Concurrent List allows for law-making by both the Union and State Governments, reflecting shared interests."
+  },
+  {
+    "id": "q9",
+    "question": "In case of a conflict between a Union law and a State law on a subject in the Concurrent List, which law prevails?",
+    "options": [
+      "The State law prevails",
+      "The Union law prevails",
+      "The law enacted later prevails",
+      "The law approved by the Supreme Court prevails"
+    ],
+    "correct_index": 1,
+    "explanation": "According to the principle of federalism regarding concurrent subjects, if there is an inconsistency between a Union law and a State law, the Union law shall prevail."
+  },
+  {
+    "id": "q10",
+    "question": "What happens to subjects not mentioned in the Union, State, or Concurrent Lists?",
+    "options": [
+      "They fall under residuary powers belonging to the State Governments.",
+      "They are not subject to any government legislation.",
+      "They fall under residuary powers belonging to the Central Government.",
+      "They are decided by local councils."
+    ],
+    "correct_index": 2,
+    "explanation": "Any subject that is not enumerated in any of the three lists is considered to fall under residuary powers, which are vested with the Central Government."
+  },
+  {
+    "id": "q11",
+    "question": "What significant change was introduced in India in 1992 to bring government closer to the people?",
+    "options": [
+      "Creation of a unicameral legislature",
+      "Introduction of a third tier of governance",
+      "Abolition of state governments",
+      "Strengthening of the Supreme Court's powers"
+    ],
+    "correct_index": 1,
+    "explanation": "In 1992, India amended its Constitution to introduce a third tier of local self-governance, namely Panchayati Raj institutions and Municipalities."
+  },
+  {
+    "id": "q12",
+    "question": "Which constitutional amendments in 1992 empowered local self-governance in rural and urban areas respectively?",
+    "options": [
+      "70th and 71st Amendments",
+      "72nd and 73rd Amendments",
+      "73rd and 74th Amendments",
+      "74th and 75th Amendments"
+    ],
+    "correct_index": 2,
+    "explanation": "The 73rd Amendment dealt with Panchayati Raj institutions in rural areas, and the 74th Amendment focused on Municipalities in urban areas, both enacted in 1992."
+  },
+  {
+    "id": "q13",
+    "question": "Panchayati Raj institutions are empowered to govern which type of areas?",
+    "options": [
+      "Urban areas",
+      "Metropolitan cities",
+      "Rural areas",
+      "Industrial zones"
+    ],
+    "correct_index": 2,
+    "explanation": "Panchayati Raj institutions are the cornerstone of rural local self-governance in India, established by the 73rd Constitutional Amendment."
+  },
+  {
+    "id": "q14",
+    "question": "Municipalities are empowered to govern which type of areas?",
+    "options": [
+      "Rural areas",
+      "Forest regions",
+      "Urban areas",
+      "Tribal districts"
+    ],
+    "correct_index": 2,
+    "explanation": "Municipalities, established by the 74th Constitutional Amendment, are responsible for local governance in urban areas."
+  },
+  {
+    "id": "q15",
+    "question": "What is the primary goal of decentralization through Panchayats and Municipalities?",
+    "options": [
+      "To increase the power of the central government",
+      "To concentrate decision-making at the national level",
+      "To encourage local participation and effective local governance",
+      "To reduce the number of elected officials"
+    ],
+    "correct_index": 2,
+    "explanation": "Decentralization aims to bring governance closer to the people, fostering local participation and improving the effectiveness of local administration."
+  },
+  {
+    "id": "q16",
+    "question": "Why is India often described as a \"quasi-federal\" system?",
+    "options": [
+      "Because it has a weak central government",
+      "Because the Central Government often holds more power than the States",
+      "Because it lacks any form of regional government",
+      "Because power is equally divided between the center and states without any exceptions"
+    ],
+    "correct_index": 1,
+    "explanation": "The term 'quasi-federal' is used because while India has a federal structure, the Central Government possesses significant powers that can sometimes overshadow state autonomy."
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following situations might lead to increased dominance of the Central Government in India's quasi-federal system?",
+    "options": [
+      "Routine administrative meetings",
+      "Normal economic growth",
+      "Periods of emergency",
+      "Local festival celebrations"
+    ],
+    "correct_index": 2,
+    "explanation": "During emergencies, the Central Government's powers are often significantly enhanced, reflecting the quasi-federal nature where the center can assert more control."
+  },
+  {
+    "id": "q18",
+    "question": "What does India's formal title, \"Union of States,\" signify?",
+    "options": [
+      "Absolute sovereignty of individual states",
+      "A loose confederation of independent states",
+      "A strong centralizing tendency within a federal framework",
+      "The absence of a central government"
+    ],
+    "correct_index": 2,
+    "explanation": "The title 'Union of States' suggests that the states are integrated into a larger union and implies a stronger centralizing inclination rather than a mere collection of independent entities."
+  },
+  {
+    "id": "q19",
+    "question": "What is the primary role of the Supreme Court of India within the federal system?",
+    "options": [
+      "To create new laws",
+      "To act as an umpire in disputes between the Centre and the States",
+      "To exclusively manage state finances",
+      "To interpret laws made only by state governments"
+    ],
+    "correct_index": 1,
+    "explanation": "The Supreme Court of India serves as the ultimate interpreter of the Constitution and plays a vital role in resolving disputes concerning the division of powers between the Union and the States."
+  },
+  {
+    "id": "q20",
+    "question": "How does the Supreme Court of India fulfill its role as an umpire in federalism?",
+    "options": [
+      "By directly appointing state officials",
+      "By legislating on subjects of national importance",
+      "By interpreting the Constitution to determine jurisdictional authority",
+      "By overriding all state laws without review"
+    ],
+    "correct_index": 2,
+    "explanation": "The Supreme Court interprets the Constitution to clarify which level of government has the legitimate authority over specific matters, thereby settling disputes that arise in the federal structure."
+  },
+  {
+    "id": "q21",
+    "question": "Federalism aims to balance which two important aspects of governance?",
+    "options": [
+      "Centralization and Dictatorship",
+      "National Unity and Regional Autonomy",
+      "Local Governance and International Relations",
+      "Economic Growth and Social Equality"
+    ],
+    "correct_index": 1,
+    "explanation": "Federalism is designed to maintain the unity and integrity of a nation while also respecting and preserving the autonomy of its constituent units."
+  },
+  {
+    "id": "q22",
+    "question": "Which of the following is NOT a characteristic of federalism?",
+    "options": [
+      "Multiple tiers of government",
+      "Constitutional division of powers",
+      "Flexible power distribution easily changeable by one level of government",
+      "Defined jurisdiction for each government level"
+    ],
+    "correct_index": 2,
+    "explanation": "A key feature of federalism is that the fundamental division of powers is entrenched in the constitution and cannot be easily altered by a single level of government."
+  },
+  {
+    "id": "q23",
+    "question": "The concept of 'Residuary Powers' means that the Central Government can legislate on:",
+    "options": [
+      "Subjects explicitly listed in the Union List.",
+      "Subjects explicitly listed in the State List.",
+      "Subjects explicitly listed in the Concurrent List.",
+      "Subjects not covered by any of the three lists."
+    ],
+    "correct_index": 3,
+    "explanation": "Residuary powers grant the Central Government the authority to make laws on any subject that has not been specifically assigned to the Union, State, or Concurrent Lists."
+  },
+  {
+    "id": "q24",
+    "question": "What is the main advantage of having a Concurrent List in a federal system like India's?",
+    "options": [
+      "It ensures absolute power for the states.",
+      "It allows for uniform national policies on certain issues while respecting regional needs.",
+      "It eliminates the need for a central government.",
+      "It makes it impossible for the central government to legislate."
+    ],
+    "correct_index": 1,
+    "explanation": "The Concurrent List provides a mechanism for cooperation and coordination between the Union and State governments on matters of shared importance, allowing for both national standards and local adaptation."
+  },
+  {
+    "id": "q25",
+    "question": "The term \"quasi-federal\" suggests a system that is:",
+    "options": [
+      "Purely federal with no central overreach.",
+      "A unitary system with no regional powers.",
+      "A blend of federal and unitary features, often with a strong central tendency.",
+      "A confederation with weak central authority."
+    ],
+    "correct_index": 2,
+    "explanation": "A quasi-federal system is a compromise, incorporating elements of both federalism and a unitary government, typically characterized by a stronger central government."
+  }
+]

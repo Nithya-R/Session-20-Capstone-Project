@@ -1,0 +1,61 @@
+# Level 7 Civics – The Indian Judicial System
+
+*(The branch of government that interprets laws and delivers justice)*
+
+## 1. Role of the Judiciary
+
+The Judiciary is an independent branch of government that interprets the Constitution and resolves disputes. Its main functions include:
+* **Dispute Resolution**: Between citizens, between states, or between citizens and the government.
+* **Judicial Review**: The power to cancel laws passed by Parliament if they violate the Constitution.
+* **Enforcing Rights**: Protecting the Fundamental Rights of citizens.
+
+---
+
+## 2. Independence of the Judiciary
+
+In India, the Judiciary is **independent**. This means:
+* The Legislature and Executive cannot interfere in the work of the courts.
+* Judges are appointed based on merit and cannot be easily removed by politicians.
+* This independence ensures that the "Rule of Law" is maintained and no one is above the law.
+
+---
+
+## 3. Structure of Courts in India
+
+India has a **unified judicial system**, meaning decisions made by higher courts are binding on lower courts.
+
+### Supreme Court of India
+The highest court, located in New Delhi. It is headed by the **Chief Justice of India (CJI)**. Its decisions are final and applicable to the entire country.
+
+### High Courts
+The highest judicial body at the State level. Currently, there are 25 High Courts in India.
+
+### District and Subordinate Courts
+Courts at the district or tehsil level where most people first go for justice. They deal with local civil and criminal cases.
+
+---
+
+## 4. Criminal vs. Civil Law
+
+The legal system is divided into two main branches:
+
+**Criminal Law**: Deals with conduct defined as offenses against the state or society (e.g., theft, murder, harassment). It usually begins with an FIR (First Information Report) at a police station.
+
+**Civil Law**: Deals with disputes related to the rights of individuals (e.g., land disputes, rent matters, divorce, contract breaches). A petition is filed in the relevant court by the affected party.
+
+---
+
+## 5. Public Interest Litigation (PIL)
+
+A unique feature of the Indian system is the PIL. It allows any individual or organization to file a case on behalf of others who cannot reach the court (e.g., the poor or marginalized). This has made justice more accessible to common people.
+
+---
+
+## 6. Key Ideas from Level 7 Civics
+
+After completing this level, learners should understand:
+* why an independent judiciary is vital for democracy
+* the hierarchy of the Indian court system (Supreme, High, District)
+* the power of Judicial Review as a check on other branches
+* the difference between criminal and civil cases
+* how PIL has expanded access to justice in India

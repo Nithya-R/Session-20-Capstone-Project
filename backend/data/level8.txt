@@ -1,0 +1,64 @@
+# Level 8 Civics – Federalism and the Division of Powers
+
+*(Understanding how power is shared between the Centre and the States)*
+
+## 1. What is Federalism?
+
+Federalism is a system of government where power is divided between a central authority (the Union) and various constituent units (the States). In India, we have a federal system that ensures both national unity and regional autonomy.
+
+Key features of federalism:
+* Two or more levels (tiers) of government.
+* Each level has its own power (jurisdiction) defined by the Constitution.
+* No level can unilaterally change the fundamental structure of power.
+
+---
+
+## 2. The Three Lists: Division of Powers
+
+The Seventh Schedule of the Constitution divides the power to make laws into three lists:
+
+### Union List
+Includes subjects of national importance. Only the Central Government can make laws on these.
+* *Examples*: Defense, Foreign Affairs, Banking, Railways, Currency.
+
+### State List
+Includes subjects of local and regional importance. Generally, only State Governments make laws on these.
+* *Examples*: Police, Agriculture, Trade, Irrigation, Local Government.
+
+### Concurrent List
+Includes subjects where both the Centre and States can make laws. If their laws conflict, the Central law prevails.
+* *Examples*: Education, Forest, Marriage, Adoption, Trade Unions.
+
+*Note: Subjects not in any list (Residuary Powers) belong to the Central Government.*
+
+---
+
+## 3. Decentralization: The Third Tier
+
+In 1992, India added a third tier of governance through the 73rd and 74th Amendments.
+* **Rural areas**: Panchayati Raj.
+* **Urban areas**: Municipalities.
+This was done to bring power closer to the people and encourage local participation.
+
+---
+
+## 4. Why India is "Quasi-Federal"
+
+While India is federal, the Central Government holds more power in certain areas (e.g., during emergencies or when state laws conflict with central ones). This is why constitutional experts often call India a **"Union of States"** with a strong centralizing tendency.
+
+---
+
+## 5. Role of the Judiciary in Federalism
+
+If a dispute arises between the Centre and a State regarding their powers, the **Supreme Court** acts as an umpire. It interprets the Constitution to decide which level of government has the authority over a particular issue.
+
+---
+
+## 6. Key Ideas from Level 8 Civics
+
+After completing this level, learners should understand:
+* the basic definition and purpose of federalism
+* how the three lists (Union, State, Concurrent) divide law-making powers
+* the significance of the 1992 decentralization (Panchayats and Municipalities)
+* why the Central Government is often stronger in the Indian system
+* the Supreme Court's role in maintaining the federal balance

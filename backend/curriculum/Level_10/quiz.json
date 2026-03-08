@@ -1,0 +1,304 @@
+[
+  {
+    "id": "q1",
+    "question": "What does decentralization mean in the context of the Panchayati Raj System?",
+    "options": [
+      "Transferring power from local bodies to the Central and State governments",
+      "Taking power away from the Central and State governments and giving it to local bodies",
+      "Centralizing all governmental functions at the national level",
+      "Delegating all governmental functions to private entities"
+    ],
+    "correct_index": 1,
+    "explanation": "Decentralization means taking power away from the Central and State governments and giving it to local bodies, ensuring that people have a direct say in decisions that affect their daily lives."
+  },
+  {
+    "id": "q2",
+    "question": "Which of the following is the primary unit of governance in the Panchayati Raj System?",
+    "options": [
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Panchayat",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The primary unit of governance in the Panchayati Raj System is the Gram Panchayat, which is the primary unit of governance."
+  },
+  {
+    "id": "q3",
+    "question": "What is the role of the Gram Sabha in the Panchayati Raj System?",
+    "options": [
+      "Constructing and maintaining village roads",
+      "Levying and collecting local taxes",
+      "Approving the annual budget of the Panchayat",
+      "Executing government schemes related to employment"
+    ],
+    "correct_index": 2,
+    "explanation": "The Gram Sabha is the assembly of all adults living in a village and its role includes approving the annual budget of the Panchayat."
+  },
+  {
+    "id": "q4",
+    "question": "Which of the following is a key function of the Panchayati Raj System?",
+    "options": [
+      "Interpreting laws",
+      "Constructing and maintaining village roads",
+      "Reviewing laws",
+      "Making laws"
+    ],
+    "correct_index": 1,
+    "explanation": "Panchayats are responsible for constructing and maintaining village roads, water sources, and schools, among other functions."
+  },
+  {
+    "id": "q5",
+    "question": "What is the minimum percentage of seats reserved for women in the Panchayati Raj System?",
+    "options": [
+      "10%",
+      "25%",
+      "33%",
+      "50%"
+    ],
+    "correct_index": 2,
+    "explanation": "At least one-third (33%) of all seats and chairperson positions are reserved for women in the Panchayati Raj System."
+  },
+  {
+    "id": "q6",
+    "question": "Which of the following is a source of funds for the Panchayati Raj System?",
+    "options": [
+      "Foreign aid",
+      "Government grants from the State and Centre",
+      "Private investments",
+      "Corporate donations"
+    ],
+    "correct_index": 1,
+    "explanation": "Sources of funds for the Panchayati Raj System include government grants from the State and Centre, among other sources."
+  },
+  {
+    "id": "q7",
+    "question": "What is the historical significance of the 73rd Amendment Act of 1992?",
+    "options": [
+      "It abolished the Panchayati Raj System",
+      "It strengthened the Panchayati Raj System",
+      "It introduced direct elections to the Lok Sabha",
+      "It centralized the governance structure"
+    ],
+    "correct_index": 1,
+    "explanation": "The 73rd Amendment Act of 1992 strengthened the Panchayati Raj System, providing a legal framework for local self-government."
+  },
+  {
+    "id": "q8",
+    "question": "Which tier of the Panchayati Raj System is responsible for making developmental plans for the entire district?",
+    "options": [
+      "Gram Panchayat",
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The Zilla Parishad, the highest tier at the district level, is responsible for making developmental plans for the entire district."
+  },
+  {
+    "id": "q9",
+    "question": "What is the primary role of the Executive branch?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Reviewing laws"
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch is responsible for implementing and enforcing the laws passed by the legislature."
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following is a key idea from Level 10 Civics related to the Panchayati Raj System?",
+    "options": [
+      "The historical significance of the 73rd Amendment",
+      "The difference between Gram Sabha and Gram Panchayat",
+      "How the three tiers of rural governance coordinate with each other",
+      "The financial sources that power village development",
+      "How reservations have changed the social landscape of rural leadership"
+    ],
+    "correct_index": 0,
+    "explanation": "After completing this level, learners should understand the historical significance of the 73rd Amendment, among other key ideas."
+  },
+  {
+    "id": "q11",
+    "question": "What is the primary unit of governance in the Panchayati Raj System?",
+    "options": [
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Panchayat",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The primary unit of governance in the Panchayati Raj System is the Gram Panchayat."
+  },
+  {
+    "id": "q12",
+    "question": "Which of the following is a key function of the Panchayati Raj System?",
+    "options": [
+      "Interpreting laws",
+      "Constructing and maintaining village roads",
+      "Reviewing laws",
+      "Making laws"
+    ],
+    "correct_index": 1,
+    "explanation": "Panchayats are responsible for constructing and maintaining village roads, water sources, and schools, among other functions."
+  },
+  {
+    "id": "q13",
+    "question": "What is the minimum percentage of seats reserved for women in the Panchayati Raj System?",
+    "options": [
+      "10%",
+      "25%",
+      "33%",
+      "50%"
+    ],
+    "correct_index": 2,
+    "explanation": "At least one-third (33%) of all seats and chairperson positions are reserved for women in the Panchayati Raj System."
+  },
+  {
+    "id": "q14",
+    "question": "Which of the following is a source of funds for the Panchayati Raj System?",
+    "options": [
+      "Foreign aid",
+      "Government grants from the State and Centre",
+      "Private investments",
+      "Corporate donations"
+    ],
+    "correct_index": 1,
+    "explanation": "Sources of funds for the Panchayati Raj System include government grants from the State and Centre, among other sources."
+  },
+  {
+    "id": "q15",
+    "question": "What is the historical significance of the 73rd Amendment Act of 1992?",
+    "options": [
+      "It abolished the Panchayati Raj System",
+      "It strengthened the Panchayati Raj System",
+      "It introduced direct elections to the Lok Sabha",
+      "It centralized the governance structure"
+    ],
+    "correct_index": 1,
+    "explanation": "The 73rd Amendment Act of 1992 strengthened the Panchayati Raj System, providing a legal framework for local self-government."
+  },
+  {
+    "id": "q16",
+    "question": "Which tier of the Panchayati Raj System is responsible for making developmental plans for the entire district?",
+    "options": [
+      "Gram Panchayat",
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The Zilla Parishad, the highest tier at the district level, is responsible for making developmental plans for the entire district."
+  },
+  {
+    "id": "q17",
+    "question": "What is the primary role of the Executive branch?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Reviewing laws"
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch is responsible for implementing and enforcing the laws passed by the legislature."
+  },
+  {
+    "id": "q18",
+    "question": "Which of the following is a key idea from Level 10 Civics related to the Panchayati Raj System?",
+    "options": [
+      "The historical significance of the 73rd Amendment",
+      "The difference between Gram Sabha and Gram Panchayat",
+      "How the three tiers of rural governance coordinate with each other",
+      "The financial sources that power village development",
+      "How reservations have changed the social landscape of rural leadership"
+    ],
+    "correct_index": 0,
+    "explanation": "After completing this level, learners should understand the historical significance of the 73rd Amendment, among other key ideas."
+  },
+  {
+    "id": "q19",
+    "question": "What is the primary unit of governance in the Panchayati Raj System?",
+    "options": [
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Panchayat",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The primary unit of governance in the Panchayati Raj System is the Gram Panchayat."
+  },
+  {
+    "id": "q20",
+    "question": "Which of the following is a key function of the Panchayati Raj System?",
+    "options": [
+      "Interpreting laws",
+      "Constructing and maintaining village roads",
+      "Reviewing laws",
+      "Making laws"
+    ],
+    "correct_index": 1,
+    "explanation": "Panchayats are responsible for constructing and maintaining village roads, water sources, and schools, among other functions."
+  },
+  {
+    "id": "q21",
+    "question": "What is the minimum percentage of seats reserved for women in the Panchayati Raj System?",
+    "options": [
+      "10%",
+      "25%",
+      "33%",
+      "50%"
+    ],
+    "correct_index": 2,
+    "explanation": "At least one-third (33%) of all seats and chairperson positions are reserved for women in the Panchayati Raj System."
+  },
+  {
+    "id": "q22",
+    "question": "Which of the following is a source of funds for the Panchayati Raj System?",
+    "options": [
+      "Foreign aid",
+      "Government grants from the State and Centre",
+      "Private investments",
+      "Corporate donations"
+    ],
+    "correct_index": 1,
+    "explanation": "Sources of funds for the Panchayati Raj System include government grants from the State and Centre, among other sources."
+  },
+  {
+    "id": "q23",
+    "question": "What is the historical significance of the 73rd Amendment Act of 1992?",
+    "options": [
+      "It abolished the Panchayati Raj System",
+      "It strengthened the Panchayati Raj System",
+      "It introduced direct elections to the Lok Sabha",
+      "It centralized the governance structure"
+    ],
+    "correct_index": 1,
+    "explanation": "The 73rd Amendment Act of 1992 strengthened the Panchayati Raj System, providing a legal framework for local self-government."
+  },
+  {
+    "id": "q24",
+    "question": "Which tier of the Panchayati Raj System is responsible for making developmental plans for the entire district?",
+    "options": [
+      "Gram Panchayat",
+      "Panchayat Samiti",
+      "Zilla Parishad",
+      "Gram Sabha"
+    ],
+    "correct_index": 2,
+    "explanation": "The Zilla Parishad, the highest tier at the district level, is responsible for making developmental plans for the entire district."
+  },
+  {
+    "id": "q25",
+    "question": "What is the primary role of the Executive branch?",
+    "options": [
+      "Making laws",
+      "Interpreting laws",
+      "Implementing laws",
+      "Reviewing laws"
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch is responsible for implementing and enforcing the laws passed by the legislature."
+  }
+]

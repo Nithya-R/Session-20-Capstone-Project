@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary meaning of the term 'marginalization'?",
+    "options": [
+      "Being at the center of society",
+      "Being forced to the fringes of society",
+      "Being equally represented in society",
+      "Being given special privileges"
+    ],
+    "correct_index": 1,
+    "explanation": "Marginalization means being forced to the fringes of society, often with less access to resources, education, and power."
+  },
+  {
+    "id": "q2",
+    "question": "Which group is historically marginalized in India according to the lesson?",
+    "options": [
+      "Adivasis",
+      "Dalits",
+      "Religious minorities",
+      "Women"
+    ],
+    "correct_index": 0,
+    "explanation": "Adivasis, Dalits, religious minorities, and women are historically marginalized groups in India."
+  },
+  {
+    "id": "q3",
+    "question": "What does Article 17 of the Indian Constitution formally abolish?",
+    "options": [
+      "Untouchability",
+      "Discrimination",
+      "Reservation",
+      "Affirmative Action"
+    ],
+    "correct_index": 0,
+    "explanation": "Article 17 of the Indian Constitution formally abolished 'Untouchability' and made its practice a punishable crime."
+  },
+  {
+    "id": "q4",
+    "question": "What is the purpose of the reservation policy in India?",
+    "options": [
+      "To provide opportunities to those historically denied them",
+      "To ensure equal representation in all sectors",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "The purpose of the reservation policy is to provide opportunities to those who were historically denied them."
+  },
+  {
+    "id": "q5",
+    "question": "Which of the following is a form of affirmative action mentioned in the lesson?",
+    "options": [
+      "Reservation",
+      "Scholarships",
+      "Hostel facilities",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 0,
+    "explanation": "Reservation is a form of affirmative action mentioned in the lesson."
+  },
+  {
+    "id": "q6",
+    "question": "What is the primary reason for the policy of reservation?",
+    "options": [
+      "To provide opportunities to marginalized groups",
+      "To ensure all sections of society have a voice in decision-making",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 1,
+    "explanation": "The primary reason for the policy of reservation is to ensure that all sections of society have a voice in decision-making."
+  },
+  {
+    "id": "q7",
+    "question": "Which group is described as 'original inhabitants' in the lesson?",
+    "options": [
+      "Adivasis",
+      "Dalits",
+      "Religious minorities",
+      "Women"
+    ],
+    "correct_index": 0,
+    "explanation": "Adivasis are described as 'original inhabitants' in the lesson."
+  },
+  {
+    "id": "q8",
+    "question": "What is the Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act aimed at?",
+    "options": [
+      "Prohibiting discrimination",
+      "Formally abolishing Untouchability",
+      "Punishing those who humiliate or ill-treat marginalized communities",
+      "Providing scholarships to students from marginalized backgrounds"
+    ],
+    "correct_index": 2,
+    "explanation": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act is aimed at punishing those who humiliate or ill-treat these communities."
+  },
+  {
+    "id": "q9",
+    "question": "Which of the following is a specific challenge faced by Adivasis according to the lesson?",
+    "options": [
+      "Historical treatment as untouchables",
+      "Denial of access to education",
+      "Displacement and loss of traditional livelihoods due to industrialization and mining",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 2,
+    "explanation": "Adivasis face the challenge of displacement and loss of traditional livelihoods due to industrialization and mining."
+  },
+  {
+    "id": "q10",
+    "question": "What is the role of scholarships in achieving social justice?",
+    "options": [
+      "To provide opportunities to students from marginalized backgrounds",
+      "To ensure equal representation in all sectors",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "Scholarships are aimed at providing opportunities to students from marginalized backgrounds."
+  },
+  {
+    "id": "q11",
+    "question": "Which of the following is a specific law mentioned in the lesson that seeks to protect the dignity of citizens?",
+    "options": [
+      "Article 15",
+      "Article 17",
+      "The 1989 Atrocities Act",
+      "Reservation policy"
+    ],
+    "correct_index": 2,
+    "explanation": "The 1989 Atrocities Act is a specific law mentioned in the lesson that seeks to protect the dignity of citizens."
+  },
+  {
+    "id": "q12",
+    "question": "What is the primary role of the reservation system in India?",
+    "options": [
+      "To provide opportunities to those historically denied them",
+      "To ensure equal representation in all sectors",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "The primary role of the reservation system is to provide opportunities to those who were historically denied them."
+  },
+  {
+    "id": "q13",
+    "question": "Which of the following is a specific challenge faced by Dalits according to the lesson?",
+    "options": [
+      "Historical treatment as untouchables",
+      "Denial of access to education",
+      "Displacement and loss of traditional livelihoods due to industrialization and mining",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 0,
+    "explanation": "Dalits face the challenge of historical treatment as untouchables."
+  },
+  {
+    "id": "q14",
+    "question": "What is the purpose of the 1989 Act mentioned in the lesson?",
+    "options": [
+      "Prohibiting discrimination",
+      "Formally abolishing Untouchability",
+      "Punishing those who humiliate or ill-treat marginalized communities",
+      "Providing scholarships to students from marginalized backgrounds"
+    ],
+    "correct_index": 2,
+    "explanation": "The 1989 Act is aimed at punishing those who humiliate or ill-treat marginalized communities."
+  },
+  {
+    "id": "q15",
+    "question": "Which of the following is a form of affirmative action mentioned in the lesson?",
+    "options": [
+      "Reservation",
+      "Scholarships",
+      "Hostel facilities",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 0,
+    "explanation": "Reservation is a form of affirmative action mentioned in the lesson."
+  },
+  {
+    "id": "q16",
+    "question": "What is the primary reason for the policy of reservation?",
+    "options": [
+      "To provide opportunities to marginalized groups",
+      "To ensure all sections of society have a voice in decision-making",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "The primary reason for the policy of reservation is to provide opportunities to marginalized groups."
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following is a specific challenge faced by Adivasis according to the lesson?",
+    "options": [
+      "Historical treatment as untouchables",
+      "Denial of access to education",
+      "Displacement and loss of traditional livelihoods due to industrialization and mining",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 2,
+    "explanation": "Adivasis face the challenge of displacement and loss of traditional livelihoods due to industrialization and mining."
+  },
+  {
+    "id": "q18",
+    "question": "What is the role of scholarships in achieving social justice?",
+    "options": [
+      "To provide opportunities to students from marginalized backgrounds",
+      "To ensure equal representation in all sectors",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "Scholarships are aimed at providing opportunities to students from marginalized backgrounds."
+  },
+  {
+    "id": "q19",
+    "question": "Which of the following is a specific law mentioned in the lesson that seeks to protect the dignity of citizens?",
+    "options": [
+      "Article 15",
+      "Article 17",
+      "The 1989 Atrocities Act",
+      "Reservation policy"
+    ],
+    "correct_index": 2,
+    "explanation": "The 1989 Atrocities Act is a specific law mentioned in the lesson that seeks to protect the dignity of citizens."
+  },
+  {
+    "id": "q20",
+    "question": "What is the primary role of the reservation system in India?",
+    "options": [
+      "To provide opportunities to those historically denied them",
+      "To ensure equal representation in all sectors",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "The primary role of the reservation system is to provide opportunities to those who were historically denied them."
+  },
+  {
+    "id": "q21",
+    "question": "Which of the following is a specific challenge faced by Dalits according to the lesson?",
+    "options": [
+      "Historical treatment as untouchables",
+      "Denial of access to education",
+      "Displacement and loss of traditional livelihoods due to industrialization and mining",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 0,
+    "explanation": "Dalits face the challenge of historical treatment as untouchables."
+  },
+  {
+    "id": "q22",
+    "question": "What is the purpose of the 1989 Act mentioned in the lesson?",
+    "options": [
+      "Prohibiting discrimination",
+      "Formally abolishing Untouchability",
+      "Punishing those who humiliate or ill-treat marginalized communities",
+      "Providing scholarships to students from marginalized backgrounds"
+    ],
+    "correct_index": 2,
+    "explanation": "The 1989 Act is aimed at punishing those who humiliate or ill-treat marginalized communities."
+  },
+  {
+    "id": "q23",
+    "question": "Which of the following is a form of affirmative action mentioned in the lesson?",
+    "options": [
+      "Reservation",
+      "Scholarships",
+      "Hostel facilities",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 0,
+    "explanation": "Reservation is a form of affirmative action mentioned in the lesson."
+  },
+  {
+    "id": "q24",
+    "question": "What is the primary reason for the policy of reservation?",
+    "options": [
+      "To provide opportunities to marginalized groups",
+      "To ensure all sections of society have a voice in decision-making",
+      "To abolish discrimination",
+      "To punish those who humiliate or ill-treat marginalized communities"
+    ],
+    "correct_index": 0,
+    "explanation": "The primary reason for the policy of reservation is to provide opportunities to marginalized groups."
+  },
+  {
+    "id": "q25",
+    "question": "Which of the following is a specific challenge faced by Adivasis according to the lesson?",
+    "options": [
+      "Historical treatment as untouchables",
+      "Denial of access to education",
+      "Displacement and loss of traditional livelihoods due to industrialization and mining",
+      "Special funding for small businesses"
+    ],
+    "correct_index": 2,
+    "explanation": "Adivasis face the challenge of displacement and loss of traditional livelihoods due to industrialization and mining."
+  }
+]

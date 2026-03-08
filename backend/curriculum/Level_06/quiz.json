@@ -1,0 +1,302 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the primary role of the Union Executive in India?",
+    "options": [
+      "To make laws for the country.",
+      "To interpret the meaning of laws.",
+      "To implement laws and manage the country's daily affairs.",
+      "To conduct elections for the Parliament."
+    ],
+    "correct_index": 2,
+    "explanation": "The Executive branch is responsible for implementing and enforcing the laws passed by the legislature and overseeing the day-to-day administration."
+  },
+  {
+    "id": "q2",
+    "question": "In India's Parliamentary Executive system, who is the head of the government?",
+    "options": [
+      "The President",
+      "The Prime Minister",
+      "The Chief Justice of India",
+      "The Speaker of the Lok Sabha"
+    ],
+    "correct_index": 1,
+    "explanation": "In a Parliamentary Executive system, the Prime Minister is the head of government and leads the administration."
+  },
+  {
+    "id": "q3",
+    "question": "Who is considered the ceremonial head of the nation and the first citizen of India?",
+    "options": [
+      "The Prime Minister",
+      "The Chief Minister of a state",
+      "The President",
+      "The Vice-President"
+    ],
+    "correct_index": 2,
+    "explanation": "The President of India holds the highest office and is known as the Head of State and the first citizen."
+  },
+  {
+    "id": "q4",
+    "question": "The President of India exercises their powers largely based on the advice of whom?",
+    "options": [
+      "The Supreme Court",
+      "The Parliament",
+      "The Prime Minister and the Council of Ministers",
+      "The Election Commission"
+    ],
+    "correct_index": 2,
+    "explanation": "While the President has significant powers on paper, most are exercised based on the advice of the Prime Minister and the Council of Ministers."
+  },
+  {
+    "id": "q5",
+    "question": "How is the President of India elected?",
+    "options": [
+      "Directly by the citizens",
+      "By a lottery system",
+      "Indirectly by an Electoral College",
+      "By appointment from the Parliament"
+    ],
+    "correct_index": 2,
+    "explanation": "The President is elected indirectly by an Electoral College composed of Members of Parliament and Members of the Legislative Assembly."
+  },
+  {
+    "id": "q6",
+    "question": "What is the term of office for the President of India?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correct_index": 1,
+    "explanation": "The President of India serves a term of 5 years."
+  },
+  {
+    "id": "q7",
+    "question": "Who is the Supreme Commander of the Armed Forces in India?",
+    "options": [
+      "The Prime Minister",
+      "The Defense Minister",
+      "The President",
+      "The Chief of Army Staff"
+    ],
+    "correct_index": 2,
+    "explanation": "The President of India is the Supreme Commander of the Armed Forces."
+  },
+  {
+    "id": "q8",
+    "question": "How is the Prime Minister of India appointed?",
+    "options": [
+      "Elected directly by the people",
+      "Appointed by the President after winning a majority in the Lok Sabha",
+      "Chosen by the Council of Ministers",
+      "Nominated by the opposition party"
+    ],
+    "correct_index": 1,
+    "explanation": "The President appoints the leader of the political party that has won a majority of seats in the Lok Sabha as the Prime Minister."
+  },
+  {
+    "id": "q9",
+    "question": "The Prime Minister is considered the most powerful person in the Indian political system because they are the:",
+    "options": [
+      "Head of State",
+      "Head of the Judiciary",
+      "Head of Government",
+      "Chief Legal Advisor"
+    ],
+    "correct_index": 2,
+    "explanation": "The Prime Minister is the Head of Government and leads the country's administration, making them the most powerful political leader."
+  },
+  {
+    "id": "q10",
+    "question": "What is the primary function of the Council of Ministers?",
+    "options": [
+      "To interpret laws",
+      "To advise the Prime Minister and manage government departments",
+      "To elect the President",
+      "To appoint judges to the Supreme Court"
+    ],
+    "correct_index": 1,
+    "explanation": "The Council of Ministers advises the PM and is responsible for managing different government departments."
+  },
+  {
+    "id": "q11",
+    "question": "Which of the following is a rank within the Council of Ministers?",
+    "options": [
+      "Deputy President",
+      "Minister of State",
+      "Senior Judge",
+      "Ambassador"
+    ],
+    "correct_index": 1,
+    "explanation": "Minister of State is a rank within the Council of Ministers."
+  },
+  {
+    "id": "q12",
+    "question": "Cabinet Ministers are senior politicians in charge of what?",
+    "options": [
+      "The judiciary",
+      "The armed forces",
+      "The most important government ministries",
+      "Local government administration"
+    ],
+    "correct_index": 2,
+    "explanation": "Cabinet Ministers are senior politicians responsible for the most important government ministries like Home Affairs, Defense, and Finance."
+  },
+  {
+    "id": "q13",
+    "question": "What does 'collective responsibility' mean for the Council of Ministers?",
+    "options": [
+      "Each minister is solely responsible for their department.",
+      "The Council of Ministers must resign if the Lok Sabha passes a no-confidence vote against any part of the government.",
+      "Ministers can only be removed by the President.",
+      "Ministers are responsible only to the Prime Minister."
+    ],
+    "correct_index": 1,
+    "explanation": "Collective responsibility means the entire Council of Ministers must resign if the Lok Sabha passes a vote of no-confidence against the government."
+  },
+  {
+    "id": "q14",
+    "question": "If the Lok Sabha passes a vote of no-confidence, what must happen to the Council of Ministers?",
+    "options": [
+      "The Prime Minister must resign.",
+      "Only the minister who lost the confidence must resign.",
+      "The entire Council of Ministers must resign.",
+      "The President must dissolve Parliament."
+    ],
+    "correct_index": 2,
+    "explanation": "Under collective responsibility, if a no-confidence vote is passed, the entire Council of Ministers must resign."
+  },
+  {
+    "id": "q15",
+    "question": "Who makes up the 'Permanent Executive' in India?",
+    "options": [
+      "Elected Members of Parliament",
+      "Civil servants with specialized knowledge",
+      "Judges of the Supreme Court",
+      "Political party leaders"
+    ],
+    "correct_index": 1,
+    "explanation": "The Permanent Executive is made up of civil servants, such as those in the IAS and IPS, who provide continuity to the government."
+  },
+  {
+    "id": "q16",
+    "question": "What is the main advantage of having a Permanent Executive?",
+    "options": [
+      "It ensures that government policies change frequently.",
+      "It provides continuity and smooth functioning of government regardless of political changes.",
+      "It guarantees that only experienced politicians are in charge.",
+      "It allows for faster decision-making during crises."
+    ],
+    "correct_index": 1,
+    "explanation": "Civil servants in the Permanent Executive provide continuity to the government and ensure that work continues smoothly regardless of which political party is in power."
+  },
+  {
+    "id": "q17",
+    "question": "Which of the following is NOT a part of the Union Executive as described in the lesson?",
+    "options": [
+      "The President",
+      "The Prime Minister",
+      "The Attorney General of India",
+      "The Chief Justice of India"
+    ],
+    "correct_index": 3,
+    "explanation": "The Chief Justice of India is the head of the judiciary, not a part of the Union Executive. The Union Executive includes the President, Vice-President, PM, Council of Ministers, and Attorney General."
+  },
+  {
+    "id": "q18",
+    "question": "What is the main role of the legislature in relation to the executive branch?",
+    "options": [
+      "To implement the laws.",
+      "To interpret the constitution.",
+      "To pass the laws that the executive branch implements.",
+      "To directly manage government departments."
+    ],
+    "correct_index": 2,
+    "explanation": "The legislature passes the laws, which are then implemented by the executive branch."
+  },
+  {
+    "id": "q19",
+    "question": "The President's power to grant pardons is an example of which type of power?",
+    "options": [
+      "Legislative power",
+      "Judicial power",
+      "Executive power",
+      "Constitutional power"
+    ],
+    "correct_index": 2,
+    "explanation": "The power to grant pardons is an executive power held by the President."
+  },
+  {
+    "id": "q20",
+    "question": "The Prime Minister is the main communication link between which two bodies?",
+    "options": [
+      "President and the Judiciary",
+      "President and the Cabinet",
+      "Parliament and the Supreme Court",
+      "Lok Sabha and the Rajya Sabha"
+    ],
+    "correct_index": 1,
+    "explanation": "The Prime Minister acts as the main communication link between the President and the Cabinet."
+  },
+  {
+    "id": "q21",
+    "question": "If a minister is in charge of the Ministry of Finance, they are most likely a:",
+    "options": [
+      "Minister of State",
+      "Cabinet Minister",
+      "Secretary",
+      "Attorney General"
+    ],
+    "correct_index": 1,
+    "explanation": "The Ministry of Finance is considered one of the most important ministries, and thus its head is usually a Cabinet Minister."
+  },
+  {
+    "id": "q22",
+    "question": "Who appoints the judges of the Supreme Court and High Courts in India?",
+    "options": [
+      "The Prime Minister",
+      "The Council of Ministers",
+      "The President",
+      "The Parliament"
+    ],
+    "correct_index": 2,
+    "explanation": "The President of India has the power to appoint Supreme Court and High Court judges."
+  },
+  {
+    "id": "q23",
+    "question": "The concept of 'swimming or sinking together' refers to which principle?",
+    "options": [
+      "Separation of Powers",
+      "Judicial Review",
+      "Collective Responsibility",
+      "Federalism"
+    ],
+    "correct_index": 2,
+    "explanation": "'Swims or sinks together' is a metaphor for the principle of collective responsibility of the Council of Ministers."
+  },
+  {
+    "id": "q24",
+    "question": "Civil servants like those in the IAS and IPS belong to which part of the executive?",
+    "options": [
+      "Political Executive",
+      "Ceremonial Executive",
+      "Permanent Executive",
+      "Nominal Executive"
+    ],
+    "correct_index": 2,
+    "explanation": "Civil servants such as IAS and IPS officers form the Permanent Executive."
+  },
+  {
+    "id": "q25",
+    "question": "Which house of Parliament must pass a vote of no-confidence for the Council of Ministers to resign collectively?",
+    "options": [
+      "Rajya Sabha",
+      "Lok Sabha",
+      "Both Lok Sabha and Rajya Sabha",
+      "Legislative Council"
+    ],
+    "correct_index": 1,
+    "explanation": "The Lok Sabha (the lower house of Parliament) is the body that can pass a vote of no-confidence against the government."
+  }
+]
