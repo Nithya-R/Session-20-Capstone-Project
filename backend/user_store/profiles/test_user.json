@@ -1,0 +1,14 @@
+{
+  "user_id": "test_user",
+  "initial_exam_completed": true,
+  "initial_exam_score": 0,
+  "assessed_level": 1,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": null,
+  "created_at": "2026-03-07T23:07:28.773928",
+  "last_updated": "2026-03-07T23:07:45.003841"
+}

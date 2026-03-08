@@ -1,0 +1,318 @@
+{
+  "session_id": "a89f24e4",
+  "user_id": "sample",
+  "state": "level_quiz_result",
+  "sub_state": {
+    "result": {
+      "score": 4,
+      "total": 7,
+      "passed": false,
+      "wrong_questions": [
+        {
+          "question_id": "q12",
+          "question": "What is the primary function of the Judiciary branch in a state government?",
+          "correct_answer": "Interpreting laws and resolving legal disputes",
+          "your_answer": "Drafting new laws",
+          "explanation": "The Judiciary interprets laws and resolves legal disputes, ensuring laws are applied fairly and rights are protected."
+        },
+        {
+          "question_id": "q11",
+          "question": "The Executive branch of a state government is typically led by whom?",
+          "correct_answer": "Chief Minister",
+          "your_answer": "Governor",
+          "explanation": "The Executive branch is usually led by a Chief Minister and supported by ministers and various government departments."
+        },
+        {
+          "question_id": "q10",
+          "question": "Which branch of a state government is responsible for making laws for the state?",
+          "correct_answer": "Legislature",
+          "your_answer": "Judiciary",
+          "explanation": "The legislature is the branch of a state government responsible for making laws for the state."
+        }
+      ],
+      "feedback": "You scored 4 out of 7 on Level 2. Let's focus on the Judiciary and Executive branches next time. Remember, the Judiciary interprets laws and resolves legal disputes, and the Executive branch is typically led by the Chief Minister. Keep practicing and you'll get there!"
+    },
+    "level": 2,
+    "next_level": 2,
+    "review": [
+      {
+        "question": "Which is a key role of the media in a democracy?",
+        "options": [
+          "Creating laws",
+          "Promoting government secrecy",
+          "Informing citizens about current events and government actions",
+          "Dictating public opinion"
+        ],
+        "user_choice": 2,
+        "correct_index": 2,
+        "correct": true
+      },
+      {
+        "question": "What is a 'supply chain' in relation to goods?",
+        "options": [
+          "A list of government regulations",
+          "The route goods take from production to the consumer",
+          "A marketing campaign for a product",
+          "A consumer rights law"
+        ],
+        "user_choice": 1,
+        "correct_index": 1,
+        "correct": true
+      },
+      {
+        "question": "What is the primary function of the Judiciary branch in a state government?",
+        "options": [
+          "Implementing policies",
+          "Drafting new laws",
+          "Interpreting laws and resolving legal disputes",
+          "Collecting taxes"
+        ],
+        "user_choice": 1,
+        "correct_index": 2,
+        "correct": false
+      },
+      {
+        "question": "Why is civic awareness vital for effective participation in democratic life?",
+        "options": [
+          "It limits citizens' involvement to voting",
+          "It enables citizens to evaluate policies, participate meaningfully, and make informed choices",
+          "It ensures everyone agrees on government decisions",
+          "It reduces the need for media information"
+        ],
+        "user_choice": 1,
+        "correct_index": 1,
+        "correct": true
+      },
+      {
+        "question": "What are 'markets' in the context of economic exchange?",
+        "options": [
+          "Government-controlled rationing centers",
+          "Systems where buyers and sellers interact to exchange goods and services",
+          "Private clubs for wealthy individuals",
+          "Public parks and recreational areas"
+        ],
+        "user_choice": 1,
+        "correct_index": 1,
+        "correct": true
+      },
+      {
+        "question": "The Executive branch of a state government is typically led by whom?",
+        "options": [
+          "Chief Justice",
+          "Speaker of the House",
+          "Governor",
+          "Chief Minister"
+        ],
+        "user_choice": 2,
+        "correct_index": 3,
+        "correct": false
+      },
+      {
+        "question": "Which branch of a state government is responsible for making laws for the state?",
+        "options": [
+          "Executive",
+          "Judiciary",
+          "Legislature",
+          "Bureaucracy"
+        ],
+        "user_choice": 1,
+        "correct_index": 2,
+        "correct": false
+      }
+    ]
+  },
+  "active_questions": [
+    {
+      "id": "q16",
+      "question": "Which is a key role of the media in a democracy?",
+      "options": [
+        "Creating laws",
+        "Promoting government secrecy",
+        "Informing citizens about current events and government actions",
+        "Dictating public opinion"
+      ],
+      "correct_index": 2,
+      "explanation": "A key role of the media in a democracy is informing citizens about current events and government actions."
+    },
+    {
+      "id": "q22",
+      "question": "What is a 'supply chain' in relation to goods?",
+      "options": [
+        "A list of government regulations",
+        "The route goods take from production to the consumer",
+        "A marketing campaign for a product",
+        "A consumer rights law"
+      ],
+      "correct_index": 1,
+      "explanation": "A supply chain refers to the stages goods go through from production to the consumer."
+    },
+    {
+      "id": "q12",
+      "question": "What is the primary function of the Judiciary branch in a state government?",
+      "options": [
+        "Implementing policies",
+        "Drafting new laws",
+        "Interpreting laws and resolving legal disputes",
+        "Collecting taxes"
+      ],
+      "correct_index": 2,
+      "explanation": "The Judiciary interprets laws and resolves legal disputes, ensuring laws are applied fairly and rights are protected."
+    },
+    {
+      "id": "q25",
+      "question": "Why is civic awareness vital for effective participation in democratic life?",
+      "options": [
+        "It limits citizens' involvement to voting",
+        "It enables citizens to evaluate policies, participate meaningfully, and make informed choices",
+        "It ensures everyone agrees on government decisions",
+        "It reduces the need for media information"
+      ],
+      "correct_index": 1,
+      "explanation": "Civic awareness benefits citizens by enabling them to evaluate public policies, participate meaningfully in elections and civic discussions, and make well-informed economic choices."
+    },
+    {
+      "id": "q20",
+      "question": "What are 'markets' in the context of economic exchange?",
+      "options": [
+        "Government-controlled rationing centers",
+        "Systems where buyers and sellers interact to exchange goods and services",
+        "Private clubs for wealthy individuals",
+        "Public parks and recreational areas"
+      ],
+      "correct_index": 1,
+      "explanation": "Markets are systems where buyers and sellers interact to exchange goods and services."
+    },
+    {
+      "id": "q11",
+      "question": "The Executive branch of a state government is typically led by whom?",
+      "options": [
+        "Chief Justice",
+        "Speaker of the House",
+        "Governor",
+        "Chief Minister"
+      ],
+      "correct_index": 3,
+      "explanation": "The Executive branch is usually led by a Chief Minister and supported by ministers and various government departments."
+    },
+    {
+      "id": "q10",
+      "question": "Which branch of a state government is responsible for making laws for the state?",
+      "options": [
+        "Executive",
+        "Judiciary",
+        "Legislature",
+        "Bureaucracy"
+      ],
+      "correct_index": 2,
+      "explanation": "The legislature is the branch of a state government responsible for making laws for the state."
+    }
+  ],
+  "active_answers": {
+    "q16": 2,
+    "q22": 1,
+    "q12": 1,
+    "q25": 1,
+    "q20": 1,
+    "q11": 2,
+    "q10": 1
+  },
+  "conversation_history": [
+    {
+      "role": "assistant",
+      "content": "Part 1 of 11\n\n## 1. Society and Diversity\n\n*   **Society:** A group of people living together and following shared rules and institutions.\n*   **Diversity:** The differences among people in a society. In India, diversity is seen in:\n    *   Languages spoken\n    *   Religions followed\n    *   Cultures and traditions\n    *   Food habits\n    *   Occupations\n*   **What causes diversity?**\n    *   Different places (mountains, coasts)\n    *   History and people moving\n    *   Religious beliefs\n    *   Cultural practices\n    *   Economic situations\n*   Diversity makes our society interesting by bringing different ideas and traditions. However, sometimes differences can lead to disagreements or unfairness.\n\nType any question to ask about this section, or use the buttons below.",
+      "timestamp": "2026-03-08T07:12:43.790579"
+    },
+    {
+      "role": "user",
+      "content": "ready for quiz",
+      "timestamp": "2026-03-08T07:13:28.553391"
+    },
+    {
+      "role": "assistant",
+      "content": "Starting Level 2 Quiz\nPass threshold: 6 out of 7 correct.\n\nQ1/7: Which is a key role of the media in a democracy?\n\n  A) Creating laws\n  B) Promoting government secrecy\n  C) Informing citizens about current events and government actions\n  D) Dictating public opinion",
+      "timestamp": "2026-03-08T07:13:28.557181"
+    },
+    {
+      "role": "user",
+      "content": "c",
+      "timestamp": "2026-03-08T07:13:42.970710"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 2 of 7:\n\nQ2/7: What is a 'supply chain' in relation to goods?\n\n  A) A list of government regulations\n  B) The route goods take from production to the consumer\n  C) A marketing campaign for a product\n  D) A consumer rights law",
+      "timestamp": "2026-03-08T07:13:42.970783"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-08T07:13:56.089559"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 3 of 7:\n\nQ3/7: What is the primary function of the Judiciary branch in a state government?\n\n  A) Implementing policies\n  B) Drafting new laws\n  C) Interpreting laws and resolving legal disputes\n  D) Collecting taxes",
+      "timestamp": "2026-03-08T07:13:56.089609"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-08T07:14:05.899385"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 4 of 7:\n\nQ4/7: Why is civic awareness vital for effective participation in democratic life?\n\n  A) It limits citizens' involvement to voting\n  B) It enables citizens to evaluate policies, participate meaningfully, and make informed choices\n  C) It ensures everyone agrees on government decisions\n  D) It reduces the need for media information",
+      "timestamp": "2026-03-08T07:14:05.899454"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-08T07:14:30.619404"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 5 of 7:\n\nQ5/7: What are 'markets' in the context of economic exchange?\n\n  A) Government-controlled rationing centers\n  B) Systems where buyers and sellers interact to exchange goods and services\n  C) Private clubs for wealthy individuals\n  D) Public parks and recreational areas",
+      "timestamp": "2026-03-08T07:14:30.619433"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-08T07:14:46.828188"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 6 of 7:\n\nQ6/7: The Executive branch of a state government is typically led by whom?\n\n  A) Chief Justice\n  B) Speaker of the House\n  C) Governor\n  D) Chief Minister",
+      "timestamp": "2026-03-08T07:14:46.828229"
+    },
+    {
+      "role": "user",
+      "content": "c",
+      "timestamp": "2026-03-08T07:14:54.221606"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 7 of 7:\n\nQ7/7: Which branch of a state government is responsible for making laws for the state?\n\n  A) Executive\n  B) Judiciary\n  C) Legislature\n  D) Bureaucracy",
+      "timestamp": "2026-03-08T07:14:54.221649"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-08T07:15:01.800242"
+    },
+    {
+      "role": "assistant",
+      "content": "Level 2 - Score: 4/7 - Need 6/7 to pass.\n\nYou scored 4 out of 7 on Level 2. Let's focus on the Judiciary and Executive branches next time. Remember, the Judiciary interprets laws and resolves legal disputes, and the Executive branch is typically led by the Chief Minister. Keep practicing and you'll get there!\n\n3 wrong. Say 'retry' to try again.",
+      "timestamp": "2026-03-08T07:15:06.846622"
+    },
+    {
+      "role": "user",
+      "content": "review answers",
+      "timestamp": "2026-03-08T07:15:10.480066"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's how you did. Say 'next', 'retry', or 'finish' when ready.",
+      "timestamp": "2026-03-08T07:15:10.480095"
+    }
+  ],
+  "created_at": "2026-03-08T07:12:43.789290",
+  "last_updated": "2026-03-08T07:15:10.480103"
+}

@@ -1,0 +1,119 @@
+{
+  "user_id": "sofia",
+  "initial_exam_completed": true,
+  "initial_exam_score": 0,
+  "assessed_level": 1,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [
+    1
+  ],
+  "level_quiz_history": {
+    "1": [
+      {
+        "score": 0,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-07T23:50:13.277482"
+      },
+      {
+        "score": 5,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-07T23:54:00.955634"
+      }
+    ]
+  },
+  "active_placement_quiz": null,
+  "active_level_quiz": {
+    "level": 1,
+    "questions": [
+      {
+        "id": "q9",
+        "question": "In a 'Democracy', how are leaders chosen?",
+        "options": [
+          "By birthright, like a king or queen.",
+          "By force or intimidation.",
+          "Citizens vote to choose leaders.",
+          "Leaders appoint themselves."
+        ],
+        "correct_index": 2,
+        "explanation": "The lesson states that in a democracy, 'Citizens vote to choose leaders who make decisions for them.'"
+      },
+      {
+        "id": "q5",
+        "question": "What is a 'Stereotype'?",
+        "options": [
+          "A detailed understanding of an individual's unique qualities.",
+          "A fixed, oversimplified idea about a group of people.",
+          "A fair assessment of a person's character.",
+          "A law that applies to everyone equally."
+        ],
+        "correct_index": 1,
+        "explanation": "Stereotypes are described as 'A fixed, oversimplified idea about a group of people that doesn't consider individual differences.'"
+      },
+      {
+        "id": "q23",
+        "question": "What is 'Civic Participation'?",
+        "options": [
+          "A government's exclusive right to make decisions.",
+          "How citizens get involved in their community and country.",
+          "The act of paying taxes.",
+          "A system where citizens have no voice."
+        ],
+        "correct_index": 1,
+        "explanation": "Civic Participation is defined as 'How citizens get involved in their community and country.'"
+      },
+      {
+        "id": "q1",
+        "question": "What is the definition of 'Society' as presented in the lesson?",
+        "options": [
+          "A group of people living in isolation.",
+          "A group of people living together and following shared rules and institutions.",
+          "A single individual making all decisions.",
+          "A collection of animals in a natural habitat."
+        ],
+        "correct_index": 1,
+        "explanation": "The lesson defines society as 'A group of people living together and following shared rules and institutions.'"
+      },
+      {
+        "id": "q11",
+        "question": "Which country is explicitly mentioned as a Democracy in the lesson?",
+        "options": [
+          "United States",
+          "United Kingdom",
+          "India",
+          "China"
+        ],
+        "correct_index": 2,
+        "explanation": "The lesson explicitly states, 'India is a Democracy.'"
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following is mentioned as a cause of diversity in India?",
+        "options": [
+          "Uniformity in religious beliefs",
+          "Same geographical landscapes",
+          "Different places (mountains, coasts)",
+          "Lack of historical movement"
+        ],
+        "correct_index": 2,
+        "explanation": "The lesson states that different places, like mountains and coasts, contribute to diversity."
+      },
+      {
+        "id": "q19",
+        "question": "What does 'Administration' refer to in the context of government?",
+        "options": [
+          "The elected representatives only.",
+          "Government officials who manage daily operations and implement policies.",
+          "The process of voting in elections.",
+          "Public protests and demonstrations."
+        ],
+        "correct_index": 1,
+        "explanation": "Administration is defined as 'government officials who manage daily operations, keep records, and help implement policies.'"
+      }
+    ]
+  },
+  "created_at": "2026-03-07T23:35:21.732156",
+  "last_updated": "2026-03-07T23:54:38.068803"
+}

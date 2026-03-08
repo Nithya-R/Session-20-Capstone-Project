@@ -1,0 +1,106 @@
+{
+  "session_id": "71894178",
+  "user_id": "sample",
+  "state": "level_quiz_question",
+  "sub_state": {
+    "question_index": 0,
+    "level": 2,
+    "attempt_number": 2
+  },
+  "active_questions": [
+    {
+      "id": "q4",
+      "question": "The principle of 'equality before the law' guarantees that:",
+      "options": [
+        "The law is only for the poor",
+        "The law applies differently based on social status",
+        "Every citizen is subject to the same legal framework",
+        "Legal protections are applied selectively"
+      ],
+      "correct_index": 2,
+      "explanation": "The principle of equality before the law guarantees that every citizen is subject to the same legal framework and that legal protections are applied uniformly to all."
+    },
+    {
+      "id": "q22",
+      "question": "What is a 'supply chain' in relation to goods?",
+      "options": [
+        "A list of government regulations",
+        "The route goods take from production to the consumer",
+        "A marketing campaign for a product",
+        "A consumer rights law"
+      ],
+      "correct_index": 1,
+      "explanation": "A supply chain refers to the stages goods go through from production to the consumer."
+    },
+    {
+      "id": "q16",
+      "question": "Which is a key role of the media in a democracy?",
+      "options": [
+        "Creating laws",
+        "Promoting government secrecy",
+        "Informing citizens about current events and government actions",
+        "Dictating public opinion"
+      ],
+      "correct_index": 2,
+      "explanation": "A key role of the media in a democracy is informing citizens about current events and government actions."
+    },
+    {
+      "id": "q7",
+      "question": "What does 'public health' refer to?",
+      "options": [
+        "The health of elected officials",
+        "Organized efforts to prevent diseases and promote population health",
+        "Private healthcare insurance plans",
+        "Individual health choices"
+      ],
+      "correct_index": 1,
+      "explanation": "Public health refers to organized efforts aimed at preventing diseases and promoting the health of the entire population."
+    },
+    {
+      "id": "q17",
+      "question": "How does the media promote transparency in governance?",
+      "options": [
+        "By censoring information",
+        "By investigating and reporting on issues of public interest",
+        "By only publishing positive news",
+        "By creating complex jargon"
+      ],
+      "correct_index": 1,
+      "explanation": "The media promotes transparency in governance by investigating and reporting on issues of public interest."
+    },
+    {
+      "id": "q3",
+      "question": "Which of the following is NOT a key aspect of equality in a democracy?",
+      "options": [
+        "Equal treatment under the law",
+        "Equal access to public spaces and services",
+        "Equal wealth and income",
+        "Equal political rights, such as the right to vote"
+      ],
+      "correct_index": 2,
+      "explanation": "Equality in a democracy focuses on equal rights and opportunities, not necessarily equal wealth or income."
+    },
+    {
+      "id": "q1",
+      "question": "What is the fundamental principle of democracy that ensures fair treatment and equal opportunities for all individuals?",
+      "options": [
+        "Liberty",
+        "Equality",
+        "Justice",
+        "Sovereignty"
+      ],
+      "correct_index": 1,
+      "explanation": "Equality is a fundamental principle of democracy, ensuring fair treatment and equal opportunities for all individuals, regardless of their background."
+    }
+  ],
+  "active_answers": {},
+  "conversation_history": [
+    {
+      "role": "assistant",
+      "content": "Level 2 Quiz (Attempt 2)\nPass threshold: 6 out of 7 correct.\n\nQ1/7: The principle of 'equality before the law' guarantees that:\n\n  A) The law is only for the poor\n  B) The law applies differently based on social status\n  C) Every citizen is subject to the same legal framework\n  D) Legal protections are applied selectively",
+      "timestamp": "2026-03-08T07:20:16.820553"
+    }
+  ],
+  "created_at": "2026-03-08T07:20:16.817039",
+  "last_updated": "2026-03-08T07:20:16.820562"
+}

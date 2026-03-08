@@ -1,0 +1,206 @@
+{
+  "session_id": "d5342528",
+  "user_id": "test_conv",
+  "state": "level_quiz_question",
+  "sub_state": {
+    "question_index": 0,
+    "level": 2,
+    "attempt_number": 1
+  },
+  "active_questions": [
+    {
+      "id": "q11",
+      "question": "The Executive branch of a state government is typically led by whom?",
+      "options": [
+        "Chief Justice",
+        "Speaker of the House",
+        "Governor",
+        "Chief Minister"
+      ],
+      "correct_index": 3,
+      "explanation": "The Executive branch is usually led by a Chief Minister and supported by ministers and various government departments."
+    },
+    {
+      "id": "q7",
+      "question": "What does 'public health' refer to?",
+      "options": [
+        "The health of elected officials",
+        "Organized efforts to prevent diseases and promote population health",
+        "Private healthcare insurance plans",
+        "Individual health choices"
+      ],
+      "correct_index": 1,
+      "explanation": "Public health refers to organized efforts aimed at preventing diseases and promoting the health of the entire population."
+    },
+    {
+      "id": "q13",
+      "question": "What is a proposed law called before it is officially enacted?",
+      "options": [
+        "An amendment",
+        "A decree",
+        "A bill",
+        "A statute"
+      ],
+      "correct_index": 2,
+      "explanation": "A proposed law is known as a bill during the law-making process."
+    },
+    {
+      "id": "q23",
+      "question": "In a typical supply chain, which stage usually comes after the wholesaler?",
+      "options": [
+        "Producer",
+        "Retailer",
+        "Consumer",
+        "Manufacturer"
+      ],
+      "correct_index": 1,
+      "explanation": "In a common supply chain, the retailer stage usually comes after the wholesaler, before the consumer."
+    },
+    {
+      "id": "q6",
+      "question": "Which of the following is a crucial area of public welfare services provided by governments?",
+      "options": [
+        "Private enterprise support",
+        "International diplomacy",
+        "Healthcare",
+        "Luxury goods production"
+      ],
+      "correct_index": 2,
+      "explanation": "Healthcare is one of the important areas of public welfare services provided by governments to improve the overall quality of life."
+    },
+    {
+      "id": "q2",
+      "question": "Equality in a democratic society means that everyone is the same. Is this statement true or false?",
+      "options": [
+        "True",
+        "False",
+        "It depends on the context",
+        "Only in certain areas"
+      ],
+      "correct_index": 1,
+      "explanation": "Equality does not mean everyone is the same, but that everyone possesses the same legal rights and protections."
+    },
+    {
+      "id": "q5",
+      "question": "What is the term for essential services provided by governments to enhance the well-being of citizens?",
+      "options": [
+        "Economic infrastructure",
+        "Political reforms",
+        "Public welfare services",
+        "Social justice initiatives"
+      ],
+      "correct_index": 2,
+      "explanation": "Governments are responsible for providing essential services that enhance the well-being of their citizens, known as public welfare services."
+    }
+  ],
+  "active_answers": {},
+  "conversation_history": [
+    {
+      "role": "assistant",
+      "content": "Welcome to Civic Lens! I'm your personal civics guide.\n\nBefore we dive in, I'll ask you 7 quick questions to find the right starting level for you. This helps us skip what you already know!\n\nReady to begin your placement assessment? (yes / no)",
+      "timestamp": "2026-03-07T17:55:46.157925"
+    },
+    {
+      "role": "user",
+      "content": "yes",
+      "timestamp": "2026-03-07T17:55:59.226050"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Here we go.\n\nQ1/7: What is 'Local Government' responsible for?\n\n  A) Managing international relations.\n  B) Deciding national currency.\n  C) Managing issues in specific communities or areas.\n  D) Conducting space exploration.",
+      "timestamp": "2026-03-07T17:55:59.238508"
+    },
+    {
+      "role": "user",
+      "content": "c",
+      "timestamp": "2026-03-07T17:56:14.908503"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 2 of 7:\n\nQ2/7: On what date was the Indian Constitution adopted?\n\n  A) January 26, 1950\n  B) August 15, 1947\n  C) November 26, 1949\n  D) October 2, 1950",
+      "timestamp": "2026-03-07T17:56:14.908571"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-07T17:56:15.448211"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 3 of 7:\n\nQ3/7: Which of the following are the three key parts of the Union Parliament?\n\n  A) The Prime Minister, the Lok Sabha, and the Rajya Sabha\n  B) The President of India, the Lok Sabha, and the Rajya Sabha\n  C) The Parliament, the Supreme Court, and the President\n  D) The Speaker, the Chairman, and the President",
+      "timestamp": "2026-03-07T17:56:15.448248"
+    },
+    {
+      "role": "user",
+      "content": "a",
+      "timestamp": "2026-03-07T17:56:15.914295"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 4 of 7:\n\nQ4/7: Where is the Supreme Court of India located?\n\n  A) Mumbai\n  B) Kolkata\n  C) New Delhi\n  D) Bengaluru",
+      "timestamp": "2026-03-07T17:56:15.914353"
+    },
+    {
+      "role": "user",
+      "content": "d",
+      "timestamp": "2026-03-07T17:56:16.483769"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 5 of 7:\n\nQ5/7: Which of the following is a crucial role of political parties?\n\n  A) Solely providing entertainment.\n  B) Formulating policies and contesting elections.\n  C) Acting as an entertainment agency for politicians.\n  D) Only focusing on international relations.",
+      "timestamp": "2026-03-07T17:56:16.483799"
+    },
+    {
+      "role": "user",
+      "content": "c",
+      "timestamp": "2026-03-07T17:56:16.947087"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 6 of 7:\n\nQ6/7: What is the main component of urban infrastructure related to water supply?\n\n  A) Sanitation & Sewage\n  B) Waste Management\n  C) Water Supply\n  D) Mobility",
+      "timestamp": "2026-03-07T17:56:16.947113"
+    },
+    {
+      "role": "user",
+      "content": "b",
+      "timestamp": "2026-03-07T17:56:17.446718"
+    },
+    {
+      "role": "assistant",
+      "content": "Question 7 of 7:\n\nQ7/7: How is the Chief Minister of a state typically selected?\n\n  A) By the Governor based on personal preference\n  B) By the party or coalition with a majority in the State Legislative Assembly\n  C) By the State Legislative Assembly\n  D) By the State Council of Ministers",
+      "timestamp": "2026-03-07T17:56:17.446808"
+    },
+    {
+      "role": "user",
+      "content": "a",
+      "timestamp": "2026-03-07T17:56:17.894241"
+    },
+    {
+      "role": "assistant",
+      "content": "Placement complete! Score: 14/7\nStarting Level: 2\n\nGreat effort! You scored 14% on the placement quiz, indicating you're starting at Level 2. Let's build your civic literacy together \u2014 we'll start with the basics and work our way up!\n\nSay 'continue' when you're ready to start your first lesson!",
+      "timestamp": "2026-03-07T17:56:23.774273"
+    },
+    {
+      "role": "user",
+      "content": "continue",
+      "timestamp": "2026-03-07T17:57:07.607274"
+    },
+    {
+      "role": "assistant",
+      "content": "--- Level 2 Lesson ---\n\nHello, test_conv! Welcome to Level 2 Civics. Today, we\u2019ll dive into some exciting topics like equality, state government, media, and markets. Let\u2019s start with the basics of equality. Equality is a fundamental principle in a democratic society, ensuring everyone has the same legal rights and opportunities, no matter their background. It\u2019s not about everyone being the same, but about everyone having a fair shot. For example, everyone has the right to vote, access public services, and get a fair trial. Governments work hard to reduce unfair inequalities, like those based on wealth, social status, or gender. Moving on, in a democratic system, laws apply to everyone equally. This means that no matter who you are, you are subject to the same legal framework and have the same rights. Courts and legal bodies are there to make sure these laws are applied fairly. Next, state governments play a crucial role in providing public welfare services like healthcare, education, and sanitation. They ensure that everyone has access to these essential services, which helps improve the overall quality of life. Public health systems are also a big part of this, with governments operating hospitals, implementing vaccination programs, and ensuring clean water. Now, let\u2019s talk about the structure of state government. It\u2019s divided into three branches: the legislature, which makes laws; the executive, which implements them; and the judiciary, which interprets and enforces them. This separation of powers ensures that no one branch becomes too powerful. The law-making process is also important. It involves identifying issues, drafting bills, debating them, and voting on them. Public opinion and advocacy groups can influence this process. The media plays a vital role in democracy by informing citizens, facilitating public debate, and promoting transparency. However, it\u2019s important to critically evaluate media information, as many media organizations rely on advertising revenue. Markets are systems where buyers and sellers exchange goods and services. They can be local, like a weekly market, or global, like online marketplaces. Each stage in a supply chain, from producer to consumer, has specific functions. Consumer protection is also crucial, with governments implementing regulations to ensure product quality and safety. Understanding these concepts will help you participate more effectively in society and make informed decisions. You\u2019re ready for the quiz, test_conv! Good luck!\n\n--- End of Lesson ---\n\nTake your time to review. When you're ready for the Level 2 quiz, say 'ready'!",
+      "timestamp": "2026-03-07T17:57:13.908994"
+    },
+    {
+      "role": "user",
+      "content": "ready",
+      "timestamp": "2026-03-07T17:57:33.225507"
+    },
+    {
+      "role": "assistant",
+      "content": "Starting Level 2 Quiz\nPass threshold: 6 out of 7 correct.\n\nQ1/7: The Executive branch of a state government is typically led by whom?\n\n  A) Chief Justice\n  B) Speaker of the House\n  C) Governor\n  D) Chief Minister",
+      "timestamp": "2026-03-07T17:57:33.229690"
+    }
+  ],
+  "created_at": "2026-03-07T17:55:46.156846",
+  "last_updated": "2026-03-07T17:57:33.229704"
+}

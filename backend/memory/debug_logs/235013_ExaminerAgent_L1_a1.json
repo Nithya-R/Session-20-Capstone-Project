@@ -1,0 +1,57 @@
+{
+  "score": 0,
+  "total": 7,
+  "passed": false,
+  "wrong_questions": [
+    {
+      "question_id": "q17",
+      "question": "What is a 'Municipal Corporation' typically responsible for?",
+      "correct_answer": "Managing the affairs of big cities.",
+      "your_answer": "Village roads and water supply.",
+      "explanation": "The lesson specifies that 'Municipal Corporations' are 'For big cities.'"
+    },
+    {
+      "question_id": "q1",
+      "question": "What is the definition of 'Society' as presented in the lesson?",
+      "correct_answer": "A group of people living together and following shared rules and institutions.",
+      "your_answer": "A group of people living in isolation.",
+      "explanation": "The lesson defines society as 'A group of people living together and following shared rules and institutions.'"
+    },
+    {
+      "question_id": "q23",
+      "question": "What is 'Civic Participation'?",
+      "correct_answer": "How citizens get involved in their community and country.",
+      "your_answer": "A government's exclusive right to make decisions.",
+      "explanation": "Civic Participation is defined as 'How citizens get involved in their community and country.'"
+    },
+    {
+      "question_id": "q8",
+      "question": "Which of the following is NOT a key job of the government mentioned in the lesson?",
+      "correct_answer": "Ensuring no one ever disagrees",
+      "your_answer": "Keeping peace and order",
+      "explanation": "While a government aims to maintain order, the lesson does not state that its job is to ensure no one ever disagrees. Its other listed jobs include keeping peace, making laws, and protecting citizens."
+    },
+    {
+      "question_id": "q18",
+      "question": "Which type of urban local government is for areas transitioning from villages to towns?",
+      "correct_answer": "Nagar Panchayat",
+      "your_answer": "Municipal Council",
+      "explanation": "'Nagar Panchayats' are for 'areas that are changing from villages to towns.'"
+    },
+    {
+      "question_id": "q13",
+      "question": "Which democratic feature means the government must answer to the people?",
+      "correct_answer": "Accountability",
+      "your_answer": "Regular Elections",
+      "explanation": "'Accountability' is described as the government having to 'answer to the people.'"
+    },
+    {
+      "question_id": "q2",
+      "question": "Which of the following is mentioned as a cause of diversity in India?",
+      "correct_answer": "Different places (mountains, coasts)",
+      "your_answer": "Uniformity in religious beliefs",
+      "explanation": "The lesson states that different places, like mountains and coasts, contribute to diversity."
+    }
+  ],
+  "feedback": "It's okay to make mistakes; everyone learns from them. You scored 0 out of 7 on Level 1. Let's focus on 'Municipal Corporations' and 'Civic Participation' as they seem to be key areas to revisit. Review the lesson and give it another try. Keep up the good effort!"
+}

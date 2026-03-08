@@ -1,0 +1,121 @@
+.bubble-wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: 82%;
+  animation: fadeUp 0.2s ease;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.bubble-wrap.agent { align-self: flex-start; }
+.bubble-wrap.user  { align-self: flex-end; flex-direction: row-reverse; }
+
+.bubble-avatar { font-size: 18px; flex-shrink: 0; margin-bottom: 2px; }
+
+.bubble {
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.65;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bubble p { margin: 0; }
+
+.bubble-agent {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-radius: 16px 16px 16px 4px;
+  border: 1px solid #334155;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.bubble-user {
+  background: var(--blue);
+  color: white;
+  border-radius: 16px 16px 4px 16px;
+}
+
+/* ── Lesson flash-card styling ── */
+.bubble-lesson {
+  max-width: 100%;
+  background: #0f1f3d;
+  border: 1.5px solid #1e3a5f;
+  border-left: 4px solid var(--blue);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.1);
+}
+
+.bubble-heading {
+  font-size: 15px;
+  font-weight: 800;
+  color: #93c5fd;
+  letter-spacing: -0.2px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1e3a5f;
+  margin-bottom: 2px !important;
+}
+
+.bubble-part-label {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--blue);
+  background: var(--blue-light);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.bubble-hint {
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 4px !important;
+  border-top: 1px solid #1e293b;
+  padding-top: 6px !important;
+}
+
+.bubble-q {
+  font-weight: 700;
+  color: #93c5fd;
+  font-size: 13.5px;
+}
+
+.bubble-question-head {
+  font-weight: 700;
+  font-size: 14px;
+  color: #93c5fd;
+}
+.bubble-user .bubble-question-head { color: white; }
+
+.bubble-option {
+  font-size: 13px;
+  color: var(--muted);
+  padding-left: 4px;
+}
+
+.bubble-bullet {
+  padding-left: 16px;
+  position: relative;
+  color: #cbd5e1;
+}
+.bubble-bullet::before {
+  content: '•';
+  position: absolute;
+  left: 4px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.bubble-divider {
+  border: none;
+  border-top: 1px solid #1e293b;
+  margin: 4px 0;
+}

@@ -1,0 +1,123 @@
+.quiz-review {
+  background: var(--bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.qr-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 12px;
+}
+
+.qr-score {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.btn-qr-done {
+  padding: 7px 14px;
+  background: var(--blue);
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background 0.15s;
+}
+.btn-qr-done:hover { background: var(--blue-dark); }
+
+.qr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.qr-item {
+  background: var(--surface);
+  border-radius: 10px;
+  border: 1.5px solid var(--border);
+  overflow: hidden;
+}
+
+.qr-item.correct { border-color: #166534; }
+.qr-item.wrong   { border-color: #7f1d1d; }
+
+.qr-item-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.qr-badge {
+  font-weight: 700;
+  font-size: 13px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.correct .qr-badge { background: rgba(34,197,94,0.15); color: #22c55e; }
+.wrong   .qr-badge { background: rgba(239,68,68,0.15);  color: #f87171; }
+
+.qr-level {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--blue);
+  background: var(--blue-light);
+  padding: 2px 7px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.qr-question {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.qr-options {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.qr-opt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  background: rgba(255,255,255,0.04);
+}
+
+.qr-opt-correct { background: rgba(34,197,94,0.12); }
+.qr-opt-wrong   { background: rgba(239,68,68,0.12); }
+
+.qr-opt-letter {
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--muted);
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.qr-opt-text { flex: 1; color: var(--text); }
+
+.qr-marker {
+  font-size: 11px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.correct-marker { color: #22c55e; }
+.wrong-marker   { color: #f87171; }

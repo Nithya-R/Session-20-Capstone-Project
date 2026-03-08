@@ -1,0 +1,106 @@
+{
+  "session_id": "ea2a27b4",
+  "user_id": "sample",
+  "state": "level_quiz_question",
+  "sub_state": {
+    "question_index": 0,
+    "level": 1,
+    "attempt_number": 1
+  },
+  "active_questions": [
+    {
+      "id": "q17",
+      "question": "What is a 'Municipal Corporation' typically responsible for?",
+      "options": [
+        "Village roads and water supply.",
+        "Managing the affairs of big cities.",
+        "Block-level development planning.",
+        "District-level revenue collection."
+      ],
+      "correct_index": 1,
+      "explanation": "The lesson specifies that 'Municipal Corporations' are 'For big cities.'"
+    },
+    {
+      "id": "q20",
+      "question": "Which administrative official keeps track of who owns which land?",
+      "options": [
+        "Revenue Officer",
+        "Police Official",
+        "Land Record Official",
+        "Mayor"
+      ],
+      "correct_index": 2,
+      "explanation": "The lesson states that 'Land Record Officials: Keep track of who owns which land.'"
+    },
+    {
+      "id": "q9",
+      "question": "In a 'Democracy', how are leaders chosen?",
+      "options": [
+        "By birthright, like a king or queen.",
+        "By force or intimidation.",
+        "Citizens vote to choose leaders.",
+        "Leaders appoint themselves."
+      ],
+      "correct_index": 2,
+      "explanation": "The lesson states that in a democracy, 'Citizens vote to choose leaders who make decisions for them.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following is NOT a key job of the government mentioned in the lesson?",
+      "options": [
+        "Keeping peace and order",
+        "Making laws",
+        "Ensuring no one ever disagrees",
+        "Protecting citizens and the country"
+      ],
+      "correct_index": 2,
+      "explanation": "While a government aims to maintain order, the lesson does not state that its job is to ensure no one ever disagrees. Its other listed jobs include keeping peace, making laws, and protecting citizens."
+    },
+    {
+      "id": "q16",
+      "question": "Which of these is NOT one of the three levels of the Panchayati Raj system?",
+      "options": [
+        "Gram Panchayat",
+        "Panchayat Samiti",
+        "District Council",
+        "Zilla Parishad"
+      ],
+      "correct_index": 2,
+      "explanation": "The three levels are Gram Panchayat, Panchayat Samiti, and Zilla Parishad. 'District Council' is not listed as one of these levels."
+    },
+    {
+      "id": "q10",
+      "question": "What type of government is characterized by a king or queen ruling, with power often passed down in families?",
+      "options": [
+        "Democracy",
+        "Dictatorship",
+        "Monarchy",
+        "Oligarchy"
+      ],
+      "correct_index": 2,
+      "explanation": "A Monarchy is defined as a government where 'A king or queen rules. Power is often passed down in families.'"
+    },
+    {
+      "id": "q14",
+      "question": "What is 'Local Government' responsible for?",
+      "options": [
+        "Managing international relations.",
+        "Deciding national currency.",
+        "Managing issues in specific communities or areas.",
+        "Conducting space exploration."
+      ],
+      "correct_index": 2,
+      "explanation": "Local government's role is to 'Manages issues in specific communities or areas.'"
+    }
+  ],
+  "active_answers": {},
+  "conversation_history": [
+    {
+      "role": "assistant",
+      "content": "Level 1 Quiz\nPass threshold: 6 out of 7 correct.\n\nQ1/7: What is a 'Municipal Corporation' typically responsible for?\n\n  A) Village roads and water supply.\n  B) Managing the affairs of big cities.\n  C) Block-level development planning.\n  D) District-level revenue collection.",
+      "timestamp": "2026-03-08T07:20:31.759863"
+    }
+  ],
+  "created_at": "2026-03-08T07:20:31.753402",
+  "last_updated": "2026-03-08T07:20:31.759882"
+}

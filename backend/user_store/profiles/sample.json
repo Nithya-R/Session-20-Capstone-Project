@@ -1,0 +1,133 @@
+{
+  "user_id": "sample",
+  "initial_exam_completed": true,
+  "initial_exam_score": 57,
+  "assessed_level": 2,
+  "current_level": 3,
+  "levels_completed": [
+    2
+  ],
+  "needs_revision": [
+    2
+  ],
+  "level_quiz_history": {
+    "2": [
+      {
+        "score": 4,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-08T12:45:06.833195"
+      },
+      {
+        "score": 7,
+        "total": 7,
+        "passed": true,
+        "date": "2026-03-08T12:55:45.662774"
+      }
+    ],
+    "3": [
+      {
+        "score": 1,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-08T15:05:57.963383"
+      }
+    ]
+  },
+  "active_placement_quiz": null,
+  "active_level_quiz": {
+    "level": 3,
+    "questions": [
+      {
+        "id": "q19",
+        "question": "What does \"Fraternity\" aim to promote among Indian citizens?",
+        "options": [
+          "Competition and rivalry.",
+          "A sense of brotherhood, unity, and mutual respect.",
+          "Strict adherence to individualistic pursuits.",
+          "Regional isolation."
+        ],
+        "correct_index": 1,
+        "explanation": "Fraternity promotes a sense of brotherhood, unity, and mutual respect among citizens, upholding individual dignity."
+      },
+      {
+        "id": "q25",
+        "question": "If a country's constitution is considered its \"supreme law\", what does this imply about other laws?",
+        "options": [
+          "Other laws can contradict the constitution.",
+          "Other laws must align with and not violate the constitution.",
+          "The constitution is only a recommendation.",
+          "The constitution is less important than ordinary laws."
+        ],
+        "correct_index": 1,
+        "explanation": "As the supreme law, all other laws passed in the country must conform to the constitution and cannot contradict its provisions."
+      },
+      {
+        "id": "q15",
+        "question": "What characteristic defines India as a \"Republic\"?",
+        "options": [
+          "The head of state is a hereditary monarch.",
+          "The head of state is elected and not hereditary.",
+          "The country is ruled by religious leaders.",
+          "The government is appointed by a foreign power."
+        ],
+        "correct_index": 1,
+        "explanation": "A republic means the head of state (the President) is elected and not a hereditary monarch, making the highest office accessible to all citizens."
+      },
+      {
+        "id": "q7",
+        "question": "What significant event is celebrated on January 26th in India?",
+        "options": [
+          "Independence Day",
+          "Republic Day",
+          "Constitution Day",
+          "National Unity Day"
+        ],
+        "correct_index": 1,
+        "explanation": "January 26th is celebrated as Republic Day, marking the day the Indian Constitution came into effect."
+      },
+      {
+        "id": "q16",
+        "question": "The objective of \"Justice\" in the Preamble refers to:",
+        "options": [
+          "Only political fairness.",
+          "Fairness in social, economic, and political matters.",
+          "The right to trial by jury.",
+          "Equal distribution of wealth."
+        ],
+        "correct_index": 1,
+        "explanation": "Justice in the Preamble encompasses fairness in social, economic, and political spheres for all citizens."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following is NOT a key purpose of a constitution?",
+        "options": [
+          "To establish the framework for government branches.",
+          "To guarantee fundamental rights to citizens.",
+          "To ensure the popularity of the ruling party.",
+          "To promote fairness and accountability in governance."
+        ],
+        "correct_index": 2,
+        "explanation": "A constitution aims for fairness and accountability, not necessarily the popularity of a specific ruling party."
+      },
+      {
+        "id": "q8",
+        "question": "What is the Preamble of the Indian Constitution?",
+        "options": [
+          "The detailed list of all laws in India.",
+          "The concluding remarks of the Constitution.",
+          "The introductory part stating the core values and philosophy.",
+          "An amendment added after the Constitution was enacted."
+        ],
+        "correct_index": 2,
+        "explanation": "The Preamble is the introductory section that briefly states the core values, philosophy, and goals of the Constitution."
+      }
+    ]
+  },
+  "created_at": "2026-03-08T00:03:52.704333",
+  "last_updated": "2026-03-08T15:29:35.872179",
+  "qa_history": [
+    "what is constitution on india?",
+    "How many time is election conducted in india?"
+  ]
+}

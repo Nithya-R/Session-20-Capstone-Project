@@ -1,0 +1,102 @@
+{
+  "user_id": "test_conv",
+  "initial_exam_completed": true,
+  "initial_exam_score": 14,
+  "assessed_level": 2,
+  "current_level": 2,
+  "levels_completed": [],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": {
+    "level": 2,
+    "questions": [
+      {
+        "id": "q11",
+        "question": "The Executive branch of a state government is typically led by whom?",
+        "options": [
+          "Chief Justice",
+          "Speaker of the House",
+          "Governor",
+          "Chief Minister"
+        ],
+        "correct_index": 3,
+        "explanation": "The Executive branch is usually led by a Chief Minister and supported by ministers and various government departments."
+      },
+      {
+        "id": "q7",
+        "question": "What does 'public health' refer to?",
+        "options": [
+          "The health of elected officials",
+          "Organized efforts to prevent diseases and promote population health",
+          "Private healthcare insurance plans",
+          "Individual health choices"
+        ],
+        "correct_index": 1,
+        "explanation": "Public health refers to organized efforts aimed at preventing diseases and promoting the health of the entire population."
+      },
+      {
+        "id": "q13",
+        "question": "What is a proposed law called before it is officially enacted?",
+        "options": [
+          "An amendment",
+          "A decree",
+          "A bill",
+          "A statute"
+        ],
+        "correct_index": 2,
+        "explanation": "A proposed law is known as a bill during the law-making process."
+      },
+      {
+        "id": "q23",
+        "question": "In a typical supply chain, which stage usually comes after the wholesaler?",
+        "options": [
+          "Producer",
+          "Retailer",
+          "Consumer",
+          "Manufacturer"
+        ],
+        "correct_index": 1,
+        "explanation": "In a common supply chain, the retailer stage usually comes after the wholesaler, before the consumer."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following is a crucial area of public welfare services provided by governments?",
+        "options": [
+          "Private enterprise support",
+          "International diplomacy",
+          "Healthcare",
+          "Luxury goods production"
+        ],
+        "correct_index": 2,
+        "explanation": "Healthcare is one of the important areas of public welfare services provided by governments to improve the overall quality of life."
+      },
+      {
+        "id": "q2",
+        "question": "Equality in a democratic society means that everyone is the same. Is this statement true or false?",
+        "options": [
+          "True",
+          "False",
+          "It depends on the context",
+          "Only in certain areas"
+        ],
+        "correct_index": 1,
+        "explanation": "Equality does not mean everyone is the same, but that everyone possesses the same legal rights and protections."
+      },
+      {
+        "id": "q5",
+        "question": "What is the term for essential services provided by governments to enhance the well-being of citizens?",
+        "options": [
+          "Economic infrastructure",
+          "Political reforms",
+          "Public welfare services",
+          "Social justice initiatives"
+        ],
+        "correct_index": 2,
+        "explanation": "Governments are responsible for providing essential services that enhance the well-being of their citizens, known as public welfare services."
+      }
+    ]
+  },
+  "created_at": "2026-03-07T23:25:59.237559",
+  "last_updated": "2026-03-07T23:27:33.228768"
+}
