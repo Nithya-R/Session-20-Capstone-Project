@@ -1,0 +1,11 @@
+{
+  "sites": [
+    {
+      "id": "tamil_oneindia",
+      "state": "Tamilnadu",
+      "name": "Tamil OneIndia",
+      "url": "https://tamil.oneindia.com/rss/feeds/tamil-news-fb.xml",
+      "is_default": true
+    }
+  ]
+}

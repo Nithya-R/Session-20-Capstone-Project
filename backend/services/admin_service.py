@@ -9,6 +9,7 @@ import asyncio
 import json
 import os
 from pathlib import Path
+from fastapi import UploadFile, BackgroundTasks
 
 ROOT = Path(__file__).parent.parent
 CURRICULUM_DIR = ROOT / "curriculum"
@@ -187,6 +188,106 @@ async def generate_embeddings(force: bool = False) -> dict:
         return {"status": "success", "message": "Embedding generation completed."}
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+
+# ---------------------------------------------------------------------------
+# Tool: get_quiz
+# ---------------------------------------------------------------------------
+
+def get_quiz(level: int) -> dict:
+    """Return quiz questions for a curriculum level."""
+    quiz_path = CURRICULUM_DIR / f"Level_{level:02d}" / "quiz.json"
+    if not quiz_path.exists():
+        raise FileNotFoundError(f"Quiz for Level {level} not found.")
+    questions = json.loads(quiz_path.read_text(encoding="utf-8"))
+    return {"level": level, "questions": questions, "total": len(questions)}
+
+
+# ---------------------------------------------------------------------------
+# Tool: generate_lesson
+# ---------------------------------------------------------------------------
+
+async def generate_lesson(level: int, prompt: str, regenerate_quiz: bool = False) -> dict:
+    """Use CurriculumAgent to generate a lesson from a prompt, then save it."""
+    from agents.curriculum_agent import CurriculumAgent
+    agent = CurriculumAgent()
+
+    lesson_result = await agent.run({
+        "action": "create_lesson",
+        "level": level,
+        "raw_text": prompt,
+    })
+    lesson_markdown = lesson_result.get("output", {}).get("lesson_markdown", "")
+    if not lesson_markdown:
+        raise ValueError("CurriculumAgent returned empty lesson content.")
+
+    level_dir = CURRICULUM_DIR / f"Level_{level:02d}"
+    level_dir.mkdir(parents=True, exist_ok=True)
+    (level_dir / "lesson.md").write_text(lesson_markdown, encoding="utf-8")
+
+    result = {
+        "level": level,
+        "lesson_generated": True,
+        "lesson_markdown": lesson_markdown,
+        "quiz_regenerated": False,
+    }
+
+    if regenerate_quiz:
+        quiz_result = await agent.run({
+            "action": "create_quiz",
+            "level": level,
+            "lesson_text": lesson_markdown,
+        })
+        quiz_data = quiz_result.get("output", {}).get("questions", [])
+        if quiz_data:
+            (level_dir / "quiz.json").write_text(json.dumps(quiz_data, indent=2), encoding="utf-8")
+            result["quiz_regenerated"] = True
+            result["quiz_question_count"] = len(quiz_data)
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Tool: get_file_content
+# ---------------------------------------------------------------------------
+
+def get_file_content(filename: str) -> Path:
+    """Return the Path to a file in the data folder, validating it exists."""
+    path = DATA_DIR / filename
+    if not path.exists():
+        raise FileNotFoundError(f"File '{filename}' not found in data folder.")
+    return path
+
+
+# ---------------------------------------------------------------------------
+# Tool: upload_data_file
+# ---------------------------------------------------------------------------
+
+async def upload_data_file(file: UploadFile, background_tasks: BackgroundTasks) -> dict:
+    """Save an uploaded file to the data folder and trigger background reindexing."""
+    allowed_extensions = {".txt", ".md", ".pdf"}
+    suffix = Path(file.filename).suffix.lower()
+    if suffix not in allowed_extensions:
+        raise ValueError(f"Only {allowed_extensions} files are allowed.")
+
+    dest = DATA_DIR / file.filename
+    if dest.exists():
+        raise FileExistsError(f"File '{file.filename}' already exists. Delete it first or rename.")
+
+    content = await file.read()
+    dest.write_bytes(content)
+
+    def _reindex():
+        from services.indexer_service import IndexerService
+        IndexerService().sync_index()
+
+    background_tasks.add_task(_reindex)
+
+    return {
+        "filename": file.filename,
+        "size_bytes": dest.stat().st_size,
+        "message": f"File '{file.filename}' uploaded. Reindexing started in background.",
+    }
 
 
 # ---------------------------------------------------------------------------

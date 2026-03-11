@@ -1,9 +1,10 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, UploadFile, File, BackgroundTasks
+from fastapi.responses import FileResponse, PlainTextResponse
 from pydantic import BaseModel
 from typing import Optional
 
 from agents.admin_agent import AdminAgent
-from services.admin_service import dispatch, list_lessons, get_lesson, list_data_files
+from services.admin_service import dispatch, list_lessons, get_lesson, list_data_files, get_file_content, upload_data_file, get_quiz, generate_lesson
 
 router = APIRouter(prefix="/admin", tags=["admin"])
 _agent = AdminAgent()
@@ -27,6 +28,10 @@ class AddFileRequest(BaseModel):
 
 class GenerateEmbeddingsRequest(BaseModel):
     force: Optional[bool] = False
+
+class GenerateLessonRequest(BaseModel):
+    prompt: str
+    regenerate_quiz: Optional[bool] = False
 
 
 # ---------------------------------------------------------------------------
@@ -82,6 +87,28 @@ def admin_get_lesson(level: int):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.get("/lessons/{level}/quiz")
+def admin_get_quiz(level: int):
+    """Get quiz questions for a specific level."""
+    try:
+        return get_quiz(level)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/lessons/{level}/generate")
+async def admin_generate_lesson(level: int, req: GenerateLessonRequest):
+    """Generate a lesson for a level from an LLM prompt and save it."""
+    try:
+        return await generate_lesson(level, req.prompt, req.regenerate_quiz)
+    except ValueError as e:
+        raise HTTPException(status_code=422, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.put("/lessons/{level}")
 async def admin_update_lesson(level: int, req: UpdateLessonRequest):
     """Update the lesson content for a specific level. Optionally regenerate its quiz."""
@@ -132,5 +159,38 @@ async def admin_generate_embeddings(req: GenerateEmbeddingsRequest):
     """Trigger FAISS embedding generation for all files in the data folder."""
     try:
         return await dispatch("generate_embeddings", {"force": req.force})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/data/files/{filename}/content")
+def admin_get_file_content(filename: str):
+    """Serve a file from the data folder for viewing (PDF or text)."""
+    try:
+        path = get_file_content(filename)
+        suffix = path.suffix.lower()
+        if suffix == ".pdf":
+            return FileResponse(
+                str(path),
+                media_type="application/pdf",
+                headers={"Content-Disposition": f'inline; filename="{filename}"'},
+            )
+        else:
+            content = path.read_text(encoding="utf-8", errors="replace")
+            return PlainTextResponse(content)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/data/upload")
+async def admin_upload_file(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
+    """Upload a new file (PDF/TXT/MD) to the data folder and trigger reindexing."""
+    try:
+        result = await upload_data_file(file, background_tasks)
+        return result
+    except (ValueError, FileExistsError) as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

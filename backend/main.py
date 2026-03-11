@@ -21,6 +21,7 @@ from routers.training import router as training_router
 from routers.admin import router as admin_router
 from routers.conversation import router as conversation_router
 from routers.qa import router as qa_router
+from routers.news import router as news_router
 
 app = FastAPI(title="Civic Lens API")
 app.include_router(librarian_router, prefix="/api/v1")
@@ -30,6 +31,7 @@ app.include_router(training_router, prefix="/api/v1")
 app.include_router(admin_router, prefix="/api/v1")
 app.include_router(conversation_router, prefix="/api/v1")
 app.include_router(qa_router, prefix="/api/v1")
+app.include_router(news_router, prefix="/api/v1")
 
 # Setup CORS for future frontend interaction
 app.add_middleware(

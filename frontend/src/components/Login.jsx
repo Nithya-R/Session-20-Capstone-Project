@@ -11,7 +11,7 @@ export default function Login({ onStart, savedUser }) {
     e.preventDefault()
     const id = value.trim().toLowerCase().replace(/\s+/g, '_')
     if (!id) { setError('Please enter a name to continue.'); return }
-    onStart(id)
+    onStart(id, id === 'admin')
   }
 
   return (

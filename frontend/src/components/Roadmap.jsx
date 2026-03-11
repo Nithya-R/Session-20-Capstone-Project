@@ -18,7 +18,7 @@ const STATUS_ICON = {
   locked:    '🔒',
 }
 
-export default function Roadmap({ userId, onContinue, onLevelSelect, onLogout }) {
+export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, onLogout, onAdmin, onNews }) {
   const [data, setData]         = useState(null)
   const [loading, setLoading]   = useState(true)
   const [tab, setTab]           = useState('path')   // 'path' | 'qa'
@@ -85,6 +85,10 @@ export default function Roadmap({ userId, onContinue, onLevelSelect, onLogout })
         <div className="rm-nav-links">
           <span className="rm-nav-link active">Dashboard</span>
           <span className="rm-nav-link" onClick={onContinue}>Learn</span>
+          <span className="rm-nav-link" onClick={onNews}>News</span>
+          {isAdmin && (
+            <span className="rm-nav-link" onClick={onAdmin}>Admin</span>
+          )}
           <span className="rm-nav-link" onClick={onLogout}>Switch User</span>
         </div>
         <div className="rm-nav-right">
