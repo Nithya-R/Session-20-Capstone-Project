@@ -141,16 +141,16 @@ export default function Chat({ userId, target, onExit }) {
             <div className="chat-title">Civic Lens</div>
             {status && (
               <div className="chat-subtitle">
-                {status.initial_exam_completed
-                  ? `Level ${metadata.level || status.current_level} of 15`
+                {(status.initial_exam_completed || target)
+                  ? `Level ${metadata.level || target?.level || status.current_level} of 15`
                   : 'Placement Assessment'}
               </div>
             )}
           </div>
         </div>
         <div className="chat-header-right">
-          {status?.initial_exam_completed && (
-            <div className="level-badge">Level {metadata.level || status.current_level}</div>
+          {(status?.initial_exam_completed || target) && (
+            <div className="level-badge">Level {metadata.level || target?.level || status.current_level}</div>
           )}
           {metadata.total_snippets > 0 && (
             <div className="snippet-badge">
@@ -162,10 +162,10 @@ export default function Chat({ userId, target, onExit }) {
       </header>
 
       {/* Progress bar */}
-      {status?.initial_exam_completed && (
+      {(status?.initial_exam_completed || target) && (
         <div className="progress-bar-wrap">
           <div className="progress-bar-fill"
-            style={{ width: `${((status.current_level - 1) / 15) * 100}%` }} />
+            style={{ width: `${(((status?.current_level ?? target?.level ?? 1) - 1) / 15) * 100}%` }} />
         </div>
       )}
 

@@ -25,3 +25,7 @@ __MACOSX/
 
 # Project-specific exclusions
 AgentFramework/
+backend/faiss_index/
+backend/faiss_index/images/
+backend/memory/debug_logs/
+backend/memory/sessions/

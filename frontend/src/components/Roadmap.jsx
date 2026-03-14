@@ -276,10 +276,21 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
           {/* Learning path grid */}
           {tab === 'path' && (
             <>
+          {!examDone && (
+            <div className="rm-placement-banner">
+              <div className="rm-placement-banner-text">
+                <div className="rm-placement-banner-title">Start with a Placement Assessment</div>
+                <div className="rm-placement-banner-sub">Answer a few questions so we can place you at the right level.</div>
+              </div>
+              <button className="rm-placement-banner-btn" onClick={onContinue}>
+                Begin Assessment →
+              </button>
+            </div>
+          )}
           <div className="rm-path-title">Learning Path</div>
           <div className="rm-grid">
             {data?.levels?.map(lvl => {
-              const status   = getStatus(lvl)
+              const status   = (isAdmin && getStatus(lvl) === 'locked') ? 'available' : getStatus(lvl)
               const locked   = status === 'locked'
               const icon     = STATUS_ICON[status]
 

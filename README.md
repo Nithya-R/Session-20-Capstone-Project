@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Civic Lens** is a multi-agent AI educational platform that guides citizens from complete novice to expert across 15 levels of Indian Governance knowledge. It uses a team of specialized AI agents to personalize every step of the learning journey — from initial placement to lesson delivery, assessment, and live news analysis.
+**Civic Lens** is a multi-agent AI educational platform designed for **young adults** who want to understand or refresh their knowledge of the Indian civic and governance system. Whether you're encountering terms like "Preamble" or "Federalism" for the first time, or brushing up before an exam or election — Civic Lens meets you where you are and guides you through 15 progressive levels at your own pace.
 
 ---
 

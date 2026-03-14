@@ -6,6 +6,13 @@
       "name": "Tamil OneIndia",
       "url": "https://tamil.oneindia.com/rss/feeds/tamil-news-fb.xml",
       "is_default": true
+    },
+    {
+      "id": "custom_1773260810",
+      "state": "Karnataka",
+      "name": "kannadaoneindia",
+      "url": "https://kannada.oneindia.com/rss/feeds/kannada-news-fb.xml",
+      "is_default": false
     }
   ]
 }

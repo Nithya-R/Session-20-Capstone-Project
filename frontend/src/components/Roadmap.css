@@ -186,6 +186,27 @@
   color: #f1f5f9;
 }
 
+.rm-placement-banner {
+  display: flex; align-items: center; justify-content: space-between;
+  background: linear-gradient(135deg, rgba(99,102,241,0.25), rgba(139,92,246,0.2));
+  border: 1px solid rgba(139,92,246,0.4);
+  border-radius: 14px; padding: 18px 22px; margin-bottom: 20px; gap: 16px;
+}
+.rm-placement-banner-title {
+  font-size: 15px; font-weight: 700; color: #e0e7ff; margin-bottom: 4px;
+}
+.rm-placement-banner-sub {
+  font-size: 13px; color: #a5b4fc;
+}
+.rm-placement-banner-btn {
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #fff; border: none; border-radius: 10px;
+  padding: 10px 20px; font-size: 14px; font-weight: 600;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.rm-placement-banner-btn:hover { opacity: 0.85; }
+
 .rm-path-title {
   font-size: 18px; font-weight: 800;
   color: #f1f5f9; letter-spacing: -0.3px;

@@ -209,7 +209,8 @@ class TrainingService:
                 if len(paras) > 1:
                     description = _re.sub(r'[#*`]', '', paras[1])[:180].strip()
 
-            # Levels at or below current_level are unlocked (assessed placement opens them all)
+            # Admin users have all levels unlocked
+            is_admin = user_id == "admin"
             levels.append({
                 "level": i,
                 "title": title,
@@ -217,7 +218,7 @@ class TrainingService:
                 "completed": i in levels_completed,
                 "current": i == current_level,
                 "needs_revision": i in needs_revision,
-                "locked": i > current_level,
+                "locked": False if is_admin else i > current_level,
                 "available": i < current_level and i not in levels_completed,
             })
 

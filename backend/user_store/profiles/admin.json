@@ -1,0 +1,105 @@
+{
+  "user_id": "admin",
+  "initial_exam_completed": false,
+  "initial_exam_score": null,
+  "assessed_level": null,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": {
+    "level": 1,
+    "questions": [
+      {
+        "id": "q21",
+        "question": "The text mentions 'local level, such as in cities, towns, and villages.' This refers to:",
+        "options": [
+          "National government",
+          "State government",
+          "Local administration",
+          "International organizations"
+        ],
+        "correct_index": 2,
+        "explanation": "This describes the geographical scope of local administration."
+      },
+      {
+        "id": "q9",
+        "question": "Who is primarily responsible for enforcing laws at the national level?",
+        "options": [
+          "Local administration",
+          "The police",
+          "The judicial branch",
+          "National government agencies"
+        ],
+        "correct_index": 3,
+        "explanation": "While local administration supports community safety, national law enforcement is typically handled by national government agencies."
+      },
+      {
+        "id": "q4",
+        "question": "What is the purpose of collecting local taxes?",
+        "options": [
+          "To fund national infrastructure projects",
+          "To pay for the essential services provided by local administration",
+          "To provide subsidies for national businesses",
+          "To manage international aid"
+        ],
+        "correct_index": 1,
+        "explanation": "Local taxes are collected to finance the various services local administrations offer to the community."
+      },
+      {
+        "id": "q11",
+        "question": "How can citizens get involved in local decision-making, according to the text?",
+        "options": [
+          "By voting in national elections",
+          "Through town hall meetings or local councils",
+          "By writing letters to national newspapers",
+          "By joining the national military"
+        ],
+        "correct_index": 1,
+        "explanation": "The lesson states that local administrations facilitate public participation through mechanisms like town hall meetings."
+      },
+      {
+        "id": "q13",
+        "question": "What type of taxes are mentioned as being collected by local administrations?",
+        "options": [
+          "Sales tax",
+          "Income tax",
+          "Property tax",
+          "Excise tax"
+        ],
+        "correct_index": 2,
+        "explanation": "Property taxes are specifically mentioned as a source of local revenue."
+      },
+      {
+        "id": "q19",
+        "question": "Public health initiatives by local administration include:",
+        "options": [
+          "Building national monuments",
+          "Running local clinics and ensuring hygiene standards",
+          "Managing the national currency",
+          "Establishing foreign embassies"
+        ],
+        "correct_index": 1,
+        "explanation": "Local clinics and hygiene standards are direct aspects of public health managed locally."
+      },
+      {
+        "id": "q7",
+        "question": "What does 'sanitation and waste management' refer to in local administration?",
+        "options": [
+          "Building new schools",
+          "Keeping streets clean and managing garbage",
+          "Designing parks and public spaces",
+          "Collecting property taxes"
+        ],
+        "correct_index": 1,
+        "explanation": "This term covers the processes of maintaining cleanliness and disposing of waste."
+      }
+    ]
+  },
+  "created_at": "2026-03-12T01:59:06.071360",
+  "last_updated": "2026-03-14T14:42:48.816502",
+  "qa_history": [
+    "what is democarcy"
+  ]
+}
