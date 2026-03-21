@@ -1,3 +1,0 @@
-```json
-{ "tool": "get_lesson", "args": { "level": 3 } }
-```

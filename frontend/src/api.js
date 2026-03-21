@@ -166,3 +166,15 @@ export async function newsGetArticles(siteId, url, name) {
   if (!res.ok) throw new Error(await res.text())
   return res.json()
 }
+
+// ── Simulator API ────────────────────────────────────────────────────────────
+
+export async function evaluateBill(title, description, goals) {
+  const res = await fetch(`${BASE}/simulator/evaluate`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title, description, goals }),
+  })
+  if (!res.ok) throw new Error(await res.text())
+  return res.json()
+}

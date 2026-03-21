@@ -4,6 +4,7 @@ import Roadmap from './components/Roadmap'
 import Chat from './components/Chat'
 import AdminPanel from './components/AdminPanel'
 import NewsPanel from './components/NewsPanel'
+import Simulator from './components/Simulator'
 import './App.css'
 
 export default function App() {
@@ -53,6 +54,7 @@ export default function App() {
           onLogout={handleLogout}
           onNews={() => setScreen('news')}
           onAdmin={() => setScreen('admin')}
+          onSimulator={() => setScreen('simulator')}
         />
       )}
       {screen === 'chat' && (
@@ -72,6 +74,17 @@ export default function App() {
           userId={userId}
           onBack={() => setScreen('roadmap')}
         />
+      )}
+      {screen === 'simulator' && (
+        <div style={{ position: 'relative' }}>
+          <button 
+            onClick={() => setScreen('roadmap')} 
+            style={{ position: 'absolute', top: '1rem', left: '1rem', zIndex: 10, padding: '0.5rem 1rem', borderRadius: '8px', border: '1px solid var(--border)', background: 'var(--surface)', color: 'var(--text)', cursor: 'pointer' }}
+          >
+            ← Back to Roadmap
+          </button>
+          <Simulator userId={userId} />
+        </div>
       )}
     </div>
   )

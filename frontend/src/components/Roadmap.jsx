@@ -18,7 +18,7 @@ const STATUS_ICON = {
   locked:    '🔒',
 }
 
-export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, onLogout, onAdmin, onNews }) {
+export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, onLogout, onAdmin, onNews, onSimulator }) {
   const [data, setData]         = useState(null)
   const [loading, setLoading]   = useState(true)
   const [tab, setTab]           = useState('path')   // 'path' | 'qa'
@@ -86,6 +86,9 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
           <span className="rm-nav-link active">Dashboard</span>
           <span className="rm-nav-link" onClick={onContinue}>Learn</span>
           <span className="rm-nav-link" onClick={onNews}>News</span>
+          {totalCompleted >= 5 && (
+            <span className="rm-nav-link" onClick={onSimulator}>Simulator 🏛️</span>
+          )}
           {isAdmin && (
             <span className="rm-nav-link" onClick={onAdmin}>Admin</span>
           )}
@@ -339,6 +342,23 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
               {examDone ? `Continue Level ${currentLevel}` : 'Start Assessment'} →
             </button>
           </div>
+
+          {/* Simulator Feature Card */}
+          {totalCompleted >= 5 && (
+            <div className="rm-stats-card" style={{marginTop: '1.5rem', background: 'var(--surface-light)', borderColor: 'var(--primary)', borderWidth: '2px'}}>
+              <div className="rm-rec-label" style={{color: 'var(--primary)'}}>🏛️ New Feature Unlocked!</div>
+              <div className="rm-ai-text">
+                You've reached Level 5! You can now access the <b>Parliamentary Simulator</b>. Try drafting your own bill and debating the AI Opposition!
+              </div>
+              <button 
+                className="rm-btn-outline" 
+                style={{background: 'var(--primary)', color: 'white', borderColor: 'var(--primary)'}}
+                onClick={onSimulator}
+              >
+                Enter Simulator
+              </button>
+            </div>
+          )}
 
           {/* Legend */}
           <div className="rm-section-card">

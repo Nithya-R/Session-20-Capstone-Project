@@ -1,0 +1,102 @@
+{
+  "user_id": "surya",
+  "initial_exam_completed": true,
+  "initial_exam_score": 7,
+  "assessed_level": 1,
+  "current_level": 6,
+  "levels_completed": [1, 2, 3, 4, 5],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": {
+    "level": 1,
+    "questions": [
+      {
+        "id": "q19",
+        "question": "What does 'Administration' refer to in the context of government?",
+        "options": [
+          "The elected representatives only.",
+          "Government officials who manage daily operations and implement policies.",
+          "The process of voting in elections.",
+          "Public protests and demonstrations."
+        ],
+        "correct_index": 1,
+        "explanation": "Administration is defined as 'government officials who manage daily operations, keep records, and help implement policies.'"
+      },
+      {
+        "id": "q3",
+        "question": "What does 'Diversity' mean in the context of a society?",
+        "options": [
+          "Everyone being exactly the same.",
+          "The differences among people in a society.",
+          "A lack of any rules or institutions.",
+          "A society with only one language."
+        ],
+        "correct_index": 1,
+        "explanation": "Diversity is defined as 'The differences among people in a society.'"
+      },
+      {
+        "id": "q17",
+        "question": "What is a 'Municipal Corporation' typically responsible for?",
+        "options": [
+          "Village roads and water supply.",
+          "Managing the affairs of big cities.",
+          "Block-level development planning.",
+          "District-level revenue collection."
+        ],
+        "correct_index": 1,
+        "explanation": "The lesson specifies that 'Municipal Corporations' are 'For big cities.'"
+      },
+      {
+        "id": "q13",
+        "question": "Which democratic feature means the government must answer to the people?",
+        "options": [
+          "Regular Elections",
+          "Rule of Law",
+          "Accountability",
+          "Protection of Rights"
+        ],
+        "correct_index": 2,
+        "explanation": "'Accountability' is described as the government having to 'answer to the people.'"
+      },
+      {
+        "id": "q7",
+        "question": "What is the primary role of a 'Government'?",
+        "options": [
+          "To encourage individual isolation.",
+          "To manage a country or area by creating rules and making decisions.",
+          "To abolish all rules and institutions.",
+          "To promote prejudice and discrimination."
+        ],
+        "correct_index": 1,
+        "explanation": "The lesson defines government as 'The system and institutions that manage a country or area. They create rules, make decisions, and ensure things run smoothly.'"
+      },
+      {
+        "id": "q11",
+        "question": "Which country is explicitly mentioned as a Democracy in the lesson?",
+        "options": [
+          "United States",
+          "United Kingdom",
+          "India",
+          "China"
+        ],
+        "correct_index": 2,
+        "explanation": "The lesson explicitly states, 'India is a Democracy.'"
+      },
+      {
+        "id": "q6",
+        "question": "Discrimination is defined as:",
+        "options": [
+          "Treating everyone equally and fairly.",
+          "Treating someone unfairly because of who they are or their background.",
+          "Making decisions based on logical reasoning.",
+          "Participating in community meetings."
+        ],
+        "correct_index": 1,
+        "explanation": "Discrimination is the act of 'Treating someone unfairly because of who they are or their background.'"
+      }
+    ]
+  },
+  "created_at": "2026-03-15T11:48:49.294029",
+  "last_updated": "2026-03-15T11:48:49.294029"
+}
