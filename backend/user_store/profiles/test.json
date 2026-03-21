@@ -1,0 +1,20 @@
+{
+  "user_id": "test",
+  "initial_exam_completed": false,
+  "initial_exam_score": null,
+  "assessed_level": null,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": null,
+  "created_at": "2026-03-15T22:21:51.224453",
+  "last_updated": "2026-03-15T22:36:47.571473",
+  "qa_history": [
+    "How does the Indian Parliament work and what bills were passed recently?",
+    "Who is the current Chief Justice of India in 2026?",
+    "What are the fundamental rights in the Indian Constitution?",
+    "What is the preamble of India?"
+  ]
+}

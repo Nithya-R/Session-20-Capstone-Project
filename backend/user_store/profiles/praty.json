@@ -1,0 +1,39 @@
+{
+  "user_id": "praty",
+  "initial_exam_completed": false,
+  "initial_exam_score": null,
+  "assessed_level": null,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [
+    1
+  ],
+  "level_quiz_history": {
+    "1": [
+      {
+        "score": 5,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-15T23:12:19.793899"
+      },
+      {
+        "score": 3,
+        "total": 7,
+        "passed": false,
+        "date": "2026-03-15T23:15:22.752093"
+      }
+    ]
+  },
+  "active_placement_quiz": null,
+  "active_level_quiz": null,
+  "created_at": "2026-03-15T22:22:50.431375",
+  "last_updated": "2026-03-20T23:12:48.322761",
+  "qa_history": [
+    "who is mayor of visakhapatnam",
+    "what is role of parliamnet",
+    "who is the deputy cm of andhra pradesh",
+    "hi",
+    "who is the andhra pradesh cm",
+    "what is constitution"
+  ]
+}

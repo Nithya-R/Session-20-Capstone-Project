@@ -1,0 +1,11 @@
+{
+  "sites": [
+    {
+      "id": "swetchadaily",
+      "state": "Telangana",
+      "name": "Swetcha Daily",
+      "url": "https://swetchadaily.com/politics",
+      "is_default": true
+    }
+  ]
+}

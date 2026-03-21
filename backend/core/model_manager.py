@@ -147,11 +147,14 @@ class ModelManager:
                 return await self._hf_generate(prompt)
             raise NotImplementedError(f"Unsupported model type: {self.model_type}")
 
-        except (RuntimeError, Exception) as e:
+        except (RuntimeError, ServerError, Exception) as e:
             err_str = str(e)
             if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "rate" in err_str.lower():
                 mark_model_rate_limited(self.text_model_key, hours=1.0)
                 print(f"[RateLimit] Falling back to HuggingFace for this request.")
+                return await self._hf_generate(prompt)
+            if "503" in err_str or "UNAVAILABLE" in err_str:
+                print(f"[Unavailable] Gemini 503 — falling back to HuggingFace for this request.")
                 return await self._hf_generate(prompt)
             raise
 
@@ -249,10 +252,9 @@ class ModelManager:
             ModelManager._last_call = time.time()
 
 
-    async def _gemini_generate(self, prompt: str) -> str:
+    async def _gemini_generate(self, prompt: str, _retries: int = 3) -> str:
         await self._wait_for_rate_limit()
         try:
-            # ✅ CORRECT: Use synchronous SDK client in thread to bypass aiohttp/DNS issues common on macOS
             response = await asyncio.to_thread(
                 self.client.models.generate_content,
                 model=self.model_info["model"],
@@ -261,10 +263,13 @@ class ModelManager:
             return response.text.strip()
 
         except ServerError as e:
-            # ✅ FIXED: Raise the exception instead of returning it
+            if ("503" in str(e) or "UNAVAILABLE" in str(e)) and _retries > 0:
+                wait = 4.5 * (4 - _retries)
+                print(f"[Gemini 503] Retrying in {wait:.0f}s... ({_retries - 1} retries left)")
+                await asyncio.sleep(wait)
+                return await self._gemini_generate(prompt, _retries=_retries - 1)
             raise e
         except Exception as e:
-            # ✅ Handle other potential errors
             raise RuntimeError(f"Gemini generation failed: {str(e)}")
 
     async def _gemini_generate_content(self, contents: list) -> str:

@@ -28,6 +28,7 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
   const [qaLoading, setQaLoading] = useState(false)
   const [qaAnswer, setQaAnswer] = useState(null)    // { answer, sources }
   const [qaHistory, setQaHistory] = useState([])
+
   const qaBottomRef = useRef(null)
 
   useEffect(() => {
@@ -50,7 +51,7 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
     setQaLoading(true)
     try {
       const res = await askQuestion(userId, q)
-      setQaAnswer({ question: q, answer: res.answer, sources: res.sources })
+      setQaAnswer({ question: q, answer: res.answer, sources: res.sources, toolUsed: res.tool_used })
       setQaHistory(res.history || [])
     } catch {
       setQaAnswer({ question: q, answer: 'Sorry, something went wrong. Please try again.', sources: [] })
@@ -206,6 +207,13 @@ export default function Roadmap({ userId, isAdmin, onContinue, onLevelSelect, on
                     {qaAnswer.question}
                   </div>
                   <div className="rm-qa-answer-card">
+                    {qaAnswer.toolUsed && (
+                      <div className="rm-qa-tool-badge">
+                        {qaAnswer.toolUsed === 'knowledge_base' ? '📚 Knowledge Base'
+                          : qaAnswer.toolUsed === 'internet' ? '🌐 Internet Search'
+                          : '📚+🌐 Knowledge Base & Internet'}
+                      </div>
+                    )}
                     <div className="rm-qa-answer-text">{qaAnswer.answer}</div>
                     {qaAnswer.sources?.length > 0 && (
                       <details className="rm-qa-sources">

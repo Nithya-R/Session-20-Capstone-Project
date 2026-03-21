@@ -1,0 +1,17 @@
+{
+  "user_id": "hare",
+  "initial_exam_completed": false,
+  "initial_exam_score": null,
+  "assessed_level": null,
+  "current_level": 1,
+  "levels_completed": [],
+  "needs_revision": [],
+  "level_quiz_history": {},
+  "active_placement_quiz": null,
+  "active_level_quiz": null,
+  "created_at": "2026-03-21T00:19:17.589421",
+  "last_updated": "2026-03-21T00:19:17.589434",
+  "qa_history": [
+    "who is mayor of hyderabad"
+  ]
+}

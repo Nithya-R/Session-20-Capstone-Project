@@ -41,8 +41,14 @@ def suppress_stdout():
         sys.stdout = old_stdout
 
 with suppress_stdout():
-    import faiss
     import numpy as np
+    # Import torch BEFORE faiss to avoid BLAS/OpenMP library conflicts that cause segfaults
+    # on macOS (Apple Silicon + Python 3.13). PyTorch must load its BLAS first.
+    try:
+        import torch
+    except ImportError:
+        pass
+    import faiss
     import requests
     from markitdown import MarkItDown
     from tqdm import tqdm
@@ -102,16 +108,25 @@ def mcp_log(level: str, message: str) -> None:
 # --- Global Model Cache ---
 HF_LOCAL_MODEL = None
 
+# Disable tokenizer parallelism to avoid fork-safety segfaults on macOS + Python 3.13.
+# Must be set BEFORE importing transformers/tokenizers.
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
+def _init_hf_model():
+    """Lazily load SentenceTransformer once."""
+    global HF_LOCAL_MODEL
+    if HF_LOCAL_MODEL is not None:
+        return HF_LOCAL_MODEL
+    from sentence_transformers import SentenceTransformer
+    model_id = settings.get("huggingface", {}).get("embedding_model", "sentence-transformers/all-mpnet-base-v2")
+    HF_LOCAL_MODEL = SentenceTransformer(model_id)
+    return HF_LOCAL_MODEL
+
 def get_embedding_hf(text: str) -> np.ndarray:
     """Local Hugging Face embedding generation using sentence-transformers"""
-    global HF_LOCAL_MODEL
     try:
-        from sentence_transformers import SentenceTransformer
-        if HF_LOCAL_MODEL is None:
-            model_id = settings.get("huggingface", {}).get("embedding_model", "sentence-transformers/all-mpnet-base-v2")
-            HF_LOCAL_MODEL = SentenceTransformer(model_id)
-        
-        embedding = HF_LOCAL_MODEL.encode(text)
+        model = _init_hf_model()
+        embedding = model.encode(text, show_progress_bar=False, convert_to_numpy=True)
         return np.array(embedding, dtype=np.float32)
     except Exception as e:
         sys.stderr.write(f"❌ Local HF Embedding failed: {e}\n")
@@ -271,25 +286,46 @@ def extract_web_content_civic(url: str) -> str:
     except Exception as e:
         return f"Error extracting web content: {e}"
 
+def _load_index_and_metadata():
+    """Load FAISS index and metadata. Returns (index, metadata) or (None, None) if invalid/out of sync."""
+    METADATA_FILE = INDEX_CACHE / "metadata.json"
+    INDEX_FILE = INDEX_CACHE / "index.bin"
+    if not INDEX_FILE.exists() or not METADATA_FILE.exists():
+        return None, None
+    try:
+        metadata = json.loads(METADATA_FILE.read_text())
+        if not isinstance(metadata, list) or len(metadata) == 0:
+            return None, None
+        index = faiss.read_index(str(INDEX_FILE))
+        if index.ntotal != len(metadata):
+            mcp_log("WARN", f"FAISS index out of sync: index has {index.ntotal} vectors, metadata has {len(metadata)}. Rebuild required.")
+            return None, None
+        return index, metadata
+    except Exception as e:
+        mcp_log("ERROR", f"Load index/metadata failed: {e}")
+        return None, None
+
+
 @mcp.tool()
 def search_stored_documents_rag_civic(query: str, doc_path: str = None) -> list[str]:
     """Search Civic Lens documents using Hybrid Search (FAISS + BM25)."""
     ensure_faiss_ready()
     try:
-        METADATA_FILE = INDEX_CACHE / "metadata.json"
-        INDEX_FILE = INDEX_CACHE / "index.bin"
-        metadata = json.loads(METADATA_FILE.read_text())
-        index = faiss.read_index(str(INDEX_FILE))
+        index, metadata = _load_index_and_metadata()
+        if index is None or metadata is None:
+            return ["No relevant Civic Lens documents found. Index may be empty or out of sync; try reindexing."]
         
         query_vec = get_embedding(query).reshape(1, -1)
-        D, I = index.search(query_vec, k=30)
+        k = min(30, index.ntotal)
+        D, I = index.search(query_vec, k)
         
         results = []
-        for rank, idx in enumerate(I[0]):
-            if 0 <= idx < len(metadata):
-                entry = metadata[idx]
-                if not doc_path or entry.get('doc') == doc_path:
-                    results.append(f"{entry['chunk']}\n[Source: {entry.get('doc')} p{entry.get('page', 1)}]")
+        for idx in I[0]:
+            if idx == -1 or idx >= len(metadata):
+                continue
+            entry = metadata[idx]
+            if not doc_path or entry.get('doc') == doc_path:
+                results.append(f"{entry['chunk']}\n[Source: {entry.get('doc')} p{entry.get('page', 1)}]")
         
         return results[:TOP_K] if results else ["No relevant Civic Lens documents found."]
     except Exception as e:
@@ -353,6 +389,15 @@ def process_documents(target_path: str = None) -> dict:
     metadata = json.loads(METADATA_FILE.read_text()) if METADATA_FILE.exists() else []
     index = faiss.read_index(str(INDEX_FILE)) if INDEX_FILE.exists() else None
 
+    # If index and metadata are out of sync (e.g. after a failed write), rebuild from scratch
+    if index is not None and metadata is not None and index.ntotal != len(metadata):
+        mcp_log("WARN", f"FAISS index out of sync (index.ntotal={index.ntotal}, metadata len={len(metadata)}). Rebuilding.")
+        for fn in ["index.bin", "metadata.json", "doc_index_cache.json"]:
+            (INDEX_CACHE / fn).unlink(missing_ok=True)
+        index = None
+        metadata = []
+        CACHE_META = {}
+
     files_to_process = []
     if target_path:
         target_file = BASE_DATA_DIR / target_path
@@ -365,20 +410,39 @@ def process_documents(target_path: str = None) -> dict:
                     if not f.startswith('.') and Path(f).suffix.lower() not in ['.mp4', '.bin', '.exe']:
                         files_to_process.append(Path(root) / f)
 
+    # If we would update any existing file, do a full rebuild so index and metadata stay in sync
+    # (FAISS IndexFlatL2 cannot remove vectors, so incremental update would desync metadata)
+    for f in files_to_process:
+        try:
+            rel_path = f.relative_to(BASE_DATA_DIR).as_posix()
+            fhash = hashlib.md5(f.read_bytes()).hexdigest()
+            if rel_path in CACHE_META and CACHE_META[rel_path] != fhash:
+                for fn in ["index.bin", "metadata.json", "doc_index_cache.json"]:
+                    (INDEX_CACHE / fn).unlink(missing_ok=True)
+                return process_documents(target_path=target_path)
+        except Exception:
+            pass
+
     stats = {"processed": 0, "skipped": 0, "errors": 0, "new_chunks": 0}
 
     for f in tqdm(files_to_process, desc="Indexing"):
         res = process_single_file(f, BASE_DATA_DIR, CACHE_META)
         if res["status"] == "SUCCESS":
             rel_path = res["rel_path"]
-            # Clean old entries
+            # Clean old entries only when we did not already clear (first run or post-rebuild)
             if rel_path in CACHE_META:
                 metadata = [m for m in metadata if m.get("doc") != rel_path]
             
             if index is None:
                 dimension = len(res["embeddings"][0])
                 index = faiss.IndexFlatL2(dimension)
-            
+            else:
+                # Ensure new embeddings match index dimension (e.g. same embedding model)
+                if len(res["embeddings"][0]) != index.d:
+                    mcp_log("ERROR", f"Embedding dimension mismatch: index has {index.d}, new has {len(res['embeddings'][0])}. Rebuild the index.")
+                    stats["errors"] += 1
+                    continue
+
             index.add(np.stack(res["embeddings"]))
             metadata.extend(res["metadata"])
             CACHE_META[rel_path] = res["hash"]
@@ -425,7 +489,8 @@ async def reindex_documents_civic(target_path: str = None, force: bool = False) 
     return "Civic RAG re-indexing started."
 
 def ensure_faiss_ready():
-    if not (INDEX_CACHE / "index.bin").exists():
+    index, metadata = _load_index_and_metadata()
+    if index is None or metadata is None:
         process_documents()
 
 if __name__ == "__main__":
