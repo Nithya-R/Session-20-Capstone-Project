@@ -4,10 +4,11 @@ from pathlib import Path
 from typing import Optional
 from core.model_manager import ModelManager
 from core.json_parser import parse_llm_json
-from core.utils import log_step, log_error
+from core.utils import log_step, log_error, print
 from PIL import Image
 from datetime import datetime
 import os
+from config.settings_loader import reload_settings
 
 class AgentRunner:
     def __init__(self, multi_mcp):
@@ -67,7 +68,7 @@ class AgentRunner:
                         schema = tool.inputSchema
                         if "input" in schema.get("properties", {}):
                             inner_key = next(iter(schema.get("$defs", {})), None)
-                            props = schema["$defs"][inner_key]["properties"]
+                            props = schema["$defs"][inner_key]["properties"] if inner_key else {}
                         else:
                             props = schema["properties"]
 
@@ -99,7 +100,6 @@ class AgentRunner:
 
             # 4. Create model manager with user's selected model from settings
             # IMPORTANT: Use reload_settings() to get fresh settings from disk
-            from config.settings_loader import reload_settings
             fresh_settings = reload_settings()
             agent_settings = fresh_settings.get("agent", {})
             
@@ -138,8 +138,6 @@ class AgentRunner:
                 output = output[0]
                 
             log_step(f"🟩 {agent_type} finished", payload={"output_keys": list(output.keys()) if isinstance(output, dict) else "raw_string"}, symbol="🟩")
-
-            # import pdb; pdb.set_trace()
             
             # Calculate input text for costing
             input_text = str(input_data)

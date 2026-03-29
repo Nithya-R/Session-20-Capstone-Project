@@ -105,7 +105,7 @@ agents:
     prompt_file: "prompts/admin_agent.md"
     model: "gemini"
     mcp_servers: []
-    description: "Natural language admin assistant. Interprets requests and dispatches to admin tools: list/edit/delete lessons, manage data files, trigger embeddings."
+    description: "Natural language admin assistant. Interprets requests and dispatches to admin tools."
     tools:
       - list_lessons
       - get_lesson
@@ -114,4 +114,10 @@ agents:
       - add_data_file
       - delete_data_file
       - generate_embeddings
+
+  opposition:
+    prompt_file: "prompts/opposition.md"
+    model: "gemini"
+    mcp_servers: []
+    description: "Evaluates proposed bills and debates the user playing the role of the parliament opposition."
 
